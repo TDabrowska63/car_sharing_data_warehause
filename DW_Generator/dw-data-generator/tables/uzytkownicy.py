@@ -1,7 +1,8 @@
 import names
 import random
 from geonamescache import GeonamesCache
-from tools import create_city
+from tools import create_city, random_date
+from datetime import datetime, timedelta
 
 
 class Uzytkownik:
@@ -11,7 +12,7 @@ class Uzytkownik:
         self.imie = names.get_first_name()
         self.nazwisko = names.get_last_name()
         self.miasto_zamieszkania = create_city().get('name')
-        self.czas_posiadania_prawa_jazdy = self.create_driving_licence_time()
+        self.data_uzyskania_prawa_jazdy = self.create_driving_licence_time()
         self.create_driving_license_num()
 
     def create_driving_license_num(self):
@@ -24,9 +25,14 @@ class Uzytkownik:
     def create_driving_licence_time(self):
         choice = random.randint(0, 1)
         if choice == 0:
-            return random.randint(1, 2)
+            d1 = datetime.strptime('1/1/2020 1:30 PM', '%m/%d/%Y %I:%M %p')
+            d2 = datetime.now()
         else:
-            return random.randint(3, 10)
+            d1 = datetime.strptime('1/1/2013 1:30 PM', '%m/%d/%Y %I:%M %p')
+            d2 = datetime.strptime('1/1/2020 1:30 PM', '%m/%d/%Y %I:%M %p')
+
+        licence_date = random_date(d1, d2)
+        return licence_date.date()
 
     def __str__(self):
         return f"{str(self.id_uzytkownika)}|" \
@@ -34,4 +40,4 @@ class Uzytkownik:
                f"{str(self.imie)}|" \
                f"{str(self.nazwisko)}|" \
                f"{str(self.miasto_zamieszkania)}|" \
-               f"{str(self.czas_posiadania_prawa_jazdy)}\n"
+               f"{str(self.data_uzyskania_prawa_jazdy)}\n"

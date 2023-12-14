@@ -8,7 +8,7 @@ CREATE TABLE DimSamochod
     ID_Samochodu INT IDENTITY(1,1) PRIMARY KEY,
     Marka VARCHAR(20),
     Typ VARCHAR(10) CHECK(Typ='Osobowy' OR Typ='Dostawczy'),
-    Nr_rejestracyjny VARCHAR(10),
+    Nr_rejestracyjny VARCHAR(9),
 );
 
 CREATE TABLE DimCzas
