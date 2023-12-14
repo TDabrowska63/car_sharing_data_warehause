@@ -1,9 +1,9 @@
 CREATE DATABASE FaktyWypozyczenia
 
 use FaktyWypozyczenia
--- drop database FaktWypozyczenia
+--drop database FaktWypozyczenia
 
-CREATE TABLE Samochod
+CREATE TABLE DimSamochod
 (
     ID_Samochodu INT IDENTITY(1,1) PRIMARY KEY,
     Marka VARCHAR(20),
@@ -11,14 +11,14 @@ CREATE TABLE Samochod
     Nr_rejestracyjny VARCHAR(10),
 );
 
-CREATE TABLE Czas
+CREATE TABLE DimCzas
 (
     ID_Czasu INT IDENTITY(1,1) PRIMARY KEY,
     Godzina INT CHECK(Godzina >= 0 AND Godzina <=23),
     Pora_Dnia VARCHAR(20) CHECK(Pora_dnia in ('Rano', 'Poludnie', 'Godziny szczytu', 'Wieczor', 'Noc')),
 );
 
-CREATE TABLE Daty
+CREATE TABLE DimData
 (
     ID_Daty INT IDENTITY(1,1) PRIMARY KEY,
     Rok INT CHECK(Rok >= 2016),
@@ -30,28 +30,28 @@ CREATE TABLE Daty
     Dzien_tygodnia_NO INT CHECK(Dzien_tygodnia_NO >= 1 AND Dzien_tygodnia_NO <= 7),
 );
 
-CREATE TABLE Zgloszenie
+CREATE TABLE DimZgloszenie
 (
     ID_Zgloszenia INT IDENTITY(1,1) PRIMARY KEY,
     Czy_potwierdzone VARCHAR(3) CHECK(Czy_potwierdzone in ('TAK','NIE')),
     Nr_telefonu_zglaszajacego VARCHAR(11),
 );
 
-CREATE TABLE Inne
+CREATE TABLE DimInne
 (
 	ID_Inne INT IDENTITY(1,1) PRIMARY KEY,
 	Typ_uslugi VARCHAR(20) CHECK(Typ_uslugi in ('calodobowy', 'nieograniczony')),
 	Poziom_paliwa VARCHAR(20) CHECK(Poziom_paliwa in ('wiecej niz pol', 'mniej niz pol')),
 );
 
-CREATE TABLE Miejsce
+CREATE TABLE DimMiejsce
 (
 	ID_Miejsca INT IDENTITY(1,1) PRIMARY KEY,
 	Miasto VARCHAR(20),
 	Czy_miejsce_dedykowane VARCHAR(3) CHECK(Czy_miejsce_dedykowane in ('TAK', 'NIE')),
 );
 
-CREATE TABLE Uzytkownik
+CREATE TABLE DimUzytkownik
 (
 	ID_Uzytkownika INT IDENTITY(1,1) PRIMARY KEY,
 	Nr_Prawa_jazdy CHAR(13),
@@ -59,7 +59,7 @@ CREATE TABLE Uzytkownik
 	Czy_aktualne INT CHECK(Czy_aktualne in (0, 1))
 );
 
-CREATE TABLE Wypozyczenie
+CREATE TABLE FWypozyczenie
 (
 	ID_Wypozyczenia INT IDENTITY(1,1) PRIMARY KEY,
 	ID_Samochodu INT,
@@ -77,18 +77,18 @@ CREATE TABLE Wypozyczenie
 	Driver_Score FLOAT CHECK(Driver_Score >= 0 AND Driver_Score <= 5),
 	Przejechane_kilometry INT CHECK(Przejechane_kilometry >= 0),
 
-	FOREIGN KEY(ID_Samochodu) REFERENCES Samochod(ID_Samochodu),
-	FOREIGN KEY(ID_Daty_rozpoczecia) REFERENCES Daty(ID_Daty),
-	FOREIGN KEY(ID_Daty_zakonczenia) REFERENCES Daty(ID_Daty),
-	FOREIGN KEY(ID_Miejsca_rozpoczecia) REFERENCES Miejsce(ID_Miejsca),
-	FOREIGN KEY(ID_Miejsca_zakonczenia) REFERENCES Miejsce(ID_Miejsca),
-	FOREIGN KEY(ID_Inne) REFERENCES Inne(ID_Inne),
-	FOREIGN KEY(ID_Uzytkownika) REFERENCES Uzytkownik(ID_Uzytkownika),
-	FOREIGN KEY(ID_Czasu_rozpoczecia) REFERENCES Czas(ID_Czasu),
-	FOREIGN KEY(ID_Czasu_zakonczenia) REFERENCES Czas(ID_Czasu),
+	FOREIGN KEY(ID_Samochodu) REFERENCES DimSamochod(ID_Samochodu),
+	FOREIGN KEY(ID_Daty_rozpoczecia) REFERENCES DimData(ID_Daty),
+	FOREIGN KEY(ID_Daty_zakonczenia) REFERENCES DimData(ID_Daty),
+	FOREIGN KEY(ID_Miejsca_rozpoczecia) REFERENCES DimMiejsce(ID_Miejsca),
+	FOREIGN KEY(ID_Miejsca_zakonczenia) REFERENCES DimMiejsce(ID_Miejsca),
+	FOREIGN KEY(ID_Inne) REFERENCES DimInne(ID_Inne),
+	FOREIGN KEY(ID_Uzytkownika) REFERENCES DimUzytkownik(ID_Uzytkownika),
+	FOREIGN KEY(ID_Czasu_rozpoczecia) REFERENCES DimCzas(ID_Czasu),
+	FOREIGN KEY(ID_Czasu_zakonczenia) REFERENCES DimCzas(ID_Czasu),
 );
 
-CREATE TABLE Zgloszenie_Wypozyczenia
+CREATE TABLE FZgloszenieWypozyczenia
 (
     ID_Daty_Zgloszenia INT,
     ID_Wypozyczenia INT,
@@ -96,9 +96,9 @@ CREATE TABLE Zgloszenie_Wypozyczenia
     ID_Zgloszenia INT,
 
     PRIMARY KEY(ID_Daty_Zgloszenia, ID_Wypozyczenia, ID_Czasu_Zgloszenia, ID_Zgloszenia),
-    FOREIGN KEY(ID_Daty_Zgloszenia) REFERENCES Daty(ID_Daty),
-    FOREIGN KEY(ID_Wypozyczenia) REFERENCES Wypozyczenie(ID_Wypozyczenia),
-    FOREIGN KEY(ID_Czasu_Zgloszenia) REFERENCES Czas(ID_Czasu),
-    FOREIGN KEY(ID_Zgloszenia) REFERENCES Zgloszenie(ID_Zgloszenia),
+    FOREIGN KEY(ID_Daty_Zgloszenia) REFERENCES DimData(ID_Daty),
+    FOREIGN KEY(ID_Wypozyczenia) REFERENCES DimWypozyczenie(ID_Wypozyczenia),
+    FOREIGN KEY(ID_Czasu_Zgloszenia) REFERENCES DimCzas(ID_Czasu),
+    FOREIGN KEY(ID_Zgloszenia) REFERENCES DimZgloszenie(ID_Zgloszenia),
 );
 
