@@ -97,7 +97,7 @@ CREATE TABLE FZgloszenieWypozyczenia
 
     PRIMARY KEY(ID_Daty_Zgloszenia, ID_Wypozyczenia, ID_Czasu_Zgloszenia, ID_Zgloszenia),
     FOREIGN KEY(ID_Daty_Zgloszenia) REFERENCES DimData(ID_Daty),
-    FOREIGN KEY(ID_Wypozyczenia) REFERENCES DimWypozyczenie(ID_Wypozyczenia),
+    FOREIGN KEY(ID_Wypozyczenia) REFERENCES FWypozyczenie(ID_Wypozyczenia),
     FOREIGN KEY(ID_Czasu_Zgloszenia) REFERENCES DimCzas(ID_Czasu),
     FOREIGN KEY(ID_Zgloszenia) REFERENCES DimZgloszenie(ID_Zgloszenia),
 );
