@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e7141045-0f42-446d-912c-c05a8c1e1de9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fakty Wypozyczenia</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Wypozyczenie</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ceffc7a2-da83-468f-99d2-02bab29454d9">
+          <ID>Wypozyczenie</ID>
+          <Name>Wypozyczenie</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d689ab6e-b4fe-4632-a128-3ab15596d54d">
+            <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
+            <TableID>dbo_Wypozyczenie</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Zgloszenie Wypozyczenia</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b14fe5c1-4dcd-423b-86d1-6fb286f9f3bf">
+          <ID>Zgloszenie Wypozyczenia</ID>
+          <Name>Zgloszenie Wypozyczenia</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7df5abd1-acbc-4b6d-a8d4-a24dd3eb40cf">
+            <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
+            <TableID>dbo_Zgloszenie_Wypozyczenia</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
