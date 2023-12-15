@@ -32,8 +32,8 @@ CREATE TABLE Wypozyczenia
 (
 ID_wypozyczenia INT PRIMARY KEY,
 Typ VARCHAR(15) NOT NULL CHECK(Typ in ('calodobowy', 'nieograniczony')),
-Czas_rozpoczecia DATE NOT NULL,
-Czas_zakonczenia DATE DEFAULT NULL,
+Czas_rozpoczecia DATETIME NOT NULL,
+Czas_zakonczenia DATETIME NOT NULL,
 Przebieg INT,
 Poziom_paliwa INT CHECK(Poziom_paliwa >=0 AND Poziom_paliwa<=100),
 Przejechane_kilometry INT,
@@ -59,11 +59,11 @@ Powod INT CHECK(Powod >= 0 AND Powod <= 27),
 FOREIGN KEY (ID_wypozyczenia) REFERENCES Wypozyczenia(ID_wypozyczenia)
 )
 
-BULK INSERT dbo.Samochody FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\cars.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Uzytkownicy FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\users.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Miejsca FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\places.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Wypozyczenia FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\rents.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.OcenyPrzejazdu FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\opinions.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Samochody FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\cars.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Uzytkownicy FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\users.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Miejsca FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\places.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Wypozyczenia FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\rents.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.OcenyPrzejazdu FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\opinions.bulk" WITH (FIELDTERMINATOR='|') --manually set
 
 select * from Miejsca
 select * from Wypozyczenia
