@@ -16,16 +16,15 @@ While @DateInProcess <= @EndDate
 	Begin
 	--Add a row into the date dimension table for this date
 		Insert Into [dbo].[DimData] 
-		( [Rok]
-		, [Miesiac]
+		( [Year] 
+		, [Month]
 		, [Miesiac_NO]
 		, [Dzien]
-		, [Dzien_tygodnia]
+		, [DayOfWeek]
 		, [Dzien_tygodnia_NO]
 		)
 		Values (
-			@DateInProcess -- [Date]
-		  , Cast( Year(@DateInProcess) as int) -- [Rok]
+		  Cast( Year(@DateInProcess) as varchar(4)) -- [Rok]
 		  , Cast( DATENAME(month, @DateInProcess) as varchar(10)) -- [Miesiac]
 		  , Cast( Month(@DateInProcess) as int) -- [Miesiac_NO]
 		  , Cast( Day(@DateInProcess) as int) -- [Dzien]
@@ -36,3 +35,5 @@ While @DateInProcess <= @EndDate
 		Set @DateInProcess = DateAdd(d, 1, @DateInProcess);
 	End
 go
+
+Select * from DimData

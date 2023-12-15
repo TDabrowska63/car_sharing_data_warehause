@@ -16,4 +16,4 @@ FROM
 			  ('wiecej niz pol')
 			, ('mniej niz pol')
 	  ) 
-	AS Poziom_paliwa(p);v
+	AS Poziom_paliwa(p);

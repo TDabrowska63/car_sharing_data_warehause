@@ -1,4 +1,4 @@
-CREATE DATABASE FaktyWypozyczenia
+--CREATE DATABASE FaktyWypozyczenia
 
 use FaktyWypozyczenia
 --drop database FaktWypozyczenia
@@ -21,13 +21,12 @@ CREATE TABLE DimCzas
 CREATE TABLE DimData
 (
     ID_Daty INT IDENTITY(1,1) PRIMARY KEY,
-    Rok INT CHECK(Rok >= 2016),
-    Miesiac VARCHAR(10) CHECK(Miesiac in ('Styczen','Luty','Marzec','Kwiecien','Maj','Czerwiec', 
-                                'Lipiec','Sierpien','Wrzesien','Pazdziernik','Listopad','Grudzien')),
-    Miesiac_NO INT CHECK(Miesiac_NO >= 1 AND Miesiac_NO <=12),
+    Year VARCHAR(4),
+    Month VARCHAR(10),
+	Miesiac_NO INT CHECK(Miesiac_NO >= 1 AND Miesiac_NO <=12),
     Dzien INT CHECK(Dzien >= 1 AND Dzien <= 31),
-    Dzien_tygodnia VARCHAR(10) CHECK(Dzien_tygodnia in ('Poniedzialek','Wtorek','Sroda','Czwartek','Piatek','Sobota','Niedziela')),
-    Dzien_tygodnia_NO INT CHECK(Dzien_tygodnia_NO >= 1 AND Dzien_tygodnia_NO <= 7),
+    DayOfWeek VARCHAR(15),
+	Dzien_tygodnia_NO INT CHECK(Dzien_tygodnia_NO >= 1 AND Dzien_tygodnia_NO <= 7),
 );
 
 CREATE TABLE DimZgloszenie
@@ -102,3 +101,4 @@ CREATE TABLE FZgloszenieWypozyczenia
     FOREIGN KEY(ID_Zgloszenia) REFERENCES DimZgloszenie(ID_Zgloszenia),
 );
 
+Select * from DimData

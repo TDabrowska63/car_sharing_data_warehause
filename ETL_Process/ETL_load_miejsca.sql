@@ -7,7 +7,10 @@ CREATE VIEW vETLDimMiejsce
 AS
 SELECT DISTINCT
 	[Nazwa_miasta] as [Miasto],
-	[Czy_miejsce_dedykowane]
+	CASE
+		WHEN [Czy_miejsce_dedykowane] = 'Y' THEN 'TAK'
+		ELSE 'NIE'
+	END AS [Czy_miejsce_dedykowane]
 FROM UrbanDriveSnapshot1.dbo.Miejsca;
 GO
 

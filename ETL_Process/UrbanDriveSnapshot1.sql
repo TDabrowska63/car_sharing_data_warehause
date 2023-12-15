@@ -1,12 +1,12 @@
-CREATE DATABASE UrbanDriveSnapshot1
+--CREATE DATABASE UrbanDriveSnapshot1
 
 use UrbanDriveSnapshot1
 
 CREATE TABLE Miejsca
 (
 ID_Miejsca INT PRIMARY KEY,
-Wspolrzedne VARCHAR(100) NOT NULL,
 Nazwa_miasta VARCHAR(50) NOT NULL,
+Wspolrzedne VARCHAR(100) NOT NULL,
 Czy_miejsce_dedykowane CHAR(1) NOT NULL CHECK(Czy_miejsce_dedykowane in ('Y', 'N'))
 )
 
@@ -59,11 +59,11 @@ Powod INT CHECK(Powod >= 0 AND Powod <= 27),
 FOREIGN KEY (ID_wypozyczenia) REFERENCES Wypozyczenia(ID_wypozyczenia)
 )
 
-BULK INSERT dbo.Samochody FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\cars.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Uzytkownicy FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\users.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Miejsca FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\places.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.Wypozyczenia FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\rents.bulk" WITH (FIELDTERMINATOR='|') --manually set
-BULK INSERT dbo.OcenyPrzejazdu FROM "C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\Bulks\opinions.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Samochody FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\cars.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Uzytkownicy FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\users.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Miejsca FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\places.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.Wypozyczenia FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\rents.bulk" WITH (FIELDTERMINATOR='|') --manually set
+BULK INSERT dbo.OcenyPrzejazdu FROM "C:\Users\TH3V1LPL4Y3R\Desktop\etl task\car_sharing_data_warehouse\ETL_Process\Bulks\opinions.bulk" WITH (FIELDTERMINATOR='|') --manually set
 
 select * from Miejsca
 select * from Wypozyczenia
