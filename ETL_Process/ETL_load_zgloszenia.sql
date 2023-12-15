@@ -30,7 +30,10 @@ go
 CREATE VIEW vETLDimZgloszenie
 AS
 SELECT DISTINCT
-	[potwierdzone] as [Czy_potwierdzone],
+	CASE
+		WHEN [potwierdzone] = 'Y' THEN 'TAK'
+		ELSE 'NIE'
+	END AS [Czy_potwierdzone],
 	[nr_telefonu] as [Nr_telefonu_zglaszajacego]
 FROM dbo.ZgloszeniaTmp
 ;
