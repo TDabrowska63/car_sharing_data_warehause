@@ -25,7 +25,7 @@ Nr_prawa_jazdy CHAR(13),
 Imie VARCHAR(20) NOT NULL,
 Nazwisko VARCHAR(20) NOT NULL,
 Miasto_zamieszkania VARCHAR(20) NOT NULL,
-Czas_posiadania_prawa_jazdy INT
+Data_uzyskania_prawa_jazdy DATE
 )
 
 CREATE TABLE Wypozyczenia
