@@ -1,9 +1,10 @@
 from generate_csv.zgloszenia import Zgloszenia
 
-def generate_zgloszenia(number_of_records, cars_list):
+
+def generate_zgloszenia(number_of_records, cars_list, rental_list):
     report_list = []
     for i in range(number_of_records):
-        report = Zgloszenia(i, cars_list)
+        report = Zgloszenia(i, cars_list, rental_list)
         report_list.append(report)
     return report_list
 

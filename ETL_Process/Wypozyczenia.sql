@@ -34,6 +34,7 @@ CREATE TABLE DimZgloszenie
     ID_Zgloszenia INT IDENTITY(1,1) PRIMARY KEY,
     Czy_potwierdzone VARCHAR(3) CHECK(Czy_potwierdzone in ('TAK','NIE')),
     Nr_telefonu_zglaszajacego VARCHAR(11),
+
 );
 
 CREATE TABLE DimInne

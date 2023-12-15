@@ -104,7 +104,7 @@ class Generator:
         self.generate_users(n)
         self.generate_rents(2*n)
         self.generate_opinions(0)
-        self.report_list = generate_zgloszenia(n, self.cars_list)
+        self.report_list = generate_zgloszenia(n, self.cars_list, self.rental_list)
         self.write_all('bulks')
         write_reports('zgloszenia1.csv', self.report_list)
 
@@ -131,7 +131,7 @@ class Generator:
             if self.report_list[i].potwierdzone == 'N' and license_plate in [car.nr_rejestracyjny for car in self.cars_list]:
                 self.report_list[i].potwierdzone = 'Y'
 
-        new_reports = generate_zgloszenia(n2, self.cars_list)
+        new_reports = generate_zgloszenia(n2, self.cars_list, self.rental_list)
         self.report_list.extend(new_reports)
         self.write_all('bulks2')
         write_reports('zgloszenia2.csv', self.report_list)

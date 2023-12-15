@@ -3,8 +3,9 @@ import names
 from tools import random_date, create_license_plate_num
 from datetime import datetime, timedelta
 
+
 class Zgloszenia:
-    def __init__(self, id_zgloszenia, car_list):
+    def __init__(self, id_zgloszenia, car_list, rental_list):
         self.id_zgloszenia = id_zgloszenia
         self.zglaszany_nr_rejestracyjny = ""
         self.nr_telefonu = ""
@@ -15,7 +16,7 @@ class Zgloszenia:
         self.nazwisko = names.get_last_name()
         self.create_telephone_number()
         self.car_list = car_list
-        self.create_entry_date_and_time()
+        self.rental_list = rental_list
         self.powod = str(random.randint(0, 27))
         self.potwierdzone = ""
         self.create_car()  # placeholder
@@ -25,19 +26,17 @@ class Zgloszenia:
             self.nr_telefonu = self.nr_telefonu + str(random.randint(0, 9))
 
     def create_car(self):
+        rent = random.choice(self.rental_list)
+        car = self.car_list[rent.id_samochodu - 1]
+        self.zglaszany_nr_rejestracyjny = car.nr_rejestracyjny
         chance = random.randint(0, 100)
-        if chance <= 80:
-            car = random.choice(self.car_list)
-            self.zglaszany_nr_rejestracyjny = car.nr_rejestracyjny
-            self.potwierdzone = random.choice(['Y', 'N'])
+        if chance <= 70:
+            self.potwierdzone = "Y"
         else:
-            self.zglaszany_nr_rejestracyjny = create_license_plate_num()
             self.potwierdzone = "N"
 
-
-    def create_entry_date_and_time(self):
-        d1 = datetime.strptime('1/1/2019 1:30 PM', '%m/%d/%Y %I:%M %p')
-        d2 = datetime.now()
+        d1 = rent.czas_wypozyczenia
+        d2 = rent.czas_zakonczenia
         date_and_time = random_date(d1, d2)
         date = str(date_and_time)[0:10]
         timed = str(date_and_time)[11:]
