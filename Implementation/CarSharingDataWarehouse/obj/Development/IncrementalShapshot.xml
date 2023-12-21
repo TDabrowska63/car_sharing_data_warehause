@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CarSharingDataWarehouse</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>/ls7tK/uo1Ah32mHtqf1WBWkzKw=21.12.2023 11:33:4421.12.2023 11:33:44</TimeStamp>
+        <ID>
+          <String>Fakty Wypozyczenia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>iIceLW2E5mMLFuYWbe6U4+j8VAM=21.12.2023 11:34:5921.12.2023 11:34:59</TimeStamp>
+        <ID>
+          <String>Fakty Wypozyczenia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/jCsULa+lsR2d3o+jkvookaplF4=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oo5yNt8MMbN0X+MGmBiGKyANLWI=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Miejsce</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Re0aMZ7dgMUeTkU2NOJhtdx9mCo=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jOKDtJWHWLmZYvg/KwHdxvh48Nc=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Inne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0WIr1xvnPozRr1wzXALL7yP2CWw=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Samochod</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9fbXG20wvCtel5eJZ3/fRoo5blw=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Dim Zgloszenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1jY5xXqbSEQ4fgRxH7U85shAgKc=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>F Wypozyczenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>soWQEpuObd/HBKLlY9xYgt1etzM=21.12.2023 12:00:5721.12.2023 12:00:57</TimeStamp>
+        <ID>
+          <String>Dim Uzytkownik</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>alrSTLEu2eXOfkTtpjwKBzZh1MM=21.12.2023 12:08:0521.12.2023 11:41:27hdZHMZqlv6XML1J8++ZRevM0Ynw=21.12.2023 12:00:5721.12.2023 11:41:27</TimeStamp>
+        <ID>
+          <String>Fakty Wypozyczenia</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>89Tyy0Zy0d5chiHLC6PyYjVtesI=21.12.2023 11:23:4621.12.2023 11:23:46</TimeStamp>
+      <ID>
+        <String>CarSharingDataWarehouse</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-12-21T11:08:43.1Z</LastDeployed>
+</DeploymentSnapshot>

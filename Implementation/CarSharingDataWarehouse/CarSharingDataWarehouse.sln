@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CarSharingDataWarehouse", "CarSharingDataWarehouse.dwproj", "{2BA6AD79-308C-458C-A8DB-1ACC1E45810F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA6AD79-308C-458C-A8DB-1ACC1E45810F}.Development|Default.ActiveCfg = Development
+		{2BA6AD79-308C-458C-A8DB-1ACC1E45810F}.Development|Default.Build.0 = Development
+		{2BA6AD79-308C-458C-A8DB-1ACC1E45810F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C53818A3-05D4-45BF-837F-B985B1842FC4}
+	EndGlobalSection
+EndGlobal
