@@ -19,77 +19,77 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>/ls7tK/uo1Ah32mHtqf1WBWkzKw=21.12.2023 11:33:4421.12.2023 11:33:44</TimeStamp>
+        <TimeStamp>TL8l2lqmgbCC9XPnMBxVDpq572g=03.01.2024 20:03:2703.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>iIceLW2E5mMLFuYWbe6U4+j8VAM=21.12.2023 11:34:5921.12.2023 11:34:59</TimeStamp>
+        <TimeStamp>iIceLW2E5mMLFuYWbe6U4+j8VAM=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/jCsULa+lsR2d3o+jkvookaplF4=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>/jCsULa+lsR2d3o+jkvookaplF4=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Data</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oo5yNt8MMbN0X+MGmBiGKyANLWI=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>oo5yNt8MMbN0X+MGmBiGKyANLWI=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Miejsce</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Re0aMZ7dgMUeTkU2NOJhtdx9mCo=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>Re0aMZ7dgMUeTkU2NOJhtdx9mCo=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Czas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jOKDtJWHWLmZYvg/KwHdxvh48Nc=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>jOKDtJWHWLmZYvg/KwHdxvh48Nc=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Inne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0WIr1xvnPozRr1wzXALL7yP2CWw=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>0WIr1xvnPozRr1wzXALL7yP2CWw=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Samochod</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9fbXG20wvCtel5eJZ3/fRoo5blw=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>9fbXG20wvCtel5eJZ3/fRoo5blw=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Zgloszenie</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1jY5xXqbSEQ4fgRxH7U85shAgKc=21.12.2023 11:53:5521.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>1jY5xXqbSEQ4fgRxH7U85shAgKc=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>F Wypozyczenie</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>soWQEpuObd/HBKLlY9xYgt1etzM=21.12.2023 12:00:5721.12.2023 12:00:57</TimeStamp>
+        <TimeStamp>soWQEpuObd/HBKLlY9xYgt1etzM=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Dim Uzytkownik</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>alrSTLEu2eXOfkTtpjwKBzZh1MM=21.12.2023 12:08:0521.12.2023 11:41:27hdZHMZqlv6XML1J8++ZRevM0Ynw=21.12.2023 12:00:5721.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>alrSTLEu2eXOfkTtpjwKBzZh1MM=03.01.2024 16:53:0903.01.2024 16:53:09hdZHMZqlv6XML1J8++ZRevM0Ynw=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -97,7 +97,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>89Tyy0Zy0d5chiHLC6PyYjVtesI=21.12.2023 11:23:4621.12.2023 11:23:46</TimeStamp>
+      <TimeStamp>89Tyy0Zy0d5chiHLC6PyYjVtesI=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
       <ID>
         <String>CarSharingDataWarehouse</String>
       </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-12-21T11:08:43.1Z</LastDeployed>
+  <LastDeployed>2024-01-03T19:37:24.526667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,9 +1,9 @@
 USE FaktyWypozyczenia
 go
 
-DROP TABLE Samochod;
-DROP TABLE Zgloszenie;
-DROP TABLE Miejsce;
-DROP TABLE Uzytkownik;
-DROP TABLE Wypozyczenie;
-DROP TABLE Zgloszenie_Wypozyczenia;
+DROP TABLE DimSamochod;
+DROP TABLE DimZgloszenie;
+DROP TABLE DimMiejsce;
+DROP TABLE DimUzytkownik;
+DROP TABLE FWypozyczenie;
+DROP TABLE FZgloszenieWypozyczenia;
