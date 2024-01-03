@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cb326715-e258-4fc7-9949-7c9f7807fec9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="862027f0-47d1-4c9f-860d-301564f451cc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Uzytkownik</ID>
   <Name>Dim Uzytkownik</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,37 +42,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e1ce50a4-2731-413e-a637-8b9379246f5a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="40e6f512-05b1-4a15-9cef-9b180fa74be8">
     <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="af05f209-2225-4334-bacf-e4331ef5d1df">
+  <ErrorConfiguration dwd:design-time-name="4d45a298-880b-40e5-98cb-f50656640168">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="85707c39-359d-476b-8ceb-a4b706044f32">
+    <Attribute dwd:design-time-name="8f110e91-63e1-48d9-a8b4-3e9609f3c151">
       <ID>ID Uzytkownika</ID>
       <Name>ID Uzytkownika</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="64a4855f-2fbd-4df0-a314-30662ef018ef">
+        <KeyColumn dwd:design-time-name="a183f878-c5c7-44f2-b656-b0ec258de09e">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3adae640-2f4e-4cec-bffc-b91b9463fbcd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d7af409-8bed-4f94-9eae-903b544a4c9f">
             <TableID>dbo_DimUzytkownik</TableID>
             <ColumnID>ID_Uzytkownika</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="573a636d-b64a-4ec7-916d-faa0b305b8eb">
+        <AttributeRelationship dwd:design-time-name="91ae215f-f7b9-4728-9b2a-ea724712ca13">
           <AttributeID>Nr Prawa Jazdy</AttributeID>
           <Name>Nr Prawa Jazdy</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="710c78ae-3122-4b9d-9d27-edf10365ad8d">
+        <AttributeRelationship dwd:design-time-name="1ee14ffd-92ef-477f-8c72-3ad24a5c33fc">
           <AttributeID>Czas Posiadania Prawa Jazdy</AttributeID>
           <Name>Czas Posiadania Prawa Jazdy</Name>
         </AttributeRelationship>
@@ -81,14 +81,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a5cf8bc5-a1d8-4145-bb1b-0ed0a80fc668">
+    <Attribute dwd:design-time-name="85e8b0e1-c2a6-4101-8727-7c7799a72e8f">
       <ID>Nr Prawa Jazdy</ID>
       <Name>Nr Prawa Jazdy</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="302ba206-bae0-4710-abeb-70a2006755b9">
+        <KeyColumn dwd:design-time-name="e424b61f-d938-4bb7-a218-376aa53cc2cb">
           <DataType>WChar</DataType>
           <DataSize>13</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="910e4997-aaca-4797-8745-9e91dde6f60a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b92d5546-e1f0-4521-88f1-91c871f349f6">
             <TableID>dbo_DimUzytkownik</TableID>
             <ColumnID>Nr_Prawa_jazdy</ColumnID>
           </Source>
@@ -98,14 +98,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="74c1de76-a38c-48ae-a335-c70feef822bb">
+    <Attribute dwd:design-time-name="d661e844-498e-4002-aa41-ddd2f19fc2a6">
       <ID>Czas Posiadania Prawa Jazdy</ID>
       <Name>Czas Posiadania Prawa Jazdy</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="61fa4811-e802-43ce-b43d-6664131c1176">
+        <KeyColumn dwd:design-time-name="f84ecbca-6852-400a-9c7a-f2aef7d4a0b2">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab2b7fe4-5088-4735-b31d-3efeced1cb9f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c34daa0-273c-473a-81a4-ca55da3b81e4">
             <TableID>dbo_DimUzytkownik</TableID>
             <ColumnID>Czas_posiadania_prawa_jazdy</ColumnID>
           </Source>

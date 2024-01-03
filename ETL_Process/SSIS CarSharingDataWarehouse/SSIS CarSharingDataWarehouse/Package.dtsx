@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{2B819814-2B01-406B-A01F-E75E37B65090}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{8C4E1062-388A-4668-A34A-6D0264383337}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -60,6 +60,20 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Data Flow Task"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{B691E3FB-9CCE-44A6-83F5-FC3EDE6A9EFC}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Load Miejsca"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -68,7 +82,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Miejsca"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -85,7 +99,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Samochody"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -102,7 +116,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Uzytkownicy"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -153,7 +167,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Zgłoszenia"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -225,6 +239,14 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="101,42"
+          Id="Package\cube"
+          TopLeft="796,718" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Load Miejsca"
+          TopLeft="1138,82" />
+        <NodeLayout
           Size="159,42"
           Id="Package\Load Samochody"
           TopLeft="496,99" />
@@ -232,10 +254,6 @@
           Size="163,42"
           Id="Package\Load Uzytkownicy"
           TopLeft="719,94" />
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Load Zgłoszenia"
-          TopLeft="913,92" />
         <NodeLayout
           Size="171,42"
           Id="Package\Load Wypozyczenia"
@@ -245,9 +263,9 @@
           Id="Package\Load Zgloszenia Wypozyczen"
           TopLeft="766,513" />
         <NodeLayout
-          Size="139,42"
-          Id="Package\Load Miejsca"
-          TopLeft="1138,82" />
+          Size="155,42"
+          Id="Package\Load Zgłoszenia"
+          TopLeft="913,92" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="575.5,141">
@@ -406,10 +424,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="101,42"
-          Id="Package\cube"
-          TopLeft="796,718" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="847,555">
@@ -432,6 +446,10 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="5.5,5.5" />
       </GraphLayout>
     </LayoutInfo>
   </Package>

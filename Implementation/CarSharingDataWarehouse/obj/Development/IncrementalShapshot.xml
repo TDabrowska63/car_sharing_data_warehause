@@ -82,14 +82,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>soWQEpuObd/HBKLlY9xYgt1etzM=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
+        <TimeStamp>/bjAfbLe/MnZm1KdKCmkAzwXA60=03.01.2024 23:32:5003.01.2024 23:32:50</TimeStamp>
         <ID>
           <String>Dim Uzytkownik</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>alrSTLEu2eXOfkTtpjwKBzZh1MM=03.01.2024 16:53:0903.01.2024 16:53:09hdZHMZqlv6XML1J8++ZRevM0Ynw=03.01.2024 16:53:0903.01.2024 16:53:09</TimeStamp>
+        <TimeStamp>IMdiedyamQbhD5blTHS+LK09w4w=03.01.2024 23:45:0203.01.2024 23:30:133UiVZtj0aD3ZPvJ3OW3ca7tw89c=03.01.2024 23:30:1403.01.2024 23:30:13</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-03T19:37:24.526667Z</LastDeployed>
+  <LastDeployed>2024-01-03T22:47:19.606667Z</LastDeployed>
 </DeploymentSnapshot>
