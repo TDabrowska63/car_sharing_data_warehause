@@ -15,7 +15,7 @@ CREATE TABLE dbo.ZgloszeniaTmp(id_pracownika varchar(100),
 go
 
 BULK INSERT dbo.ZgloszeniaTmp
-    FROM 'C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\zgloszenia1.csv'
+    FROM 'C:\Users\TH3V1LPL4Y3R\Desktop\DW\car_sharing_data_warehouse\ETL_Process\zgloszenia1.csv'
     WITH
     (
     FIRSTROW = 2,
@@ -90,6 +90,23 @@ FROM
 GO
 
 SELECT * FROM vETLFZgloszenieWypozyczenia
+
+MERGE INTO FZgloszenieWypozyczenia as TT
+	USING vETLFZgloszenieWypozyczenia as ST
+		ON TT.ID_Daty_Zgloszenia = ST.ID_Daty_Zgloszenia AND
+		TT.ID_Wypozyczenia = ST.ID_Wypozyczenia AND
+		TT.ID_Czasu_Zgloszenia = ST.ID_Czasu_Zgloszenia AND
+		TT.ID_Zgloszenia = ST.ID_Zgloszenia
+			WHEN Not Matched
+			THEN
+				INSERT
+				Values (
+				ST.ID_Daty_Zgloszenia,
+				ST.ID_Wypozyczenia,
+				ST.ID_Czasu_Zgloszenia,
+				ST.ID_Zgloszenia
+				) ;
+
 
 Drop View vETLFZgloszenieWypozyczenia;
 Drop View vETLWypSamDatTmp;
