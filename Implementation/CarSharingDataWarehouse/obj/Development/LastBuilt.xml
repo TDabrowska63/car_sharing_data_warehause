@@ -1,6 +1,6 @@
 ﻿<Infos>
   <Item name="Fakty Wypozyczenia.dsv">
-    <Time>638398975894851598</Time>
+    <Time>638399968054212391</Time>
     <Hash length="20">
       <b>136</b>
       <b>135</b>
@@ -25,7 +25,7 @@
     </Hash>
   </Item>
   <Item name="Dim Uzytkownik.dim">
-    <Time>638399215701004627</Time>
+    <Time>638399968054192395</Time>
     <Hash length="20">
       <b>253</b>
       <b>184</b>
@@ -50,7 +50,7 @@
     </Hash>
   </Item>
   <Item name="CarSharingDataWarehouse.database">
-    <Time>638398975894801610</Time>
+    <Time>638387546263155541</Time>
     <Hash length="20">
       <b>243</b>
       <b>212</b>
@@ -75,7 +75,7 @@
     </Hash>
   </Item>
   <Item name="F Wypozyczenie.dim">
-    <Time>638398975894841601</Time>
+    <Time>638387564357603317</Time>
     <Hash length="20">
       <b>214</b>
       <b>54</b>
@@ -100,7 +100,7 @@
     </Hash>
   </Item>
   <Item name="Dim Czas.dim">
-    <Time>638398975894821600</Time>
+    <Time>638387564357374891</Time>
     <Hash length="20">
       <b>69</b>
       <b>237</b>
@@ -125,7 +125,7 @@
     </Hash>
   </Item>
   <Item name="Dim Samochod.dim">
-    <Time>638398975894831598</Time>
+    <Time>638387564357484899</Time>
     <Hash length="20">
       <b>209</b>
       <b>98</b>
@@ -150,7 +150,7 @@
     </Hash>
   </Item>
   <Item name="Dim Inne.dim">
-    <Time>638398975894831598</Time>
+    <Time>638387564357424886</Time>
     <Hash length="20">
       <b>140</b>
       <b>226</b>
@@ -174,33 +174,33 @@
       <b>215</b>
     </Hash>
   </Item>
-  <Item name="Dim Data.dim">
-    <Time>638398975894821600</Time>
+  <Item name="Fakty Wypozyczenia.ds">
+    <Time>638399971076558485</Time>
     <Hash length="20">
-      <b>254</b>
-      <b>48</b>
-      <b>172</b>
-      <b>80</b>
-      <b>182</b>
-      <b>190</b>
-      <b>150</b>
-      <b>196</b>
-      <b>118</b>
-      <b>119</b>
-      <b>122</b>
-      <b>62</b>
-      <b>142</b>
-      <b>75</b>
-      <b>232</b>
-      <b>162</b>
+      <b>35</b>
+      <b>236</b>
+      <b>117</b>
+      <b>114</b>
       <b>70</b>
-      <b>169</b>
-      <b>148</b>
+      <b>167</b>
+      <b>163</b>
+      <b>96</b>
+      <b>202</b>
+      <b>186</b>
+      <b>78</b>
+      <b>121</b>
+      <b>54</b>
+      <b>69</b>
+      <b>121</b>
+      <b>235</b>
+      <b>253</b>
+      <b>132</b>
       <b>94</b>
+      <b>205</b>
     </Hash>
   </Item>
   <Item name="Dim Zgloszenie.dim">
-    <Time>638398975894841601</Time>
+    <Time>638387564357538195</Time>
     <Hash length="20">
       <b>245</b>
       <b>246</b>
@@ -225,7 +225,7 @@
     </Hash>
   </Item>
   <Item name="Fakty Wypozyczenia.cube">
-    <Time>638399223024348586</Time>
+    <Time>638399968054202400</Time>
     <Hash length="20">
       <b>32</b>
       <b>199</b>
@@ -250,7 +250,7 @@
     </Hash>
   </Item>
   <Item name="Fakty Wypozyczenia.partitions">
-    <Time>638399214140085470</Time>
+    <Time>638399968054227431</Time>
     <Hash length="20">
       <b>221</b>
       <b>72</b>
@@ -274,33 +274,33 @@
       <b>215</b>
     </Hash>
   </Item>
-  <Item name="Fakty Wypozyczenia.ds">
-    <Time>638399090078493334</Time>
+  <Item name="Dim Data.dim">
+    <Time>638387564357264061</Time>
     <Hash length="20">
-      <b>76</b>
-      <b>191</b>
-      <b>37</b>
-      <b>218</b>
-      <b>90</b>
-      <b>166</b>
-      <b>129</b>
-      <b>176</b>
-      <b>130</b>
-      <b>245</b>
-      <b>115</b>
-      <b>231</b>
+      <b>254</b>
       <b>48</b>
-      <b>28</b>
-      <b>85</b>
-      <b>14</b>
-      <b>154</b>
-      <b>185</b>
-      <b>239</b>
-      <b>104</b>
+      <b>172</b>
+      <b>80</b>
+      <b>182</b>
+      <b>190</b>
+      <b>150</b>
+      <b>196</b>
+      <b>118</b>
+      <b>119</b>
+      <b>122</b>
+      <b>62</b>
+      <b>142</b>
+      <b>75</b>
+      <b>232</b>
+      <b>162</b>
+      <b>70</b>
+      <b>169</b>
+      <b>148</b>
+      <b>94</b>
     </Hash>
   </Item>
   <Item name="Dim Miejsce.dim">
-    <Time>638398975894831598</Time>
+    <Time>638387564357314895</Time>
     <Hash length="20">
       <b>162</b>
       <b>142</b>

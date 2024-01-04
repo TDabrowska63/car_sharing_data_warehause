@@ -72,7 +72,7 @@
           <ConfigurationSetting>
             <Id>Fakty Wypozyczenia</Id>
             <Name>Fakty Wypozyczenia</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-0Q75A96;Integrated Security=SSPI;Initial Catalog=FaktyWypozyczenia</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-GIF448M;Integrated Security=SSPI;Initial Catalog=FaktyWypozyczenia</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

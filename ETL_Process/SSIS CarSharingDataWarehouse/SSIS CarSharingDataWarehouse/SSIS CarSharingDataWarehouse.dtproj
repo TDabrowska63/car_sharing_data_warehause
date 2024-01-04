@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-0Q75A96</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArFCbRW7umEmxqkX6v2BJqAAAAAACAAAAAAAQZgAAAAEAACAAAABqNBHBm20WBO7OEP1W8ezd3j8BlpAqxulhlVhzW1umwAAAAAAOgAAAAAIAACAAAAAI8hvlomUwi+e0aivi1LOcmyN7XBHvLr0UvnJHWuoqcJAAAABUriBsxlq7mhhaRYP8mYJHYimI8dgWbgXAb9xLGJe1lRmb5KWHiUnzVSv1fD1V5Sg5I+W+OBzsi++dOLFo5+bP6N1co9D9VY7b+1Jsn/WOzz+ujoPAJd5yxh6BoGyZI61/kRKkQgS7ZHBtosmL1g7f4wFuQgj6VICP2X092K+01IaZeZXr6ybDTLb42tQ9riNAAAAA6GZA56SkWBeIp3bbYnIFNRbRUu0PlATKlv1DG01DU/CygbyWgfSpWuJqqbb0sOHX4k+b7pnGm6V1UL8EQsGdJw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA35Pwn7GcBE6KInQQdnoSAwAAAAACAAAAAAAQZgAAAAEAACAAAABjG0tWyZCFZHEjkZsPdr/cXPLLLmD1lANVJUE65/W65wAAAAAOgAAAAAIAACAAAADFJ2HVu2rPH1pl7+/7qtv25CxNFoR8o25AMLFMwEHqYpAAAAAuOiGtbdJsCUR/uydBS3lY50OzGX+9jhsXZEpaICx44VDct7quA7Q1Jk+xx/loJpGfkW5yX6IEoyPMkWbKweHUTZ34khu3te9k1S5+hjrHQ3Aaf+8KE1hiytzZAMG+ywOd00g7NEcwZBI1h3Sltgpzh7xb4BlYVueSyXy2+ps3CHhiNrwB8XmcGFi2YQ7oHopAAAAAFp91UmeyKIKpB14uHZ64zvBGySv9fCbomD8OMgHsieWJo3mu137KCYGmTTN6cYs2V7cwSgqNSTK/lYPuxdrS/A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,17 +42,17 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">9</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{A85DEBFA-2A06-44FC-A9D7-D0CFC347B090}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B40ED68A-5685-447A-87B2-058E9CA63E48}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -67,7 +67,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -78,11 +78,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-0Q75A96;Initial Catalog=FaktyWypozyczenia;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{82A1BFB6-6CE1-431D-9C03-232906FAE8DF}DESKTOP-0Q75A96.FaktyWypozyczenia;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-GIF448M;Initial Catalog=FaktyWypozyczenia;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{8CC6C733-95FC-44B1-A11F-649F490967DE}DESKTOP-GIF448M.FaktyWypozyczenia;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -97,7 +97,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -112,7 +112,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -127,7 +127,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -142,7 +142,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.Password">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -156,7 +156,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -171,7 +171,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -182,11 +182,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DESKTOP-0Q75A96</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-GIF448M</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.FaktyWypozyczenia.UserName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-GIF448M.FaktyWypozyczenia.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

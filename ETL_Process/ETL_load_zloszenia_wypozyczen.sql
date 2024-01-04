@@ -15,7 +15,7 @@ CREATE TABLE dbo.ZgloszeniaTmp(id_pracownika varchar(100),
 go
 
 BULK INSERT dbo.ZgloszeniaTmp
-    FROM 'C:\Users\TH3V1LPL4Y3R\Desktop\DW\car_sharing_data_warehouse\ETL_Process\zgloszenia1.csv'
+    FROM 'C:\Users\Flamaster333\Projects\car_sharing_data_warehouse\ETL_Process\zgloszenia1.csv'
     WITH
     (
     FIRSTROW = 2,
