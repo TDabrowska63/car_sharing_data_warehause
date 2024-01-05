@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 import tools
 
 class Wypozyczenie:
-    def __init__(self, id, przebieg, id_samochodu, id_uzytkownika, id_miejsca_rozpoczecia, id_miejsca_zakonczenia):
+    def __init__(self, id, przebieg, id_samochodu, id_uzytkownika, id_miejsca_rozpoczecia, id_miejsca_zakonczenia, t1, t2, snapshot):
         self.id_wypozyczenia = id
         self.typ = random.choice(['calodobowy', 'nieograniczony'])
-        self.czas_wypozyczenia, self.czas_zakonczenia = self.create_rental_time()
+        self.czas_wypozyczenia, self.czas_zakonczenia = self.create_rental_time(t1, t2, snapshot)
         self.przebieg = przebieg
         self.poziom_paliwa = str(random.randint(0, 100))
         self.przejechane_kilometry = str(random.randint(0, 100))
@@ -16,9 +16,13 @@ class Wypozyczenie:
         self.id_miejsca_rozpoczecia = id_miejsca_rozpoczecia
         self.id_miejsca_zakonczenia = id_miejsca_zakonczenia
 
-    def create_rental_time(self):
-        d1 = datetime.strptime('1/1/2019 1:30 PM', '%m/%d/%Y %I:%M %p')
-        d2 = datetime.now()
+    def create_rental_time(self, t1, t2, snapshot):
+        if snapshot == 1:
+            d1 = datetime.strptime('1/1/2019 1:30 PM', '%m/%d/%Y %I:%M %p')
+            d2 = datetime.strptime(f'{t1[0]}/{t1[1]}/{t1[2]} 1:30 PM', '%m/%d/%Y %I:%M %p')
+        else:
+            d1 = datetime.strptime(f'{t1[0]}/{t1[1]}/{t1[2]} 1:30 PM', '%m/%d/%Y %I:%M %p')
+            d2 = datetime.strptime(f'{t2[0]}/{t2[1]}/{t2[2]} 1:30 PM', '%m/%d/%Y %I:%M %p')
         start_time = tools.random_date(d1, d2)
         end_time = start_time + timedelta(hours=random.randint(1, 24)) + timedelta(minutes=random.randint(0, 59)) + timedelta(seconds=random.randint(0, 59))
 

@@ -11,7 +11,7 @@ from tools import create_city
 
 
 class Generator:
-    def __init__(self, n1, n2):
+    def __init__(self, n1, n2, t1, t2):
         self.id_miejsca = 1
         self.id_rent = 1
         self.id_samochodu = 1
@@ -22,11 +22,13 @@ class Generator:
         self.opinion_list = []
         self.places_list = []
         self.report_list = []
+        self.t1_date = t1
+        self.t2_date = t2
         self.generate_snapshot_1(n1)
 
         self.generate_snapshot_2(n2, n1)
 
-    def generate_rents(self, n):
+    def generate_rents(self, n, snapshot):
         for _ in range(n):
 
             miejsce_rozp = Miejsce(self.id_miejsca)
@@ -51,7 +53,7 @@ class Generator:
             uzytkownik = random.choice(self.users_list)
 
             wypozyczenie = Wypozyczenie(self.id_rent, przebieg, samochod.id_samochodu, uzytkownik.id_uzytkownika,
-                                        miejsce_rozp.id_miejsca, miejsce_zak.id_miejsca)
+                                        miejsce_rozp.id_miejsca, miejsce_zak.id_miejsca, self.t1_date, self.t2_date, snapshot)
             self.id_rent += 1
             self.rental_list.append(wypozyczenie)
 
@@ -102,7 +104,7 @@ class Generator:
     def generate_snapshot_1(self, n):
         self.generate_cars(n)
         self.generate_users(n)
-        self.generate_rents(2*n)
+        self.generate_rents(2*n, 1)
         self.generate_opinions(0)
         self.report_list = generate_zgloszenia(n, self.cars_list, self.rental_list)
         self.write_all('bulks')
@@ -122,7 +124,7 @@ class Generator:
 
         self.generate_cars(n2)
         self.generate_users(n2)
-        self.generate_rents(3*n2)
+        self.generate_rents(3*n2, 2)
         self.generate_opinions(2*n1)
         num_of_changes = random.randint(3, len(self.report_list))
         for _ in range(num_of_changes):
