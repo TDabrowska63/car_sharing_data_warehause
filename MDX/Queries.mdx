@@ -77,6 +77,10 @@ Select [Measures].[Liczba zgloszen] On Columns,
 Select [Measures].[Liczba wypozyczen] On Columns,
 	{([ID Daty Zakonczenia].[Hierarchy].[2021].[February], [Dim Inne].[Poziom Paliwa].[mniej niz pol]),
 	([ID Daty Zakonczenia].[Hierarchy].[2021].[January], [Dim Inne].[Poziom Paliwa].[mniej niz pol])} On Rows
-	from [Fakty Wypozyczenia]
+	from [Fakty Wypozyczenia];
 
 
+--11. Podaj top 3 najczêœciej wypo¿yczanych marek samochodów w obserwowanym czasie
+Select [Measures].[Liczba wypozyczen] On Columns,
+	TopCount([Dim Samochod].[Marka].members, 4, [Measures].[Liczba wypozyczen]) On Rows
+	from [Fakty Wypozyczenia];
