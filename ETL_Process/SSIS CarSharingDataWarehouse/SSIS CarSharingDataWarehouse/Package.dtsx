@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{5292A529-291D-4F85-8D4F-E1F77AAD441F}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{B41EBB47-176B-415C-B118-EB43564648DA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -82,7 +82,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Miejsca"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -99,7 +99,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Samochody"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -116,7 +116,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Uzytkownicy"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -167,7 +167,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Zgłoszenia"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -239,35 +239,35 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="101,42"
+          Size="100.8,41.6"
           Id="Package\cube"
           TopLeft="796,718" />
         <NodeLayout
-          Size="151,42"
+          Size="151.2,41.6"
           Id="Package\Data Flow Task"
           TopLeft="5.5,5.5" />
         <NodeLayout
-          Size="139,42"
+          Size="139.2,41.6"
           Id="Package\Load Miejsca"
           TopLeft="1138,82" />
         <NodeLayout
-          Size="159,42"
+          Size="159.2,41.6"
           Id="Package\Load Samochody"
           TopLeft="496,99" />
         <NodeLayout
-          Size="163,42"
+          Size="163.2,41.6"
           Id="Package\Load Uzytkownicy"
           TopLeft="719,94" />
         <NodeLayout
-          Size="171,42"
+          Size="171.2,41.6"
           Id="Package\Load Wypozyczenia"
           TopLeft="764,342" />
         <NodeLayout
-          Size="163,42"
+          Size="163.2,41.6"
           Id="Package\Load Zgloszenia Wypozyczen"
           TopLeft="766,513" />
         <NodeLayout
-          Size="155,42"
+          Size="155.2,41.6"
           Id="Package\Load Zgłoszenia"
           TopLeft="913,92" />
         <EdgeLayout
