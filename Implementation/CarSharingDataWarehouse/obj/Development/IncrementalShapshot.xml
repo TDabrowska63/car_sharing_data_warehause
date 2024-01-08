@@ -19,14 +19,14 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>/ls7tK/uo1Ah32mHtqf1WBWkzKw=21.12.2023 11:33:4421.12.2023 11:33:44</TimeStamp>
+        <TimeStamp>I+x1ckano2DKuk55NkV56/2EXs0=04.01.2024 20:31:4721.12.2023 11:33:44</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>iIceLW2E5mMLFuYWbe6U4+j8VAM=21.12.2023 11:34:5921.12.2023 11:34:59</TimeStamp>
+        <TimeStamp>iIceLW2E5mMLFuYWbe6U4+j8VAM=04.01.2024 20:26:4521.12.2023 11:34:59</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -82,14 +82,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>soWQEpuObd/HBKLlY9xYgt1etzM=21.12.2023 12:00:5721.12.2023 12:00:57</TimeStamp>
+        <TimeStamp>/bjAfbLe/MnZm1KdKCmkAzwXA60=04.01.2024 20:26:4521.12.2023 12:00:57</TimeStamp>
         <ID>
           <String>Dim Uzytkownik</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>alrSTLEu2eXOfkTtpjwKBzZh1MM=21.12.2023 12:08:0521.12.2023 11:41:27hdZHMZqlv6XML1J8++ZRevM0Ynw=21.12.2023 12:00:5721.12.2023 11:41:27</TimeStamp>
+        <TimeStamp>tgsKap+wJDt6rcfyB4TGxgReuJ4=05.01.2024 01:19:5921.12.2023 11:41:273UiVZtj0aD3ZPvJ3OW3ca7tw89c=04.01.2024 20:26:4521.12.2023 11:41:27</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-12-21T11:08:43.1Z</LastDeployed>
+  <LastDeployed>2024-01-05T10:48:11.82Z</LastDeployed>
 </DeploymentSnapshot>

@@ -2,14 +2,7 @@
 
 use FaktyWypozyczenia
 --drop database FaktWypozyczenia
-
-CREATE TABLE DimSamochod
-(
-    ID_Samochodu INT IDENTITY(1,1) PRIMARY KEY,
-    Marka VARCHAR(20),
-    Typ VARCHAR(10) CHECK(Typ='Osobowy' OR Typ='Dostawczy'),
-    Nr_rejestracyjny VARCHAR(9),
-);
+Go
 
 CREATE TABLE DimCzas
 (
@@ -29,6 +22,22 @@ CREATE TABLE DimData
 	Dzien_tygodnia_NO INT CHECK(Dzien_tygodnia_NO >= 1 AND Dzien_tygodnia_NO <= 7),
 );
 
+CREATE TABLE DimInne
+(
+	ID_Inne INT IDENTITY(1,1) PRIMARY KEY,
+	Typ_uslugi VARCHAR(20) CHECK(Typ_uslugi in ('calodobowy', 'nieograniczony')),
+	Poziom_paliwa VARCHAR(20) CHECK(Poziom_paliwa in ('wiecej niz pol', 'mniej niz pol')),
+);
+GO
+
+CREATE TABLE DimSamochod
+(
+    ID_Samochodu INT IDENTITY(1,1) PRIMARY KEY,
+    Marka VARCHAR(20),
+    Typ VARCHAR(10) CHECK(Typ='Osobowy' OR Typ='Dostawczy'),
+    Nr_rejestracyjny VARCHAR(9),
+);
+
 CREATE TABLE DimZgloszenie
 (
     ID_Zgloszenia INT IDENTITY(1,1) PRIMARY KEY,
@@ -37,12 +46,6 @@ CREATE TABLE DimZgloszenie
 
 );
 
-CREATE TABLE DimInne
-(
-	ID_Inne INT IDENTITY(1,1) PRIMARY KEY,
-	Typ_uslugi VARCHAR(20) CHECK(Typ_uslugi in ('calodobowy', 'nieograniczony')),
-	Poziom_paliwa VARCHAR(20) CHECK(Poziom_paliwa in ('wiecej niz pol', 'mniej niz pol')),
-);
 
 CREATE TABLE DimMiejsce
 (
@@ -101,8 +104,7 @@ CREATE TABLE FZgloszenieWypozyczenia
     FOREIGN KEY(ID_Czasu_Zgloszenia) REFERENCES DimCzas(ID_Czasu),
     FOREIGN KEY(ID_Zgloszenia) REFERENCES DimZgloszenie(ID_Zgloszenia),
 );
-
-Select * from DimData
+GO
 
 
 									

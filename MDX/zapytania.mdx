@@ -1,0 +1,32 @@
+--1.Podaj ranking marek samochodów wynajêtych w tym miesi¹cu pod wzglêdem liczby wypo¿yczeñ samochodów.
+SELECT { [Measures].[Liczba Wypozyczen] } ON COLUMNS, 
+	ORDER([Dim Samochod].[Marka].[Marka].ALLMEMBERS, [Measures].[Liczba Wypozyczen], DESC) 
+	DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS 
+	FROM [Fakty Wypozyczenia]
+	WHERE ( [ID Daty Rozpoczecia].[Hierarchy].[Year].&[2023].&[October] ); --Mo¿na pokazaæ na wsyztskich danych a nie tylko October ¿ebyz obaczyæ ¿e dzia³a
+
+--2.Porównaj liczbê wypo¿yczeñ danego typu us³ugi podejmowanej przez u¿ytkownika w tym miesi¹cu z poprzednim miesi¹cu (24h/ nieograniczone).
+WITH MEMBER [Liczba Wypozyczen w poprzednim Miesiacu] AS '([ID Daty Rozpoczecia].[Month].CURRENTMEMBER.PREVMEMBER, [Measures].[Liczba Wypozyczen])'
+SELECT NON EMPTY { ([Dim Inne].[Typ Uslugi].[Typ Uslugi].ALLMEMBERS) } ON COLUMNS, 
+	NON EMPTY { [Liczba Wypozyczen w poprzednim Miesiacu], [Measures].[Liczba Wypozyczen] } 
+	DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS 
+	FROM [Fakty Wypozyczenia] 
+	WHERE ( [ID Daty Rozpoczecia].[Hierarchy].[Year].&[2022].&[February] );
+
+--3.Porównaj liczbê wypo¿yczeñ samochodów w miesi¹cu z poprzednim miesi¹cem.
+--WITH MEMBER [Poprzedni Miesiac] AS '([ID Daty Rozpoczecia].[Month].CURRENTMEMBER.PREVMEMBER)'
+SELECT NON EMPTY { [Measures].[Liczba Wypozyczen] } ON COLUMNS, 
+	NON EMPTY { ([ID Daty Rozpoczecia].[February]), ([ID Daty Rozpoczecia].[Hierarchy].[Month].CURRENTMEMBER.PREVMEMBER) } 
+	DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS 
+	FROM [Fakty Wypozyczenia];
+
+
+SELECT NON EMPTY { [Measures].[Liczba Wypozyczen] } ON COLUMNS, 
+	NON EMPTY { ([ID Daty Rozpoczecia].[Year].[Year].ALLMEMBERS * [ID Daty Rozpoczecia].[Month].[Month].ALLMEMBERS ) } 
+	DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS 
+	FROM ( SELECT ( { [ID Daty Rozpoczecia].[Hierarchy].[Year].&[2022].&[February], 
+	[ID Daty Rozpoczecia].[Month].CURRENTMEMBER.PREVMEMBER } ) ON COLUMNS 
+	FROM [Fakty Wypozyczenia]) 
+	WHERE ( [ID Daty Rozpoczecia].[Hierarchy].CurrentMember )
+
+--4.Porównaj jednoczeœnie liczbê potwierdzonych zg³oszeñ i œredni¹ z ocen przejazdu wystawianych przez u¿ytkowników danego miesi¹ca z poprzednim.

@@ -1,0 +1,86 @@
+--1. Podaj ranking marek samochodów wynajêtych w tym miesi¹cu pod wzglêdem liczby wypo¿yczeñ samochodów.
+--imo tak powinno wygl¹daæ
+Select [Measures].[Liczba wypozyczen] On Columns,
+	Order({([ID Daty Rozpoczecia].[Month].[February], [Dim Samochod].[Marka].Members)}, [Measures].[Liczba wypozyczen], DESC) on rows
+	from [Fakty Wypozyczenia]
+	Where[ID Daty Rozpoczecia].[Year].[2019];
+
+
+--2. Porównaj liczbê wypo¿yczeñ danego typu us³ugi podejmowanej przez u¿ytkownika w tym miesi¹cu z poprzednim miesi¹cu (24h/ nieograniczone).
+With member [Measures].[Liczba wypozyczen w poprzednim miesiacu] AS '([ID Daty Rozpoczecia].[Hierarchy].CurrentMember.PrevMember, [Measures].[Liczba wypozyczen])'
+Select {[Measures].[Liczba wypozyczen], [Measures].[Liczba wypozyczen w poprzednim miesiacu]} On Columns,
+	{[Dim Inne].[Typ Uslugi].[calodobowy], [Dim Inne].[Typ Uslugi].[nieograniczony]} on Rows
+	from [Fakty Wypozyczenia]
+	Where{[ID Daty Rozpoczecia].[Hierarchy].[2019].[March]};
+
+--3. Porównaj liczbê wypo¿yczeñ samochodów w miesi¹cu z poprzednim miesi¹cem.
+With member [Measures].[Liczba wypozyczen w poprzednim miesiacu] AS '([ID Daty Rozpoczecia].[Hierarchy].CurrentMember.PrevMember, [Measures].[Liczba wypozyczen])'
+Select {[Measures].[Liczba wypozyczen], [Measures].[Liczba wypozyczen w poprzednim miesiacu]} On Columns,
+	[ID Daty Rozpoczecia].[Hierarchy].[2019].[March] On Rows
+	from [Fakty Wypozyczenia];
+
+--4. Porównaj jednoczeœnie liczbê potwierdzonych zg³oszeñ i œredni¹ z ocen przejazdu wystawianych przez u¿ytkowników danego miesi¹ca z poprzednim.
+--Rozumiem ¿e tutaj trzeba stworzyæ dwa zapytania
+
+--To zapytanie odpowiada na pytanie ile by³o potwierdzonych zg³oszeñ w miesi¹cu i poprzednim miesi¹cu
+With member [Measures].[Liczba zgloszen w poprzednim miesiacu] AS '([ID Daty Zgloszenia].[Hierarchy].CurrentMember.PrevMember, [Measures].[Liczba zgloszen])'
+Select {[Measures].[Liczba zgloszen], [Measures].[Liczba zgloszen w poprzednim miesiacu]} on Columns,
+	[Dim Zgloszenie].[Czy Potwierdzone].[TAK] on Rows
+	from [Fakty Wypozyczenia]
+	Where [ID Daty Zgloszenia].[2021].[February];
+
+--To zapytanie podaje œredni¹ ocen z przejazdu
+With member [Measures].[Srednia Ocena Uzytkownika] AS 'AVG([ID Daty Rozpoczecia].[February],[Measures].[Ocena Uzytkownika])'
+	member [Measures].[Srednia Ocena Uzytkownika w poprzednim miesiacu] AS 'AVG([ID Daty Rozpoczecia].[January],[Measures].[Ocena Uzytkownika])'
+Select {[Measures].[Srednia Ocena Uzytkownika], [Measures].[Srednia Ocena Uzytkownika w poprzednim miesiacu]} On Columns,
+	[ID Daty Zgloszenia].[February] On Rows
+	from [Fakty Wypozyczenia];
+
+--5. Podaj ranking miast pod wzglêdem liczby wypo¿yczeñ samochodów.
+Select [Measures].[Liczba wypozyczen] On Columns,
+	Order([ID Miejsca Rozpoczecia].[Miasto].members, [Measures].[Liczba wypozyczen], DESC) On Rows
+	from [Fakty Wypozyczenia];
+
+--6. Porównaj œredni¹ Driver Score w miesi¹cu z wprowadzon¹ promocj¹ z poprzednim. 
+-- To jest zasadniczo skopiowane zapytanie 4 cz2
+-- chyba dzia³a? nwm wypluwa wyniki ale nie chcia³o mi siê ich sprawdzaæ
+With member [Measures].[Srednia Driver Score] AS 'AVG([ID Daty Rozpoczecia].[February],([Measures].[Ocena Predkosci] + [Measures].[Ocena Techniki Jazdy])/2)'
+	member [Measures].[Srednia  Driver Score w poprzednim miesiacu] AS 'AVG([ID Daty Rozpoczecia].[January],([Measures].[Ocena Predkosci] + [Measures].[Ocena Techniki Jazdy])/2)'
+Select {[Measures].[Srednia Driver Score], [Measures].[Srednia  Driver Score w poprzednim miesiacu]} On Columns,
+	[ID Daty Zgloszenia].[February] On Rows
+	from [Fakty Wypozyczenia];
+
+--7. Porównaj liczbê zg³oszeñ zanotowanych w miesi¹cu z wprowadzon¹ promocj¹ z poprzednim. 
+Select [Measures].[Liczba zgloszen] On Columns,
+	{[ID Daty Zgloszenia].[Hierarchy].[2021].[February], [ID Daty Zgloszenia].[Hierarchy].[2021].[February]} On Rows
+	from [Fakty Wypozyczenia];
+
+--8. Czy jakiœ numer jako osoba zg³aszaj¹ca powtórzy³ siê w miesi¹cu z wprowadzon¹ promocj¹/w poprzednim miesi¹cu wiêcej ni¿ x razy?
+Select [Measures].[Liczba zgloszen] On Columns,
+	Order({([ID Daty Zgloszenia].[Hierarchy].[2021].[February], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
+	([ID Daty Zgloszenia].[Hierarchy].[2021].[January], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members)}, [Measures].[Liczba zgloszen], DESC) On Rows
+	from [Fakty Wypozyczenia];
+
+--sprawdzenie czy dzia³a na latach
+Select [Measures].[Liczba zgloszen] On Columns,
+	Order({([ID Daty Zgloszenia].[Year].[2021], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
+	([ID Daty Zgloszenia].[Year].[2020], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members)}, [Measures].[Liczba zgloszen], DESC) On Rows
+	from [Fakty Wypozyczenia];
+
+--9. Czy jest jakiœ u¿ytkownik który ma wiêcej ni¿ x zg³oszeñ po wprowadzeniu promocji.
+Select [Measures].[Liczba zgloszen] On Columns,
+	{([ID Daty Zgloszenia].[Hierarchy].[2021].[February], [Dim Uzytkownik].[Nr Prawa Jazdy].members),
+	([ID Daty Zgloszenia].[Hierarchy].[2021].[January], [Dim Uzytkownik].[Nr Prawa Jazdy].members)} On Rows
+	from [Fakty Wypozyczenia];
+
+--10. Porównaj liczbê wypo¿yczeñ po których w samochodzie by³o mniej ni¿ 50% paliwa w miesi¹cu w którym wprowadzono promocjê z poprzednim miesi¹cem.
+Select [Measures].[Liczba wypozyczen] On Columns,
+	{([ID Daty Zakonczenia].[Hierarchy].[2021].[February], [Dim Inne].[Poziom Paliwa].[mniej niz pol]),
+	([ID Daty Zakonczenia].[Hierarchy].[2021].[January], [Dim Inne].[Poziom Paliwa].[mniej niz pol])} On Rows
+	from [Fakty Wypozyczenia];
+
+
+--11. Podaj top 3 najczêœciej wypo¿yczanych marek samochodów w obserwowanym czasie
+Select [Measures].[Liczba wypozyczen] On Columns,
+	TopCount([Dim Samochod].[Marka].members, 4, [Measures].[Liczba wypozyczen]) On Rows
+	from [Fakty Wypozyczenia];

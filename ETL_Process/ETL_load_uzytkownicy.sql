@@ -37,4 +37,22 @@ MERGE INTO DimUzytkownik as TT
 				UPDATE
 				SET TT.Czy_aktualne = 0
 			;
+
+INSERT INTO DimUzytkownik(
+	Nr_Prawa_jazdy,
+	Czas_posiadania_prawa_jazdy,
+	Czy_aktualne
+	)
+	SELECT 
+		Nr_Prawa_jazdy,
+		Czas_posiadania_prawa_jazdy,
+		1
+	FROM vETLDimUzytkownik
+	EXCEPT
+	SELECT
+		Nr_Prawa_jazdy,
+		Czas_posiadania_prawa_jazdy,
+		1
+	FROM DimUzytkownik;
+
 Drop View vETLDimUzytkownik;

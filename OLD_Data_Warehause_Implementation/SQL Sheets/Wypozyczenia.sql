@@ -1,4 +1,4 @@
-CREATE DATABASE FaktyWypozyczenia
+--CREATE DATABASE FaktyWypozyczenia
 
 use FaktyWypozyczenia
 -- drop database FaktWypozyczenia
