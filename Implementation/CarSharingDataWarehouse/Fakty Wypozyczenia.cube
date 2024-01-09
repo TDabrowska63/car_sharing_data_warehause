@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a61c5cc-bc0b-46ec-82a1-7adf0bde2b54" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9623019c-548e-482d-8e1a-8264fe57a29d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Fakty Wypozyczenia</ID>
   <Name>Fakty Wypozyczenia</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8476" scrolltop="-4109" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26326" y="15875" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8476" scrolltop="-4109" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="35586" y="16589" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -418,452 +418,452 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="51a06b57-f8dc-4339-b298-bb230c25cbeb">
+    <Dimension dwd:design-time-name="fa71f2fe-a9d6-46b4-9925-238b6b6d2992">
       <ID>F Wypozyczenie</ID>
       <Name>F Wypozyczenie</Name>
       <DimensionID>F Wypozyczenie</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="f29aeacc-b0e0-4899-b08d-56fd63ee1a61">
+        <Attribute dwd:design-time-name="2f2bc360-5e07-48f2-be1b-0b9d191be820">
           <AttributeID>ID Wypozyczenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b74bb896-e022-4fb7-aa83-3dfd7cfe995e">
+        <Attribute dwd:design-time-name="13e903a0-410a-4e0e-9a95-33ca43c1c099">
           <AttributeID>ID Daty Rozpoczecia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cb11412a-c1c8-46bc-b434-d6414320d1a9">
+        <Attribute dwd:design-time-name="aa20141a-acfb-4e89-8da1-4b8504d0533e">
           <AttributeID>ID Uzytkownika</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="65f51fdc-05ec-4a3a-8f87-120cadd9bf84">
+        <Attribute dwd:design-time-name="f3dfc42f-0a0f-4018-994b-cb1bfd71834c">
           <AttributeID>ID Miejsca Zakonczenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="347f7c05-5889-4407-84e6-8cc65735107a">
+        <Attribute dwd:design-time-name="7a34111f-aaae-4da7-81ed-ddc47eceb548">
           <AttributeID>ID Daty Zakonczenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5bef7a8c-bee2-4dfb-aa44-c7e87b9534e8">
+        <Attribute dwd:design-time-name="63c66cc9-5ec3-48d7-b502-f91f5933b61e">
           <AttributeID>ID Czasu Rozpoczecia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="052ae56b-14c7-4153-af2c-ac8eedd8c3fb">
+        <Attribute dwd:design-time-name="0d1e193a-c56a-4f49-a486-38dc4efcd9be">
           <AttributeID>ID Miejsca Rozpoczecia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e0921008-b223-454a-83e1-462118d4a087">
+        <Attribute dwd:design-time-name="a68bc452-0c6e-4383-ac4c-a1a1b719b3d6">
           <AttributeID>ID Inne</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0bc6133a-c590-42d0-bf97-722277701fee">
+        <Attribute dwd:design-time-name="dc05291f-2984-4060-853d-cee791bbf3a8">
           <AttributeID>ID Czasu Zakonczenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b1351d4c-e359-4285-a016-f4b6597a9417">
+        <Attribute dwd:design-time-name="6c7ac7a0-12e1-43da-b28b-274c8ecb05e9">
           <AttributeID>ID Samochodu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8b448dc9-03aa-40b4-8634-1b71018fbe51">
+    <Dimension dwd:design-time-name="5ed1a684-84a5-48da-99de-d9c4a89492d9">
       <ID>Dim Samochod</ID>
       <Name>Dim Samochod</Name>
       <DimensionID>Dim Samochod</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2daeb06b-5a44-40a9-a146-e6059cf6bad3">
+        <Attribute dwd:design-time-name="a1dd084a-4a72-4d0d-a885-1e022334ca8b">
           <AttributeID>ID Samochodu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6679a242-707b-4151-8cab-230a30813d7e">
+        <Attribute dwd:design-time-name="c0f1a8f0-44a3-4be6-8035-0459821e4e14">
           <AttributeID>Marka</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4f18bdbc-f479-4002-8cdd-e0689af1c608">
+        <Attribute dwd:design-time-name="779ab7fa-f3a9-4ceb-a4a7-591895472e4b">
           <AttributeID>Typ</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1f0d0338-c8fe-4d62-82d1-8ca447246854">
+        <Attribute dwd:design-time-name="b4a3a6f2-fb3f-4932-b974-30594cc84a2b">
           <AttributeID>Nr Rejestracyjny</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="08cf5dea-9c8f-4640-97ab-957ae7fd3c6c">
+    <Dimension dwd:design-time-name="553c6e5b-e512-4657-b7f4-bcf13205c227">
       <ID>ID Czasu Zakonczenia</ID>
       <Name>ID Czasu Zakonczenia</Name>
       <DimensionID>Dim Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7e7b378a-786e-41e2-b6cf-2f0f48521421">
+        <Attribute dwd:design-time-name="61b16e34-1b8d-45c1-8570-2c64dbacd071">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1602f45f-f5b0-4634-bbe3-542cfcc30293">
+        <Attribute dwd:design-time-name="d4369878-11b5-46a1-9e00-37b8a91ecdf6">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5245ffdb-d76a-489a-b7d7-17d9958e5a0a">
+        <Attribute dwd:design-time-name="4271148e-0286-4fbe-be7f-ed2b182cd290">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="d9bb9490-c7e3-49f1-b084-ad460b6a76c8">
+        <Hierarchy dwd:design-time-name="3fa19ccf-a050-4991-b104-e975bd86b881">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="ed5d0c32-a3e9-4c67-9a47-6c4108ba01c1">
+    <Dimension dwd:design-time-name="159c431d-da12-477d-af7a-42caeef874f4">
       <ID>Dim Inne</ID>
       <Name>Dim Inne</Name>
       <DimensionID>Dim Inne</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3cba2151-cc54-4e7a-bd4f-a086ea8a10a6">
+        <Attribute dwd:design-time-name="f6825da5-8dc9-45f8-a9f6-78c657c46250">
           <AttributeID>ID Inne</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="648fcdc4-c83d-4959-80b3-e0ddbea82c34">
+        <Attribute dwd:design-time-name="c48aabfe-b166-465c-9659-3a7ebb24994b">
           <AttributeID>Typ Uslugi</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fda32a77-0e78-4f21-b542-9a5a9539d149">
+        <Attribute dwd:design-time-name="b9ac6e73-e887-4568-8bd3-18effa26ace0">
           <AttributeID>Poziom Paliwa</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="7982138a-ad40-496f-9208-d64cfaa00bf3">
+    <Dimension dwd:design-time-name="ce326b98-ee66-4d40-b930-9d6ec4d3e638">
       <ID>ID Miejsca Rozpoczecia</ID>
       <Name>ID Miejsca Rozpoczecia</Name>
       <DimensionID>Dim Miejsce</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="90165bac-ed8b-44cc-95c0-5beaf5603685">
+        <Attribute dwd:design-time-name="3475bda1-a084-464f-82e4-7cfdd98ae4c9">
           <AttributeID>ID Miejsca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a75aa67a-24e7-4a7f-90df-7cd0a5350169">
+        <Attribute dwd:design-time-name="563a6c7f-2653-4f38-b41e-3b2b5ce091dc">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4669ce16-bde6-494a-9cc7-f13de3454028">
+        <Attribute dwd:design-time-name="c6c86435-40d1-4027-814b-bd8c8633df6e">
           <AttributeID>Czy Miejsce Dedykowane</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="b6622f65-d9b3-4dbe-8490-ce5298bf2141">
+    <Dimension dwd:design-time-name="3a54a658-767e-4c01-82d6-281518be697a">
       <ID>ID Czasu Rozpoczecia</ID>
       <Name>ID Czasu Rozpoczecia</Name>
       <DimensionID>Dim Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d6bac4d5-b492-4dbc-9417-85c3d31e4a91">
+        <Attribute dwd:design-time-name="78997a1a-70a2-4bd7-bc08-e7a174a4960c">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8b27231f-e540-4bc0-999e-2b486893eef0">
+        <Attribute dwd:design-time-name="f3884a85-b2ef-4930-a7fc-feb9928085a3">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="06a60538-a830-4033-b884-b0238b3f748f">
+        <Attribute dwd:design-time-name="c3716e6a-ed6c-479b-997e-b8c590b0006a">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="feebd5dc-4d30-4ce6-a422-1426a62edce2">
+        <Hierarchy dwd:design-time-name="8ad87097-2fd9-4b59-a0c8-0e18ff79c85f">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b6f2a387-63e1-4165-a26a-2e26ce30ff39">
+    <Dimension dwd:design-time-name="1ab52b3c-8b91-4ad9-b513-ed9526a42371">
       <ID>ID Daty Zakonczenia</ID>
       <Name>ID Daty Zakonczenia</Name>
       <DimensionID>Dim Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fda1f619-becd-48f6-b2d5-bf65354595b0">
+        <Attribute dwd:design-time-name="4bc4f83e-fc11-4a95-ab75-cf4c493b63e8">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="03e1e1c1-5a2d-4469-a84a-0c59e306fd8a">
+        <Attribute dwd:design-time-name="12b6a8df-d639-4321-b1df-fec5a20070b5">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cb0f3262-13d4-4bd3-b118-d65cbd5704d2">
+        <Attribute dwd:design-time-name="5eeb6219-1c4d-4dc3-871e-836a8b181c41">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="936b47f5-23b9-4ca5-84ad-8041610c9c3d">
+        <Attribute dwd:design-time-name="290530fa-826d-4581-8221-247f3c1f8be0">
           <AttributeID>Miesiac NO</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="7e3d968e-6338-4bd2-9d8a-7c9a9695ccbd">
+        <Attribute dwd:design-time-name="a09fed79-725e-4bd2-a664-a635fee26506">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c2bfd447-c0c8-460a-b48b-805358ac60e1">
+        <Attribute dwd:design-time-name="b15ecfb0-681b-4c36-bb88-81cb8be9a02f">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bd9ffe7c-98b9-46ed-a261-437ba252adfb">
+        <Attribute dwd:design-time-name="792b4684-42e3-4937-8264-c10f15efbe03">
           <AttributeID>Dzien Tygodnia NO</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="37aa29c9-ff2a-43cc-9c65-4ecf62b36305">
+        <Hierarchy dwd:design-time-name="a161f114-6708-41f4-81dd-1a0e763df1e9">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="32be6c61-775f-4b3e-9679-503c2b418b5f">
+    <Dimension dwd:design-time-name="8ae0a601-6e78-4fa0-8793-7ef4bb0265d4">
       <ID>ID Miejsca Zakonczenia</ID>
       <Name>ID Miejsca Zakonczenia</Name>
       <DimensionID>Dim Miejsce</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2fdd7481-f212-4322-b388-e53a0eacabaf">
+        <Attribute dwd:design-time-name="f3896c68-19ae-46ec-88b3-ac2c2d01c124">
           <AttributeID>ID Miejsca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fbcfa38d-1cff-46ca-b4f4-d1d9988a574f">
+        <Attribute dwd:design-time-name="f28ac643-eadd-481b-b552-0cf5a947d4bf">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a1906868-38b3-4a88-b46a-3e79eee597f6">
+        <Attribute dwd:design-time-name="6d20174e-32bc-44ef-bf60-38eaf079a410">
           <AttributeID>Czy Miejsce Dedykowane</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="075900d2-2183-472b-ac0c-dd6fe4fa3f2f">
+    <Dimension dwd:design-time-name="4bf1a695-de21-4661-a198-dd8bada43a4c">
       <ID>ID Daty Rozpoczecia</ID>
       <Name>ID Daty Rozpoczecia</Name>
       <DimensionID>Dim Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="26b1adba-2a47-4ea5-91d3-20acd2ab6d08">
+        <Attribute dwd:design-time-name="1fe2b430-2c21-4f03-82f3-dd37b0e8bacf">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1fb3006e-41e5-4248-96e5-9e893a635894">
+        <Attribute dwd:design-time-name="f3f98df1-d9b3-41b3-919b-2bc272bd377c">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d6e8f2eb-710e-49be-8c2d-6199f9c6ec1a">
+        <Attribute dwd:design-time-name="f9f24386-8813-4eb9-aeb7-0a9e817eeb13">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ce4b2c59-ff6c-4d91-93ae-2c598b3c23a8">
+        <Attribute dwd:design-time-name="e2a46ba2-22d4-43bf-9f6b-d1d6e6007397">
           <AttributeID>Miesiac NO</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="298cba21-2dea-4cd6-98e5-e4757fd30ae5">
+        <Attribute dwd:design-time-name="0daab465-5c2d-4da4-8c22-822b2a133c8c">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="14ea69a8-0da5-44dc-a4ac-431e20a0cb70">
+        <Attribute dwd:design-time-name="9e39b467-9382-4efa-8199-05c8c4f9885b">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5833a6d8-b70e-4d01-a4af-f600dd104813">
+        <Attribute dwd:design-time-name="a25b093f-c9c1-4eb9-8b12-b64e44438af1">
           <AttributeID>Dzien Tygodnia NO</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="fd063b02-3c74-412d-8dc9-567c8fc377a2">
+        <Hierarchy dwd:design-time-name="fe5db94b-7cd3-49ec-b149-e54dcfb24239">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="684494fa-fcb8-41d5-96df-0be00e648be7">
+    <Dimension dwd:design-time-name="dc0b9bf2-d7e7-4d35-b2a0-2ddce443e721">
       <ID>ID Daty Zgloszenia</ID>
       <Name>ID Daty Zgloszenia</Name>
       <DimensionID>Dim Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7c6bb972-f160-4ea2-a5c1-60bbe78fe4c7">
+        <Attribute dwd:design-time-name="05d514c2-7ffd-4afb-881b-a7450391ab9a">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="31562e97-5eb8-4922-9541-700e9081fce2">
+        <Attribute dwd:design-time-name="cc180738-e0f6-479d-b512-2808f54cce68">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="558c7c22-30ff-4b62-bbc6-633d9173fdd0">
+        <Attribute dwd:design-time-name="ac0175cd-cbb2-4d13-a8ca-7e8144e476de">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2d8c81f3-4bb6-4574-bd13-d8f4e5afac36">
+        <Attribute dwd:design-time-name="180d8fdf-2aca-477d-bcbe-64c9b9c6dd05">
           <AttributeID>Miesiac NO</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="9b2fb00f-139a-47f7-8a19-303ecfc067df">
+        <Attribute dwd:design-time-name="dacbd681-04dc-4a6c-b822-9c1fc97120c0">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="df6cc384-e469-4b68-af22-83c1cd53cd70">
+        <Attribute dwd:design-time-name="b00b3786-d61f-4e3b-9007-65630868b5e9">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13c50b5e-2736-41f1-92cd-56f667e49903">
+        <Attribute dwd:design-time-name="263ab1cf-be53-4911-8c4b-75d4086dbc9f">
           <AttributeID>Dzien Tygodnia NO</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="bcd71bd1-c59c-429f-a3e1-df62d5d30536">
+        <Hierarchy dwd:design-time-name="ec9335ba-e264-474e-a17d-bc1a8925b330">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="4d5d07bb-5bce-4030-bd10-8db82088c0d5">
+    <Dimension dwd:design-time-name="e6288214-dff6-4c34-afb1-b6fe88863493">
       <ID>ID Czasu Zgloszenia</ID>
       <Name>ID Czasu Zgloszenia</Name>
       <DimensionID>Dim Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="11cb9dd9-af94-43dc-b9da-787bcd0fd15c">
+        <Attribute dwd:design-time-name="ae1f6245-2d19-4aa4-b321-03b0db79aa16">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4dfdabc1-4a4f-4424-b1dc-54752b06cc57">
+        <Attribute dwd:design-time-name="c124320b-b151-472e-b3eb-599b49b0e952">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bb8ba85b-f11f-4d8a-b0b0-cd9f5d8004fc">
+        <Attribute dwd:design-time-name="c9a32f1a-4345-4bc7-a79b-c1fd60a2418e">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a0e8af46-1091-425a-ac2a-11aa3be02f25">
+        <Hierarchy dwd:design-time-name="ff95b321-6462-46eb-9281-213dbfbbcbc9">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="4c64e111-4614-4542-bf98-8f6cf0bb6c0b">
+    <Dimension dwd:design-time-name="3ca19fcc-f58d-4c53-bc14-ca4a7d2a2787">
       <ID>Dim Zgloszenie</ID>
       <Name>Dim Zgloszenie</Name>
       <DimensionID>Dim Zgloszenie</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3baf7b07-9a52-4a81-b784-d2534a07743d">
+        <Attribute dwd:design-time-name="2481d7ba-d5f1-49ce-aa83-33d740cec84d">
           <AttributeID>ID Zgloszenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7939d567-afd1-4081-afa2-4b9e03ae8abe">
+        <Attribute dwd:design-time-name="ddae0e4a-c62c-4193-ac0c-0dd9344d6a6f">
           <AttributeID>Czy Potwierdzone</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="09d91b4f-d7ef-4769-b89a-3bb802c10226">
+        <Attribute dwd:design-time-name="b0199912-f7cc-4125-a6cf-83be0da7d385">
           <AttributeID>Nr Telefonu Zglaszajacego</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="86a317a8-019d-4ca9-8da4-055c1d7f5f04">
+    <Dimension dwd:design-time-name="86e33a92-2659-4a18-b440-5a1b0e659f02">
       <ID>F Wypozyczenie - ID Daty Rozpoczecia</ID>
       <Name>F Wypozyczenie - ID Daty Rozpoczecia</Name>
       <DimensionID>Dim Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="05b143d2-8479-4bc2-8264-2abb5b9658d5">
+        <Attribute dwd:design-time-name="5ce266f9-50e5-45cc-bb32-d1fa89c7aef5">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5207acd2-a0b7-4b46-beaa-da0310bc3507">
+        <Attribute dwd:design-time-name="cfa0a1cd-e9ad-419b-a334-c3044d0556d1">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c6aa5a48-178d-437c-aff7-0c02c30eb283">
+        <Attribute dwd:design-time-name="dcac9a6d-0ca2-4883-bd07-3ceb62e2a2f5">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="315f5905-e555-4449-9201-8bd00842c640">
+        <Attribute dwd:design-time-name="2d2030b3-7893-4db4-b060-70d2d0495881">
           <AttributeID>Miesiac NO</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="de4eccb1-3537-498e-83f9-c1fdef4ad695">
+        <Attribute dwd:design-time-name="9c5b9275-edd0-43ce-a378-20cc53881829">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9103982e-a408-4a8b-bda7-745c329d1913">
+        <Attribute dwd:design-time-name="911345f9-eeec-4658-89c8-af6caab35089">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ab01a497-b193-47a8-955d-54bdac4cd1c8">
+        <Attribute dwd:design-time-name="0ba191a9-b779-4aea-9db2-5e5e3a72499e">
           <AttributeID>Dzien Tygodnia NO</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="286ac386-24d6-4220-ba1d-1239d1c0c4e6">
+        <Hierarchy dwd:design-time-name="8933796a-6295-470c-9713-3c9e2db8e695">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="da7ff0bc-7208-464e-867f-6ebf7e011910">
+    <Dimension dwd:design-time-name="27d1bdcc-fc4c-492f-9c28-52be32363dbb">
       <ID>F Wypozyczenie - ID Miejsca Zakonczenia</ID>
       <Name>F Wypozyczenie - ID Miejsca Zakonczenia</Name>
       <DimensionID>Dim Miejsce</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="848bca4f-8a45-4659-b738-a59dc25b99f0">
+        <Attribute dwd:design-time-name="163d7553-d573-4bf2-9449-8f7915a3ddb8">
           <AttributeID>ID Miejsca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dc0b5bd7-41dd-4899-b06b-584c35719260">
+        <Attribute dwd:design-time-name="df5df56d-1ea2-4bdf-b9c9-e882fada51f2">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="03316000-3258-48df-b72f-356260b422e2">
+        <Attribute dwd:design-time-name="1e0cba2f-6c1f-4c42-bfa8-b87603eedc69">
           <AttributeID>Czy Miejsce Dedykowane</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="bca2b1c4-ffdd-49fe-815c-d09f8c5b64a3">
+    <Dimension dwd:design-time-name="e973f478-5feb-4885-986f-7045d59a9588">
       <ID>F Wypozyczenie - ID Daty Zakonczenia</ID>
       <Name>F Wypozyczenie - ID Daty Zakonczenia</Name>
       <DimensionID>Dim Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1a4e4609-248f-4c8f-8c2f-841acda40b89">
+        <Attribute dwd:design-time-name="9e2dcff0-15f5-4d96-89b4-240120eb8652">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="09a8612c-6de1-426d-b552-e55ee7c20f4e">
+        <Attribute dwd:design-time-name="1f38ffce-0e89-4862-9e6f-8caaac030590">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="501fe877-a039-49fa-b844-2f679bb680ad">
+        <Attribute dwd:design-time-name="72f428d6-3160-44b0-9637-f4a281de6d6f">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a7a4f35a-7ec5-442a-bc14-680c6a76ae16">
+        <Attribute dwd:design-time-name="676d47b3-6375-43aa-8cbf-5105992182db">
           <AttributeID>Miesiac NO</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="55741203-6fe8-44df-b0b2-e43802b26cc5">
+        <Attribute dwd:design-time-name="7d6834a1-b9d7-4bac-8d6f-c47a1855eb67">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="79dbd2dd-c749-47f0-8326-1709106d6d33">
+        <Attribute dwd:design-time-name="b1998b03-fa5d-4385-acc1-f5f7977e6934">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="354c7a85-a5d1-4e41-bf1d-df68e62f7805">
+        <Attribute dwd:design-time-name="8c8cd6e9-97b2-4541-922c-694e2339da2e">
           <AttributeID>Dzien Tygodnia NO</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="43527cbd-132d-4245-8913-c1de9a81cb81">
+        <Hierarchy dwd:design-time-name="cefece96-0e74-4169-b556-740ae14e7126">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="255ae5ff-bf93-4ebd-93fd-bdec49699151">
+    <Dimension dwd:design-time-name="161ac1e0-9f97-4655-9163-69854192c094">
       <ID>F Wypozyczenie - ID Czasu Rozpoczecia</ID>
       <Name>F Wypozyczenie - ID Czasu Rozpoczecia</Name>
       <DimensionID>Dim Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="f1613567-d412-489a-8f0b-4dce38f614c2">
+        <Attribute dwd:design-time-name="1354ae28-bab8-4a36-b110-7dce91bff900">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7c98a9f9-1d91-4e30-9cdc-451ef371029b">
+        <Attribute dwd:design-time-name="494099ba-b6b4-4266-998d-1044c3214ada">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1aa2a4ad-e615-42b6-be02-824d0dd07522">
+        <Attribute dwd:design-time-name="d2274e64-9d0b-4a59-b505-39bb57d4cbe3">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="72da0cb2-f29b-4230-9044-c7f8c2b10f3d">
+        <Hierarchy dwd:design-time-name="c0c77dba-cb7e-4bf5-9aa3-eb3d9af4f7ef">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="6cfd5543-8e91-4b01-b601-ec2434a37ac2">
+    <Dimension dwd:design-time-name="276d0bd7-18fa-4c6d-a928-a4357cb4211d">
       <ID>F Wypozyczenie - ID Miejsca Rozpoczecia</ID>
       <Name>F Wypozyczenie - ID Miejsca Rozpoczecia</Name>
       <DimensionID>Dim Miejsce</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="703f6eaa-1b93-4cbf-ad42-8ac04c17cf80">
+        <Attribute dwd:design-time-name="3bb9da2e-c175-441e-af13-e0b19481ce03">
           <AttributeID>ID Miejsca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="df64bf6a-ee00-46ca-a40b-007b6600c705">
+        <Attribute dwd:design-time-name="799c21ad-09ec-489a-b834-f9ef0ef74f28">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="92705d9b-fffd-448b-848e-62a7518380a7">
+        <Attribute dwd:design-time-name="01827098-51be-4bcf-b056-e4af4e48987e">
           <AttributeID>Czy Miejsce Dedykowane</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="9a597c9c-ffd4-4673-9446-9182586efaca">
+    <Dimension dwd:design-time-name="e9fd8dd4-b6d5-409f-bda3-4c92fbfab563">
       <ID>F Wypozyczenie - ID Czasu Zakonczenia</ID>
       <Name>F Wypozyczenie - ID Czasu Zakonczenia</Name>
       <DimensionID>Dim Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="51a4c799-218b-470f-b533-ccae4abe98fc">
+        <Attribute dwd:design-time-name="fe212c70-f076-461f-afe4-0e0104ceff96">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9a8cc266-a552-4aec-a047-93e5e458d97a">
+        <Attribute dwd:design-time-name="5962af1f-4a47-43e7-bb93-8699709e4593">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ba7730c9-921b-4036-ab9a-2bbf2d06655b">
+        <Attribute dwd:design-time-name="40f8edba-9853-4982-bf0a-381be0f66681">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="804d5988-35be-4e6f-ac0a-16cac7a19f56">
+        <Hierarchy dwd:design-time-name="aa42d88b-ed47-429d-b568-345209ef383d">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="797487c1-0538-43a9-bdaa-9e53cf857f1f">
+    <Dimension dwd:design-time-name="8bab51d2-94bb-4278-8d19-849ce36689be">
       <ID>Dim Uzytkownik</ID>
       <Name>Dim Uzytkownik</Name>
       <DimensionID>Dim Uzytkownik</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7e033994-02a3-4ade-b1fa-a7b3b6488f5f">
+        <Attribute dwd:design-time-name="2f55e9e8-915f-4c82-903a-459f1f920e7c">
           <AttributeID>ID Uzytkownika</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="813f7ae6-92b8-424f-a3af-ab9acd056ac6">
+        <Attribute dwd:design-time-name="89d736d6-86a3-443b-b7f0-d79abddfc052">
           <AttributeID>Nr Prawa Jazdy</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="12a45f57-b1e5-496c-b085-525e6b2b012f">
+        <Attribute dwd:design-time-name="efc5a931-a59c-4b95-ac77-b5c4c0b4d218">
           <AttributeID>Czas Posiadania Prawa Jazdy</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="923040b4-77aa-4fd9-858c-0b92aec234ed">
+    <MeasureGroup dwd:design-time-name="b6d5642a-ea0c-46f3-929d-b48a47f87c39">
       <ID>F Wypozyczenie</ID>
       <Name>F Wypozyczenie</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -871,69 +871,69 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="18ec77d0-848c-4514-8ee4-e0060f1a04ae">
+        <Measure dwd:design-time-name="4429a4e2-d284-416f-8d1e-78a9945d8911">
           <ID>Ocena Predkosci</ID>
           <Name>Ocena Predkosci</Name>
-          <Source dwd:design-time-name="845181c5-1581-4c15-adbb-8d832b34f104">
+          <Source dwd:design-time-name="457bb301-768c-4238-bb88-bce0819184a4">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="073a62f0-26ad-4054-badc-d0bf0c74373a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ce8cb893-8289-4036-90fe-39c7d53295c2">
               <TableID>dbo_FWypozyczenie</TableID>
               <ColumnID>Ocena_predkosci</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="71796439-4cc9-4a1f-aaaf-bd14b2262fc5">
+        <Measure dwd:design-time-name="dfec8bc6-f618-46ce-98cc-88bad3fee1da">
           <ID>Ocena Techniki Jazdy</ID>
           <Name>Ocena Techniki Jazdy</Name>
-          <Source dwd:design-time-name="7c8d1c11-46bf-4872-b722-41de3801cccb">
+          <Source dwd:design-time-name="29019ab8-8cd0-4380-bf95-2e95bdb6cf7b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3e0ac5a6-88e2-4070-ac89-5b8027067ca0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="82fca67d-8a2b-4ddb-a1bd-37835259d8e1">
               <TableID>dbo_FWypozyczenie</TableID>
               <ColumnID>Ocena_techniki_jazdy</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4b8be7a1-80f3-41c8-8cee-8a9d54120102">
+        <Measure dwd:design-time-name="c5f99cf7-444c-450a-bc16-0bdd5e1fa1b4">
           <ID>Ocena Uzytkownika</ID>
           <Name>Suma Ocen Uzytkownikow</Name>
-          <Source dwd:design-time-name="17997b03-7c57-4ea1-b15b-b2bff05e8f62">
+          <Source dwd:design-time-name="99ae17cb-43b2-491a-ab6b-081628399afc">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a25c6e0f-4c0b-415f-b8d8-e37624ca8a55">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d6ec8b7b-a1cd-491d-97d4-b0b9eb49f82b">
               <TableID>dbo_FWypozyczenie</TableID>
               <ColumnID>Ocena_uzytkownika</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="df1a315b-456c-4eca-9c90-a726d9155b40">
+        <Measure dwd:design-time-name="644894d2-b401-48b0-a2aa-4707898e864f">
           <ID>Driver Score</ID>
           <Name>Suma Driver Score</Name>
-          <Source dwd:design-time-name="b3ac0966-14e2-453a-a1b4-df195b92060e">
+          <Source dwd:design-time-name="26d2853b-2108-4dbe-b304-51d5b51a3b0e">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="266b279e-d1e4-4e1b-af64-53c4056372f7">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a03f2212-7982-4686-94e9-59a699070220">
               <TableID>dbo_FWypozyczenie</TableID>
               <ColumnID>Driver_Score</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="40f94139-5fab-4805-bacd-ced93c01f8f1">
+        <Measure dwd:design-time-name="5b53fa1b-5ab2-45ee-9eea-aea76b646a86">
           <ID>Przejechane Kilometry</ID>
           <Name>Przejechane Kilometry</Name>
-          <Source dwd:design-time-name="1970604a-01c8-4e6c-9018-e510741103f0">
+          <Source dwd:design-time-name="65dd8700-4e75-4355-bdb7-c3f038e51299">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ea66faf8-88c2-4fa6-8f18-d1e8bc2faf1a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fd31a7fb-407d-458b-b741-17b5d83b504f">
               <TableID>dbo_FWypozyczenie</TableID>
               <ColumnID>Przejechane_kilometry</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="cdac1cb8-1f8d-44be-9e01-cbf528bad83d">
+        <Measure dwd:design-time-name="6367053a-6f67-463d-9fec-04f486b1d4d0">
           <ID>F Wypozyczenie Count</ID>
           <Name>Liczba Wypozyczen</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="2bcabd18-fd8e-40ca-bae6-5782eeaa6458">
+          <Source dwd:design-time-name="757a20ee-5eb8-4c97-9b0e-2f499f86c56c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="f5a5fab7-7617-4382-825a-18a5bae3c4b0">
+            <Source xsi:type="RowBinding" dwd:design-time-name="7d3c17f0-750f-4e10-8059-2fb401cb38e2">
               <TableID>dbo_FWypozyczenie</TableID>
             </Source>
           </Source>
@@ -942,15 +942,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d3cb2518-dc0d-4110-8fed-5bb57591164f">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="a90aa1ec-9a39-4ec1-b112-9ae79b1a35be">
           <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3188fb66-df91-4b98-a65a-683cef50fcc9">
+            <Attribute dwd:design-time-name="e6692866-b11c-42ae-9708-eae164f68938">
               <AttributeID>ID Wypozyczenia</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7467757d-6507-47ad-8d08-fcfc75257a26">
+                <KeyColumn dwd:design-time-name="cc0c6e75-36f4-4798-9ded-b1d89de55fd6">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="021048c2-1f0c-4dad-a349-1407e7b542dc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="da5e4f3e-b756-4de3-ae4f-a60c74c38d09">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Wypozyczenia</ColumnID>
                   </Source>
@@ -960,16 +960,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4eab007c-8473-4cd1-81d3-17edbde9ddef">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1da6cb83-90a9-4c4e-a3e0-6396f17f747d">
           <CubeDimensionID>Dim Samochod</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4d3360b9-2ad6-4640-9521-5ff9420b8e61">
+            <Attribute dwd:design-time-name="94a83fa6-1cc1-44f5-88d2-3716096b7aea">
               <AttributeID>ID Samochodu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="890b53f5-4a14-465e-a443-0adbc6cf1a20">
+                <KeyColumn dwd:design-time-name="cc711fd9-4b30-4957-8d28-88c2ce394636">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b7be1a58-5a30-4c13-957f-29209ae0956c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6dd4649a-0344-4c66-9cf0-5139a6f1df61">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Samochodu</ColumnID>
                   </Source>
@@ -979,16 +979,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="88cc399a-862c-4569-b2cf-07a7ae6e20ff">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6235c7bd-de56-4745-be81-d38337e1f90b">
           <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="56dc2dce-a234-4b6d-817d-55951ba58dba">
+            <Attribute dwd:design-time-name="c8e17deb-571c-4f2c-b5f1-673a086e56eb">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="aa286c0e-8b2a-4409-903b-993590e4365f">
+                <KeyColumn dwd:design-time-name="e0041658-1d19-45a8-8c9d-c5151112cde1">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="84dfbe4d-6aa2-48ad-8ad2-1101ca4346fc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3f21bbfa-b875-4cde-b881-635a8799be62">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Czasu_zakonczenia</ColumnID>
                   </Source>
@@ -998,16 +998,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d77d407e-f466-4c9c-b1b8-880dc56d49c3">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d87d9c2d-ae93-4341-bf36-0473b821e7b2">
           <CubeDimensionID>Dim Inne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b65f8207-6672-4214-b786-b87cb5fdadd8">
+            <Attribute dwd:design-time-name="7c4c67b3-5012-4ad6-8135-1404963a5ffe">
               <AttributeID>ID Inne</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="296e7db4-4628-4398-91e6-cee2c19adbed">
+                <KeyColumn dwd:design-time-name="3522e8b9-a5cd-49c8-a46a-32e41026b9fb">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7fcff213-dbd9-4224-9fd5-6bf693823fc4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="013569d1-0d2c-4bcd-bb0e-5dc9117d7f37">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Inne</ColumnID>
                   </Source>
@@ -1017,16 +1017,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1b81c032-6d30-4c38-97fc-9b6fb16dc027">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="829c46f2-3e3e-4807-b407-a3a86dc56dc2">
           <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="84a5d45c-23e4-4f92-bb5f-f8a0e69a142a">
+            <Attribute dwd:design-time-name="69629307-b0ec-4c71-b187-1449b8291197">
               <AttributeID>ID Miejsca</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d48b288b-0b53-46cd-bcb9-e453cd3d1645">
+                <KeyColumn dwd:design-time-name="0c3ced21-fd50-4ae2-89ee-5a4f2202bae4">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="710b5e14-44ba-4957-af1d-ac947aa31d32">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f58cee47-f31a-4649-8c15-ebbc61843e6d">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Miejsca_rozpoczecia</ColumnID>
                   </Source>
@@ -1036,16 +1036,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9c7ac7a6-a16b-4507-93b2-38f9085b6180">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9d9f7854-b00e-4ae3-9a84-a4612f282b2c">
           <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a69f7637-2b45-4ba7-b333-306c358fb785">
+            <Attribute dwd:design-time-name="fdfa54a1-3e1f-44fb-a1f8-e5624956ef2d">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="743df7a7-a940-4d81-bca7-ee0b808d51ef">
+                <KeyColumn dwd:design-time-name="4eaf0ae7-f33a-4542-a37c-f8c74e2f2803">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f72d9e27-ec42-40ad-b576-6490865c0aa1">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8c94e52-40d5-4524-8a95-8f0c1a2416d3">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Czasu_rozpoczecia</ColumnID>
                   </Source>
@@ -1055,16 +1055,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="792c498e-35e3-4f7c-9949-5a8140eabb03">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1d726ed1-f80c-4101-a689-075dbabcdde2">
           <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b686cf77-3466-4d4c-9f70-044c3e4191de">
+            <Attribute dwd:design-time-name="f4efc53b-2630-4a10-a759-656019cefbee">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="98cf79c6-2e4a-4a42-b79d-d8b3220255f3">
+                <KeyColumn dwd:design-time-name="89f7ba0e-f902-4fce-9c6a-6ddff89c0d03">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e9a054e6-9ead-44f8-95cc-13635a86ee99">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7927dd81-e0f0-48bc-aa6e-b3df88efbfef">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Daty_zakonczenia</ColumnID>
                   </Source>
@@ -1074,16 +1074,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0cd2a440-2406-4e92-a0a1-897d144926a1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="139b8f3a-eb34-4110-9bb2-139c77c9ed24">
           <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="43fc3a38-42d1-48a1-8177-d20ef65fb824">
+            <Attribute dwd:design-time-name="3044c812-3e5f-42eb-afc3-760c8011c3a8">
               <AttributeID>ID Miejsca</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c8db4a55-9d4e-48bc-9d06-204baf768db3">
+                <KeyColumn dwd:design-time-name="81c9ce71-063b-414e-ba47-c914a0cbc708">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2c67d8c5-e545-4743-ba6a-0d228e24d97c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7cbd11f9-4447-437d-831b-2390feea38dc">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Miejsca_zakonczenia</ColumnID>
                   </Source>
@@ -1093,16 +1093,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8b6d3a49-f0bf-4ddb-9438-98cbe3105348">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="522a71ba-1b13-429f-8800-412ee4de05db">
           <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="21d04c3b-6ff6-4eb1-9150-12d817c4ebc3">
+            <Attribute dwd:design-time-name="7cee1136-2341-4117-a135-14e40e554d17">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="604028bf-8a95-4ea4-93d2-fe25ca4807b2">
+                <KeyColumn dwd:design-time-name="b1d5b7b5-46ca-45aa-81ab-7b352a4d4081">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e4b1972-bc35-4648-9a0d-4c654cf08243">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2adf3daf-a26d-446a-b7c8-e7b22a1d0093">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Daty_rozpoczecia</ColumnID>
                   </Source>
@@ -1112,16 +1112,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c0a62c5d-0086-40c0-b36a-3bdea3df2791">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a7fbeae8-e4f0-4ecf-aa82-a16bc1538c5c">
           <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="df52247f-c311-408b-8c6c-f1b736ae7ab9">
+            <Attribute dwd:design-time-name="325d77ce-ec44-48fe-9c07-6a8f7b6b7c45">
               <AttributeID>ID Uzytkownika</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="791f1a98-5632-426d-8834-c5ac6d30507c">
+                <KeyColumn dwd:design-time-name="dacebb51-b413-4506-96bc-de4718a3d429">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8691cbef-caa1-452e-9d45-51193f08062d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab74619c-9b47-47fd-9da6-854a10c36856">
                     <TableID>dbo_FWypozyczenie</TableID>
                     <ColumnID>ID_Uzytkownika</ColumnID>
                   </Source>
@@ -1134,7 +1134,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="103180cd-6d51-44a8-9677-0af9dfcedf8c">
+    <MeasureGroup dwd:design-time-name="d5ea2fb0-7aac-437e-a794-9a5512cbb7cf">
       <ID>F Zgloszenie Wypozyczenia</ID>
       <Name>F Zgloszenie Wypozyczenia</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1142,14 +1142,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="81015761-428a-4a3a-b40a-f61a961d3a51">
+        <Measure dwd:design-time-name="8111ea47-3cba-450f-9e46-8032ee9fe6c8">
           <ID>F Zgloszenie Wypozyczenia Count</ID>
           <Name>Liczba Zgloszen</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="1ef67c2d-df03-4651-8755-5d37a3caea35">
+          <Source dwd:design-time-name="8961b9d1-6fc1-47af-8db6-8a16aa2d68b4">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="6c2360e0-53cc-49ae-b3ac-a9741bcfc875">
+            <Source xsi:type="RowBinding" dwd:design-time-name="2bf3eb78-423e-4b88-bdec-0af3a57ff002">
               <TableID>dbo_FZgloszenieWypozyczenia</TableID>
             </Source>
           </Source>
@@ -1158,15 +1158,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="54aed9fe-32a5-42a8-a542-1277dd27f583">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cb881869-44a0-4186-9554-51afc7d78ab7">
           <CubeDimensionID>ID Daty Zgloszenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="78c5ce87-2924-4aa8-a6c3-3028be02b977">
+            <Attribute dwd:design-time-name="0668745c-6721-4ae6-bd91-8ef9d90a1eda">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fb63af48-1ae2-44ac-b056-4754b43436b5">
+                <KeyColumn dwd:design-time-name="e78bfd6c-7630-4e59-84fc-9e3ad9acb39f">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="82e85378-7c7f-49e7-8164-38a3f36616ea">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="acc9d1db-cc78-4f6e-ae84-16e1f0158678">
                     <TableID>dbo_FZgloszenieWypozyczenia</TableID>
                     <ColumnID>ID_Daty_Zgloszenia</ColumnID>
                   </Source>
@@ -1176,15 +1176,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="67f65702-7f8f-4cfe-b2ff-05041cfdc59f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="69bb0889-2abd-406e-a044-6eb770357080">
           <CubeDimensionID>ID Czasu Zgloszenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8a913cc2-ce5b-4aea-8d6c-34c42178989a">
+            <Attribute dwd:design-time-name="deee7364-4757-485c-bf24-742ca5022e58">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d00af8e5-7323-477a-925d-2b8106b7b1db">
+                <KeyColumn dwd:design-time-name="c1d77067-4506-4ad8-985e-38fd72157f6c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="45a3ace1-31e4-4691-af8f-8f93f1a43bc3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f351c5cb-66a0-4623-81de-3a4588bbcca5">
                     <TableID>dbo_FZgloszenieWypozyczenia</TableID>
                     <ColumnID>ID_Czasu_Zgloszenia</ColumnID>
                   </Source>
@@ -1194,15 +1194,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f215288e-085d-4257-b4b1-c2262da054d6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3c05b50-8a27-4127-a168-b20393df6d81">
           <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="59fa0b9e-41bb-4918-8bbe-1410cb2f9a71">
+            <Attribute dwd:design-time-name="47faa970-ec29-44e5-92d4-5fe46bdbe25e">
               <AttributeID>ID Wypozyczenia</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="48128ece-b2d8-43bc-95a6-1475c92d4723">
+                <KeyColumn dwd:design-time-name="744a87df-85fa-44a9-b5fe-b34ce064c76c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ca14add8-532e-4c63-a0a4-4537e7ccf3f1">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5f6eb52f-05a3-4547-a6cf-087e2ed0a873">
                     <TableID>dbo_FZgloszenieWypozyczenia</TableID>
                     <ColumnID>ID_Wypozyczenia</ColumnID>
                   </Source>
@@ -1212,15 +1212,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ad1fbfcd-d801-42e8-8f58-ebaf4e00f813">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fb49632c-adb2-4d33-96b3-1ccc38eb1451">
           <CubeDimensionID>Dim Zgloszenie</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e406fd55-059b-4de0-8c44-d12e53f8d3c6">
+            <Attribute dwd:design-time-name="c1aba100-3efc-4656-ac67-dbd263c1ae30">
               <AttributeID>ID Zgloszenia</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="30ca48db-7f49-4805-afc9-8604a94a45b1">
+                <KeyColumn dwd:design-time-name="903e9190-8594-474f-9ff2-4776600c3845">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="830be72c-2516-491a-bc09-190c66e7302d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7d88ddba-5587-4487-93b5-cf39e66e65b0">
                     <TableID>dbo_FZgloszenieWypozyczenia</TableID>
                     <ColumnID>ID_Zgloszenia</ColumnID>
                   </Source>
@@ -1230,10 +1230,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="9d1d6c7a-7ad8-4d72-b0c4-ab2d3e63b528">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="39348daa-fdf6-4e5a-8d17-7b49d27e16f1">
           <CubeDimensionID>F Wypozyczenie - ID Daty Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dd164e56-2b1a-489d-9326-969b09fd339c">
+            <Attribute dwd:design-time-name="138d3499-4a29-40bc-95ec-b1116637c828">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1243,10 +1243,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5308d262-7d3a-4c15-89b9-7b23625aba61">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a7202d22-9b49-4c67-8525-509916f6a800">
           <CubeDimensionID>F Wypozyczenie - ID Miejsca Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="09e804a2-7052-4b25-bfe2-ace30aae57d7">
+            <Attribute dwd:design-time-name="6383c774-943f-4e3f-b25e-40e639f5897c">
               <AttributeID>ID Miejsca</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1256,10 +1256,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="acf6485e-ccb5-4d4d-8f1e-930735c20b2e">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="77a1d84b-3d1c-4cf9-982f-794a7b0cf752">
           <CubeDimensionID>F Wypozyczenie - ID Daty Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="600914a3-aaac-4051-8cd8-f1a45e2b7f33">
+            <Attribute dwd:design-time-name="23a684c3-f637-441f-9c13-1c3197e5285f">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1269,10 +1269,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f0b2cd9a-2779-487e-a217-767ab9b7b832">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="85c8c69e-91d1-4b6f-989a-d758f7fac55c">
           <CubeDimensionID>F Wypozyczenie - ID Czasu Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bc976f78-1734-45e2-96e9-ba49d1507ef5">
+            <Attribute dwd:design-time-name="0e9701ba-64e7-413a-a44d-40dc3f4b3ca8">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1282,10 +1282,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="aff88c0a-1072-405c-8fba-4d6fb87570f3">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="46ad9612-71ec-4eae-abc0-40d81a716dbc">
           <CubeDimensionID>F Wypozyczenie - ID Miejsca Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="df7ab9c2-41f8-43a8-a45d-738be2bca02d">
+            <Attribute dwd:design-time-name="54662b7a-0d1b-47ea-8031-68ca99fd0614">
               <AttributeID>ID Miejsca</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1295,10 +1295,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="65e5c960-b9c4-4b5a-b53d-5d6dc3fbb7d9">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2d69b5e2-8d5b-42ae-8331-71050ec311cc">
           <CubeDimensionID>Dim Inne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c1c4781e-a9f5-4738-a7bc-26770d977aca">
+            <Attribute dwd:design-time-name="1ad2eddf-bcb2-4cc5-b5a5-e42d724b0867">
               <AttributeID>ID Inne</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1308,10 +1308,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7a7d07d9-2619-49e8-b481-4eeea76e1e50">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="44aceb73-3fd6-4b84-89cc-c54b87d81382">
           <CubeDimensionID>F Wypozyczenie - ID Czasu Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8bc2fcfb-5b6f-4dea-87ce-815a0ad458a0">
+            <Attribute dwd:design-time-name="01aadb1a-6fc9-413a-99ec-49a44cd2d2cc">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1321,10 +1321,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bf3741ca-4957-41c1-93cd-c1c47e04ef87">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8ed080e5-9916-4b2a-8dff-5439d4e06bc3">
           <CubeDimensionID>Dim Samochod</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="32487304-81df-4d5f-83a3-8f47ab9f2497">
+            <Attribute dwd:design-time-name="f304d8c5-d67c-4cd6-b780-43919ed776d1">
               <AttributeID>ID Samochodu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1334,10 +1334,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="0f2539c8-d804-40a0-950f-f7f44e7ee46c">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="3636c96a-abfd-45b1-aff6-5536f4059125">
           <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ca48bae5-acc2-47ed-8e6f-02d4110b2ecf">
+            <Attribute dwd:design-time-name="7a8b55ed-52aa-4352-9be0-4ddfa588405d">
               <AttributeID>ID Uzytkownika</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1351,11 +1351,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="8abe3191-8061-4fa8-803c-a5a24085d8d4">
+  <Source dwd:design-time-name="34e1f7f1-d49c-409f-8fc0-ce2cf3e6858a">
     <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="b6890775-0951-43be-b842-f651b6d4e0c6">
+    <MdxScript dwd:design-time-name="1cdc056c-4940-4343-ad2a-2efe829d412a">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1379,14 +1379,25 @@ VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'F Wypozyczenie'  ; </Text>
     </MdxScript>
   </MdxScripts>
   <Kpis>
-    <Kpi dwd:design-time-name="2a53bc34-147d-44bc-9d7f-ed15895ae3f1">
+    <Kpi dwd:design-time-name="ca1a13e9-b6bb-4e75-9820-5fa0250cb69e">
       <ID>KPI</ID>
       <Name>Liczba wypozyczen</Name>
       <AssociatedMeasureGroupID>F Wypozyczenie</AssociatedMeasureGroupID>
       <Value>[Measures].[Liczba Wypozyczen]</Value>
-      <Goal>( KPIValue( "Liczba wypozyczen" ), ParallelPeriod ( [ID Daty Rozpoczecia].[Hierarchy].[Month], 1, [ID Daty Rozpoczecia].[Hierarchy].CurrentMember ) ) * 1.25 </Goal>
+      <Goal>( KPIValue( "Liczba wypozyczen" ), ParallelPeriod ( [ID Daty Rozpoczecia].[Hierarchy].[Month], 1, [ID Daty Rozpoczecia].[Hierarchy].CurrentMember ) ) * 1.0083</Goal>
       <Status>IIf (KPIVALUE( "Liczba wypozyczen" ) &gt; KPIGoal("Liczba wypozyczen"), 1, -1) </Status>
       <Trend>IIf ( KPIValue( "Liczba wypozyczen" ) &gt; ( KPIValue( "Liczba wypozyczen" ), ParallelPeriod ( [ID Daty Rozpoczecia].[Hierarchy].[Month], 1, [ID Daty Rozpoczecia].[Hierarchy].CurrentMember ) ), 1, -1) </Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="0b75bba2-74b5-450a-8248-56439d401a5b">
+      <ID>KPI 1</ID>
+      <Name>Srednia Driver Score</Name>
+      <AssociatedMeasureGroupID>F Wypozyczenie</AssociatedMeasureGroupID>
+      <Value>[Measures].[Srednia Driver Score]</Value>
+      <Goal>( KPIValue( "Srednia Driver Score" ), ParallelPeriod ( [ID Daty Rozpoczecia].[Hierarchy].[Month], 1, [ID Daty Rozpoczecia].[Hierarchy].CurrentMember ) ) * 1.02</Goal>
+      <Status>IIf (KPIVALUE( "Srednia Driver Score" ) &gt; KPIGoal("Srednia Driver Score"), 1, -1) </Status>
+      <Trend>IIf ( KPIValue( "Srednia Driver Score" ) &gt; ( KPIValue( "Srednia Driver Score" ), ParallelPeriod ( [ID Daty Rozpoczecia].[Hierarchy].[Month], 1, [ID Daty Rozpoczecia].[Hierarchy].CurrentMember ) ), 1, -1) </Trend>
       <TrendGraphic>Standard Arrow</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
