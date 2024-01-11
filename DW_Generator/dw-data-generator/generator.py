@@ -102,9 +102,9 @@ class Generator:
             self.users_list.append(uzytkownik)
 
     def generate_snapshot_1(self, n):
-        self.generate_cars(n)
+        self.generate_cars(int(n/4))
         self.generate_users(n)
-        self.generate_rents(2*n, 1)
+        self.generate_rents(3*n, 1)
         self.generate_opinions(0)
         self.report_list = generate_zgloszenia(n, self.cars_list, self.rental_list)
         self.write_all('bulks')
@@ -122,17 +122,10 @@ class Generator:
             else:
                 self.users_list[i].miasto_zamieszkania = create_city().get('name')
 
-        self.generate_cars(n2)
+        self.generate_cars(int(n2/4))
         self.generate_users(n2)
         self.generate_rents(3*n2, 2)
-        self.generate_opinions(2*n1)
-        num_of_changes = random.randint(3, len(self.report_list))
-        for _ in range(num_of_changes):
-            i = random.randint(0, n1 - 1)
-            license_plate = self.report_list[i].zglaszany_nr_rejestracyjny
-            if self.report_list[i].potwierdzone == 'N' and license_plate in [car.nr_rejestracyjny for car in self.cars_list]:
-                self.report_list[i].potwierdzone = 'Y'
-
+        self.generate_opinions(3*n1)
         new_reports = generate_zgloszenia(n2, self.cars_list, self.rental_list)
         self.report_list.extend(new_reports)
         self.write_all('bulks2')

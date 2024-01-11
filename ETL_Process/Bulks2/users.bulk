@@ -1,10 +1,2000 @@
-1|56694/04/6158|Geraldine|Salinas|Reda|2017-04-18
-2|69050/36/6024|Inez|Escobedo|Chojnice|2014-09-03
-3|09868/15/0886|Doris|Sala|Kwidzyn|2019-10-15
-4|30527/04/8860|Susan|Miller|Rumia|2022-01-21
-5|27483/76/7067|Denis|Anaya|Starogard Gdański|2013-04-02
-6|77334/71/9651|Robert|Garrison|Starogard Gdański|2021-03-16
-7|26737/27/0223|Valorie|Grate|Gdańsk|2022-04-03
-8|80890/91/4862|Daniel|Carpenter|Wejherowo|2022-05-19
-9|52099/45/1167|Myrna|Cunningham|Kartuzy|2023-08-28
-10|82645/54/3297|Katie|Finley|Chojnice|2019-08-10
+1|43313/40/0824|Bette|Diekmann|Kwidzyn|2023-08-26
+2|65224/77/9658|Ashley|Camarillo|Ustka|2021-03-03
+3|42327/14/0741|Carol|Bolden|Bytów|2020-07-28
+4|95930/19/4028|Randal|Sneeden|Lębork|2018-06-19
+5|82215/25/6620|Patricia|Murray|Kościerzyna|2016-11-27
+6|81691/46/2098|Darryl|Withers|Pruszcz Gdański|2023-03-15
+7|24630/15/0708|Dwayne|Whitling|Pruszcz Gdański|2020-04-08
+8|42368/30/2284|Guadalupe|Harcar|Słupsk|2014-08-28
+9|46982/00/3185|Ryan|Hickman|Gdynia|2017-03-06
+10|66680/84/9762|Nancy|Small|Rumia|2021-05-03
+11|19326/26/2711|Jeffrey|Munoz|Reda|2022-07-16
+12|04630/07/1917|William|Hughes|Kościerzyna|2018-12-02
+13|63192/09/8446|Johnie|Bialczyk|Kwidzyn|2014-11-02
+14|54448/22/3543|Jeffrey|Paddock|Rumia|2019-09-05
+15|62415/27/3759|Elizabeth|Weatherspoon|Słupsk|2021-04-22
+16|06110/34/8653|Dorothy|Sanborn|Kartuzy|2016-07-06
+17|51329/70/2247|Bernadine|Torres|Kartuzy|2023-09-24
+18|37898/71/0655|Amanda|Miller|Tczew|2018-01-03
+19|06602/72/0681|David|Bauer|Reda|2013-07-09
+20|95454/40/5168|Sarah|Jenkins|Rumia|2017-01-12
+21|47574/29/0108|Mark|Strickland|Rumia|2019-08-22
+22|50509/85/8964|Charles|Guillen|Bytów|2013-05-04
+23|12411/97/1396|Carla|Locy|Wejherowo|2020-07-22
+24|73165/23/9159|Russell|Newton|Reda|2022-11-09
+25|32139/16/3749|Marie|Copper|Chojnice|2013-05-06
+26|03353/20/0291|Teresa|Fraser|Gdańsk|2014-12-29
+27|84552/66/3511|Clara|Brathwaite|Malbork|2014-06-26
+28|33942/53/6782|Michael|Teig|Malbork|2020-01-10
+29|53557/05/0518|Lena|Ruff|Lębork|2021-06-13
+30|07979/29/7344|Harold|Browning|Kwidzyn|2023-01-20
+31|17327/69/6233|Miguel|Brown|Słupsk|2015-03-26
+32|64365/07/9613|Dorothy|Keitsock|Reda|2014-04-02
+33|57494/94/5297|Josephine|Graham|Bytów|2021-10-18
+34|28973/32/8940|Raymond|Mossman|Lębork|2014-06-21
+35|25942/45/5906|Sharron|Stiefel|Wejherowo|2022-08-02
+36|40123/67/3201|Kennith|Zuniga|Sopot|2014-09-17
+37|91533/87/2693|Thomas|Fish|Starogard Gdański|2018-05-03
+38|48740/55/9259|Denise|Conklin|Kościerzyna|2020-02-23
+39|24737/94/3339|Mary|Petty|Słupsk|2019-08-01
+40|73610/62/1914|John|Fujii|Sopot|2022-11-26
+41|48513/31/6716|Thomas|Kimbrel|Bytów|2022-02-25
+42|85182/76/9341|Melvin|Vasquez|Wejherowo|2023-05-31
+43|52502/85/5069|Iris|Diamantopoulo|Kartuzy|2021-03-22
+44|51999/33/5717|John|Hogue|Lębork|2017-01-05
+45|96699/47/8426|Marjorie|Ivey|Słupsk|2016-04-27
+46|16206/51/3558|Mary|Boyce|Gdańsk|2014-06-23
+47|77118/79/8597|Elmer|Showalter|Pruszcz Gdański|2022-04-13
+48|01988/07/3116|Pauline|Rangel|Tczew|2020-11-05
+49|71128/31/2120|Sharon|Elvin|Słupsk|2022-12-17
+50|56756/81/3178|Willie|Kitchel|Kartuzy|2023-02-01
+51|03805/63/6336|Tiffany|Przybylski|Gdynia|2020-05-22
+52|26854/73/1170|Marcella|Christiansen|Rumia|2017-05-02
+53|69136/33/4016|Shirley|Spriggs|Kwidzyn|2013-02-23
+54|06842/12/1614|Carl|Cooper|Starogard Gdański|2014-11-30
+55|46551/11/3404|Dan|Flowers|Starogard Gdański|2020-04-20
+56|88194/01/8963|Oscar|Wright|Malbork|2021-03-10
+57|38360/51/1691|Charles|Leggio|Rumia|2020-08-05
+58|93925/31/5590|Shay|Munson|Gdańsk|2023-03-04
+59|23406/08/4685|Timothy|Montoya|Kościerzyna|2016-10-25
+60|39596/60/5573|Donna|Aiken|Kartuzy|2021-10-10
+61|21478/28/1430|Hope|Brown|Kartuzy|2013-10-21
+62|44318/42/5963|Steven|Emerald|Malbork|2020-08-15
+63|46472/32/5122|Naomi|Tashman|Lębork|2023-08-05
+64|32793/49/9338|Robert|Mclaughlin|Sopot|2013-06-15
+65|36620/63/8834|Tony|Wilder|Ustka|2023-03-24
+66|43249/88/1984|George|Witt|Bytów|2020-02-15
+67|63324/83/8980|Lois|Negrete|Sopot|2020-10-01
+68|21734/49/8886|Colleen|Garcia|Kościerzyna|2014-12-14
+69|50180/07/0869|Robert|Villarreal|Gdynia|2023-02-13
+70|91726/86/7029|Harriet|Walker|Gdynia|2017-07-09
+71|69050/25/2178|Laurie|Banks|Kwidzyn|2020-02-01
+72|07996/67/1539|Manuela|Purdy|Starogard Gdański|2021-08-20
+73|03523/39/5571|James|Colegrove|Gdynia|2020-09-16
+74|00589/52/6181|Jose|Davis|Rumia|2017-05-13
+75|95279/93/0988|Paul|Rhodus|Malbork|2019-06-21
+76|15768/25/2395|Bruce|Arroyo|Sopot|2018-12-05
+77|16460/35/0792|Kimberly|Rousseau|Gdańsk|2021-04-17
+78|75712/33/1613|Thomas|Hatcher|Pruszcz Gdański|2014-06-05
+79|75106/94/1985|Cindy|Griswold|Pruszcz Gdański|2022-10-07
+80|28136/98/4371|Allyson|Walker|Kartuzy|2014-05-13
+81|87627/37/8769|Terry|Connelly|Gdańsk|2019-03-22
+82|48197/51/6413|Robert|Wagner|Kartuzy|2020-05-31
+83|78340/78/7618|Cliff|Childs|Starogard Gdański|2018-04-15
+84|30309/16/3325|Irene|Leavins|Sopot|2016-04-12
+85|31231/81/8743|Kara|Page|Gdynia|2016-11-08
+86|40017/52/3557|Garry|Weller|Starogard Gdański|2020-06-13
+87|89320/75/8283|Phoebe|Martinez|Lębork|2022-03-21
+88|28298/88/9866|Catherine|Frautschi|Tczew|2023-11-21
+89|67527/53/0234|Joyce|Salas|Ustka|2018-07-12
+90|67041/63/2804|Anton|Lacour|Kwidzyn|2017-03-04
+91|34189/25/4760|Ray|Kaster|Reda|2015-01-28
+92|71736/29/3678|Brenda|Campbell|Kościerzyna|2019-12-29
+93|42896/41/6205|Carmen|Chester|Kościerzyna|2014-12-30
+94|67824/02/9924|Cody|Miller|Tczew|2023-12-30
+95|35191/36/4058|Cindy|Durst|Lębork|2021-07-23
+96|76032/30/0160|Donna|Walker|Malbork|2017-11-08
+97|22444/40/8213|Julia|Jewell|Chojnice|2014-06-13
+98|92288/93/4711|Harry|Mello|Wejherowo|2021-08-07
+99|58544/59/7388|Dennis|Wheaton|Kartuzy|2020-06-23
+100|75948/22/1346|Scott|Hughes|Kwidzyn|2019-11-28
+101|66144/99/8876|Henry|Thompson|Wejherowo|2015-12-17
+102|16020/98/7297|Esther|Rood|Bytów|2017-04-01
+103|61511/98/8183|Christopher|Stern|Malbork|2022-11-03
+104|05482/95/7213|Allan|Alvarez|Starogard Gdański|2014-12-15
+105|81199/15/9951|Samuel|Trotman|Ustka|2021-05-21
+106|51014/01/4619|Jesus|Otero|Kwidzyn|2016-01-21
+107|33681/98/2740|Michael|Lucas|Kwidzyn|2021-07-12
+108|94817/39/3950|Courtney|Dalton|Chojnice|2017-08-12
+109|03908/04/2277|Robert|Brown|Kartuzy|2022-04-29
+110|67806/00/3246|Doris|Hopkins|Słupsk|2016-10-05
+111|26223/82/8993|Rosa|Skiles|Kwidzyn|2014-02-01
+112|09033/23/7961|Daniel|Hosmer|Wejherowo|2021-12-21
+113|14031/22/2199|Marie|White|Bytów|2017-07-27
+114|31289/99/4674|Barbara|Hom|Sopot|2023-09-09
+115|28931/69/2338|Mary|Wilson|Bytów|2013-09-19
+116|70810/10/7427|Judy|Zapata|Gdynia|2023-03-07
+117|89369/77/8214|Charlotte|Barnes|Lębork|2020-04-01
+118|38882/41/6439|Timothy|Leingang|Tczew|2014-12-03
+119|95097/73/6771|Elizabeth|Miller|Kartuzy|2019-01-15
+120|86004/46/3090|James|Schmitz|Kwidzyn|2016-05-26
+121|77666/09/5737|John|Boyer|Gdynia|2016-02-19
+122|03354/02/6315|Rachel|Cohrs|Tczew|2015-12-08
+123|04496/15/4956|Sharon|Burrell|Wejherowo|2022-11-12
+124|53202/00/1065|Donald|Allen|Kwidzyn|2022-07-08
+125|31522/44/6710|David|Heister|Słupsk|2015-11-03
+126|47961/80/2764|Robert|Rufener|Reda|2023-02-26
+127|09439/18/5918|Kathy|Strickler|Kwidzyn|2019-11-11
+128|79246/92/3830|Curtis|Chong|Kościerzyna|2018-10-12
+129|80831/34/7625|Marcos|Wilkins|Lębork|2022-10-15
+130|65890/48/9622|John|Pizarro|Pruszcz Gdański|2020-02-07
+131|20018/18/3184|Chance|Whitehead|Kościerzyna|2023-01-28
+132|75930/91/3283|Lynn|Jones|Reda|2023-09-30
+133|23582/87/5569|Charles|Kinsella|Gdańsk|2020-10-09
+134|16301/57/1327|Amanda|Nix|Wejherowo|2021-08-02
+135|47702/10/8366|Edith|Cruz|Kwidzyn|2016-12-04
+136|92954/18/8228|Rodger|Larson|Kościerzyna|2020-02-10
+137|79242/66/8736|Dorothy|Robinson|Lębork|2022-01-29
+138|26589/71/9428|Lauren|Snider|Rumia|2018-02-19
+139|10182/35/4964|Wayne|Scurry|Kościerzyna|2015-03-03
+140|23308/65/7870|Jeffery|Ezzell|Rumia|2022-07-15
+141|29797/75/5575|Rhonda|Smith|Gdynia|2023-01-14
+142|06757/49/6195|Clay|Barron|Rumia|2013-04-14
+143|05052/53/9493|Sergio|Shiner|Pruszcz Gdański|2015-08-07
+144|12732/50/1791|Janet|Horabik|Starogard Gdański|2021-12-11
+145|16104/06/6027|Mary|Murry|Tczew|2017-04-24
+146|18804/15/7747|Shaniqua|Horn|Bytów|2020-02-09
+147|50631/52/6133|Paul|Douglass|Gdynia|2021-11-06
+148|99516/53/1726|Vanessa|Johnson|Słupsk|2019-05-15
+149|59071/71/7952|Jimmie|Rutherford|Pruszcz Gdański|2020-02-11
+150|15406/83/5538|Carl|Kinsey|Rumia|2019-05-15
+151|43660/44/5822|Annie|Aldrich|Kartuzy|2019-06-26
+152|76279/05/3766|Norman|Martinez|Ustka|2013-12-29
+153|97990/49/4610|Charles|Ward|Kartuzy|2013-11-07
+154|58416/27/0980|Patrick|Burton|Gdańsk|2017-04-03
+155|11590/78/2008|Joan|Huddleston|Rumia|2023-08-02
+156|96215/81/2381|Suzie|Vasquez|Ustka|2019-05-05
+157|37313/70/9836|Edward|Lee|Sopot|2019-05-27
+158|93382/25/4072|Joan|Bennett|Ustka|2014-12-04
+159|25450/34/8015|Aaron|Harden|Chojnice|2021-12-06
+160|12915/70/7329|Kurt|Escareno|Sopot|2020-09-11
+161|84132/19/7333|Bobby|Madden|Słupsk|2022-05-21
+162|12708/99/3301|Maureen|Arnett|Lębork|2018-12-03
+163|13147/85/4314|Robert|Little|Chojnice|2015-12-09
+164|69664/06/8856|Donald|Alexander|Lębork|2022-10-22
+165|94767/41/5565|Alan|Cox|Bytów|2017-02-01
+166|73415/69/5322|Matthew|Blackmon|Bytów|2021-11-03
+167|53963/72/1621|Grant|Courtemanche|Starogard Gdański|2018-09-30
+168|64140/98/0413|Jessie|Stutzman|Wejherowo|2023-04-28
+169|99881/67/0196|Dorothy|Jone|Tczew|2019-11-12
+170|50341/54/3372|Marilyn|Smith|Wejherowo|2023-02-24
+171|21513/19/7458|Vicky|Nettles|Tczew|2016-11-27
+172|08270/00/9158|Carlos|Oneill|Kościerzyna|2022-03-19
+173|55122/84/9539|Phillip|Sahota|Sopot|2013-12-29
+174|43182/68/5237|Scott|Nightingale|Sopot|2017-12-20
+175|13630/82/0312|Tonya|Welch|Kwidzyn|2023-07-13
+176|94977/01/1396|Elaine|Scaife|Gdynia|2021-02-23
+177|19992/12/6839|Clarence|Carroll|Kwidzyn|2022-03-09
+178|12198/77/5633|Michael|Tisdale|Pruszcz Gdański|2019-06-06
+179|96563/76/9778|Eula|Carpenter|Słupsk|2020-03-21
+180|39822/49/2561|Brenda|Carmant|Pruszcz Gdański|2021-06-02
+181|60139/28/2733|Natalie|Newby|Tczew|2020-06-22
+182|49885/98/8602|Ira|Bried|Kwidzyn|2022-02-18
+183|76971/66/6962|Karen|Baker|Kościerzyna|2020-07-05
+184|35032/95/6378|Carlton|Brown|Ustka|2021-12-06
+185|72916/61/9108|Emmanuel|Primm|Malbork|2015-09-14
+186|90968/58/4316|Mark|Rogers|Sopot|2018-01-18
+187|25706/68/0038|Gale|Tyrone|Chojnice|2018-09-09
+188|18619/59/2790|John|Diaz|Starogard Gdański|2013-07-01
+189|06944/61/3303|Melba|Aki|Słupsk|2022-11-09
+190|77895/38/1567|Nathan|Banderas|Starogard Gdański|2013-11-29
+191|64287/18/5648|Tracy|Davis|Kartuzy|2015-08-31
+192|38163/18/8629|Loretta|Armand|Tczew|2022-02-01
+193|73413/76/9022|Joshua|Wade|Słupsk|2023-11-07
+194|68379/60/6941|Russell|Beach|Malbork|2023-08-07
+195|36475/72/9779|John|Tamaro|Gdańsk|2022-04-14
+196|33154/60/0673|Jeanne|Williams|Gdańsk|2022-04-06
+197|87246/38/2676|Laurie|Murillo|Gdańsk|2022-11-30
+198|85350/09/8063|Brian|Horton|Sopot|2023-05-17
+199|72101/26/9943|Samuel|Cade|Starogard Gdański|2023-01-22
+200|68621/02/1039|Pauline|Nicholson|Bytów|2023-04-27
+201|78830/08/4567|Sergio|Mosher|Słupsk|2021-08-12
+202|05607/88/8032|Tasha|Baker|Kościerzyna|2015-01-05
+203|41206/16/2209|Margaret|Swezey|Sopot|2018-04-25
+204|34929/32/7622|Kia|Hurst|Lębork|2017-10-23
+205|72410/40/9614|Bertha|Link|Kwidzyn|2022-01-15
+206|79976/13/3013|Gilbert|Cummings|Gdynia|2022-07-12
+207|55447/98/9202|Patsy|Getz|Kościerzyna|2015-12-31
+208|09441/78/1934|Victoria|Record|Starogard Gdański|2022-10-02
+209|64446/83/1075|Albert|Pollard|Sopot|2022-11-25
+210|53157/91/3935|David|Matsumoto|Ustka|2018-03-09
+211|75492/33/6388|Patricia|Wilson|Gdańsk|2016-11-22
+212|34872/77/1365|Rebecca|Gregory|Kwidzyn|2016-08-02
+213|38178/41/0342|Ann|Caldwell|Pruszcz Gdański|2015-01-03
+214|96363/47/3096|Virginia|Nunn|Gdynia|2016-06-17
+215|63675/54/0211|Eddie|Warrick|Ustka|2017-03-13
+216|09290/89/9713|Alice|Lopez|Reda|2023-03-17
+217|83901/63/8038|Aileen|Klepchick|Kartuzy|2014-03-01
+218|30957/86/9024|Emma|Hale|Ustka|2017-05-04
+219|70858/62/5826|Barbara|Gonzalez|Bytów|2020-04-06
+220|28337/01/1790|Marion|Kovac|Gdynia|2023-08-25
+221|27749/81/9562|Hector|Garmon|Chojnice|2016-09-05
+222|81967/07/7460|Freddie|Chan|Kartuzy|2013-04-24
+223|64239/43/0837|Glen|Rader|Lębork|2016-10-31
+224|61176/56/4558|David|Gallagher|Malbork|2015-12-09
+225|12226/92/3908|Tom|Bolen|Chojnice|2020-11-20
+226|40689/78/9197|Donald|Cornelius|Starogard Gdański|2019-02-28
+227|77479/47/4118|Mayra|Smith|Starogard Gdański|2022-04-05
+228|46191/07/9724|Lonnie|Mineo|Lębork|2021-12-08
+229|95854/91/1192|Robert|Lerch|Bytów|2014-03-04
+230|06977/25/9484|Esther|Pollard|Pruszcz Gdański|2023-03-16
+231|76483/97/3378|Katie|Vu|Kościerzyna|2016-03-24
+232|28651/33/1874|Robert|Dawson|Ustka|2013-02-13
+233|30446/61/9363|Marilyn|Kelly|Bytów|2022-08-08
+234|21187/56/3027|Bertha|Schreyer|Pruszcz Gdański|2013-12-19
+235|79864/35/8950|Robert|Robinson|Rumia|2015-12-07
+236|82216/40/9043|Ruth|Gulick|Malbork|2015-08-13
+237|69168/10/3245|Kenneth|Lindsey|Sopot|2017-03-18
+238|11083/91/4788|Claude|White|Wejherowo|2013-04-21
+239|09781/84/7602|Karrie|Miller|Kartuzy|2013-10-13
+240|61017/29/1415|Paul|Luckey|Bytów|2021-06-06
+241|38576/35/6204|Nicole|Long|Bytów|2013-07-25
+242|15139/09/1656|Erik|Oberg|Sopot|2022-12-30
+243|26497/10/4925|Karen|Stewart|Reda|2014-07-31
+244|53585/62/2687|Bradley|Parson|Rumia|2023-01-25
+245|87493/95/3471|Eugene|Morris|Sopot|2016-02-28
+246|56908/82/8802|Michael|Phillips|Gdańsk|2014-10-16
+247|83819/78/9422|Teresa|Owen|Tczew|2017-06-30
+248|17545/08/9421|Rick|Bartley|Chojnice|2015-12-08
+249|93737/78/6306|Molly|Hicks|Tczew|2023-02-23
+250|95831/34/1515|Bruce|Rogers|Wejherowo|2022-10-20
+251|07392/62/0697|Gary|Corriveau|Starogard Gdański|2015-10-04
+252|22913/03/7020|Eric|Stevens|Rumia|2023-05-31
+253|31644/38/1703|Suzette|Wojciechowski|Pruszcz Gdański|2021-01-24
+254|67699/37/6830|Howard|Boyd|Kwidzyn|2013-08-13
+255|57055/84/3970|Marie|Santos|Tczew|2022-03-31
+256|16841/74/6458|Mark|Hanes|Starogard Gdański|2022-08-23
+257|20178/76/9389|Earnest|Gorsuch|Sopot|2013-03-31
+258|60936/42/0873|Eileen|Jones|Tczew|2020-12-14
+259|78910/00/4433|Regina|Maskell|Bytów|2021-02-21
+260|32934/02/9197|Thomas|Deatherage|Bytów|2023-10-18
+261|96953/10/7537|Allan|Ford|Sopot|2022-05-30
+262|54662/33/1422|Earl|Gray|Pruszcz Gdański|2018-02-18
+263|57595/11/4546|Sarah|Gonzalez|Rumia|2016-03-31
+264|19770/08/4700|David|Perez|Kwidzyn|2017-05-06
+265|02594/83/2996|Charlene|Hutson|Kartuzy|2019-09-22
+266|08551/32/6577|Mary|Savage|Kościerzyna|2021-04-16
+267|76252/63/9419|William|Morgan|Sopot|2020-11-30
+268|88187/93/7020|Diane|Billings|Słupsk|2023-06-02
+269|23428/42/5802|Anna|Howard|Gdynia|2021-10-15
+270|51778/81/3175|Willie|May|Starogard Gdański|2023-11-29
+271|60817/78/0435|Theresa|Boone|Lębork|2016-06-13
+272|91973/21/5065|Sarah|Hurlbut|Wejherowo|2020-02-05
+273|45775/25/4809|Ashley|Osborn|Chojnice|2019-04-08
+274|37970/66/0343|Lisa|Powell|Malbork|2022-02-18
+275|42928/73/5379|Samuel|Naquin|Sopot|2016-07-20
+276|18007/28/7569|Lester|Cunningham|Tczew|2023-08-24
+277|02021/41/8955|Myrtle|Hufford|Chojnice|2016-07-28
+278|04889/37/6472|Mary|Davidson|Słupsk|2017-08-11
+279|90208/89/3686|Lavon|Malcom|Malbork|2018-08-02
+280|56936/40/3080|Stella|Mclaughlin|Kartuzy|2013-02-13
+281|84934/91/1395|Debby|Meskill|Kościerzyna|2022-01-09
+282|41308/44/6285|Ronald|Wagner|Kościerzyna|2016-11-05
+283|88683/39/4096|Dawn|Lombard|Lębork|2020-12-21
+284|95661/47/8138|Deborah|Smith|Pruszcz Gdański|2020-08-27
+285|08809/67/3702|Elizabeth|Tripp|Wejherowo|2021-07-09
+286|17414/09/1217|Kenneth|Maccormack|Sopot|2021-07-27
+287|84798/44/7305|Ethan|Whitehead|Kościerzyna|2022-08-23
+288|17434/12/5014|Gary|Gonzales|Wejherowo|2023-06-27
+289|68915/62/6796|Nicole|Shrum|Tczew|2013-10-02
+290|22688/30/5275|Betty|Wilson|Pruszcz Gdański|2015-11-19
+291|26433/51/5944|Mary|Weaver|Sopot|2020-03-26
+292|04457/21/2114|Sandra|Hankinson|Kwidzyn|2017-03-25
+293|90308/58/7530|Elizabeth|Roy|Rumia|2020-09-16
+294|30497/40/0476|Virginia|Mchenry|Rumia|2014-05-12
+295|56428/10/6678|Robert|Cervantes|Chojnice|2021-04-12
+296|82706/59/6329|Judy|Stubbs|Chojnice|2017-03-24
+297|23913/11/7969|William|Roberts|Lębork|2016-09-19
+298|81102/08/5486|Charles|Watanabe|Reda|2019-09-20
+299|56556/66/7990|Stephen|Taylor|Słupsk|2022-01-15
+300|73061/46/9740|David|Ollie|Gdańsk|2019-02-16
+301|36208/55/2039|Rosario|Nassar|Gdynia|2015-09-22
+302|47830/26/8520|Robert|Nixon|Tczew|2022-01-28
+303|80357/84/0010|Zachary|Mirabella|Bytów|2021-01-30
+304|49272/64/3674|William|Bellamy|Lębork|2014-10-13
+305|85922/78/6699|Patricia|Baughman|Tczew|2014-01-17
+306|09483/22/9965|Stephen|Gilbert|Ustka|2020-12-24
+307|25389/88/5943|Suzanne|Reem|Słupsk|2021-06-11
+308|32296/94/3617|Larry|Studebaker|Kościerzyna|2018-05-26
+309|69650/42/2742|Samuel|Jeffers|Słupsk|2021-01-08
+310|68000/47/7295|Michael|Borum|Gdynia|2021-04-02
+311|30214/96/1864|Jamie|Davis|Tczew|2013-03-31
+312|41350/10/4470|Geraldine|Lopez|Gdynia|2023-04-28
+313|09718/86/7545|Stella|Davidson|Gdynia|2023-07-28
+314|38584/41/8141|Steven|Green|Kościerzyna|2023-08-23
+315|75614/47/1699|Gena|Jones|Kościerzyna|2013-05-26
+316|25579/71/9866|Amie|Thorn|Kartuzy|2022-12-23
+317|95216/27/9217|Philip|Whitlatch|Gdańsk|2021-11-03
+318|63255/52/6801|Earl|Lucas|Gdańsk|2017-11-29
+319|62174/68/0284|Ronald|Bradshaw|Lębork|2023-03-27
+320|51584/99/9796|Dorothy|Sullivan|Malbork|2017-03-15
+321|37321/70/1743|Louise|Fuston|Chojnice|2013-11-28
+322|40184/49/1646|Kirby|Adams|Starogard Gdański|2020-01-12
+323|49004/50/6648|Caroline|Scherer|Gdynia|2023-01-31
+324|27949/92/5261|Aurora|Arnold|Starogard Gdański|2022-12-12
+325|88336/06/8479|Scott|Sheppard|Gdynia|2023-03-13
+326|23596/40/3628|Floyd|Kasper|Słupsk|2021-07-16
+327|10869/29/6420|Brenda|Stubblefield|Ustka|2021-02-14
+328|80316/57/8756|Christina|Hanson|Rumia|2019-09-22
+329|80238/32/1325|Martin|Anderson|Kościerzyna|2022-06-25
+330|39609/66/8625|Wayne|Reeves|Pruszcz Gdański|2014-04-23
+331|97478/68/6216|Joanne|Rhodes|Słupsk|2013-08-17
+332|10152/64/1604|Anthony|Carr|Kartuzy|2020-05-18
+333|83650/32/5617|Linda|Hatton|Malbork|2018-08-15
+334|61765/26/2786|Paul|Camacho|Tczew|2017-12-22
+335|98430/71/7004|Deborah|Skousen|Sopot|2018-12-01
+336|34462/09/5737|Charlotte|Eames|Ustka|2013-03-03
+337|18474/37/1381|Marcella|Stinson|Gdańsk|2023-11-18
+338|33617/05/0565|Amber|Graver|Lębork|2015-11-13
+339|37653/40/6840|Jennifer|Scott|Starogard Gdański|2018-05-05
+340|17930/80/6372|Janet|Owens|Sopot|2013-07-09
+341|72656/78/5049|Michael|Salim|Reda|2023-01-19
+342|68253/02/2803|Evelyn|Howard|Kartuzy|2022-08-10
+343|20766/79/5404|Mary|Garza|Słupsk|2023-03-20
+344|39193/89/9546|Chadwick|Gray|Słupsk|2017-09-08
+345|41971/07/5946|Jamison|Rogers|Kartuzy|2022-12-27
+346|55412/75/6946|Ana|Brockman|Gdańsk|2019-05-20
+347|09351/86/0108|George|Linke|Bytów|2023-10-16
+348|80527/69/8577|Walter|Hinson|Słupsk|2022-09-09
+349|47594/60/1123|Angelica|Cuevas|Gdynia|2021-07-12
+350|93140/56/9782|Dorothy|Mccoy|Lębork|2020-03-21
+351|30768/57/4776|Joseph|Jefferson|Wejherowo|2023-12-03
+352|48467/10/7731|Anna|Trevino|Lębork|2020-08-24
+353|35747/72/3516|Loretta|Alexander|Kartuzy|2021-03-31
+354|31547/85/0874|Vera|Moen|Gdynia|2022-07-28
+355|72351/61/5203|Johnny|Renfrow|Słupsk|2015-12-27
+356|51879/14/7340|Kathleen|Thomas|Kwidzyn|2023-06-26
+357|49593/91/9258|James|Rolon|Tczew|2023-06-16
+358|33094/50/3601|Anthony|Howard|Ustka|2020-11-13
+359|41931/33/6129|Joe|Matheson|Kościerzyna|2018-08-31
+360|87872/29/3948|Delbert|Siddique|Rumia|2021-05-05
+361|34975/68/6085|Bernice|Clerk|Kartuzy|2013-04-14
+362|96821/65/8632|Betty|Vargas|Wejherowo|2018-05-07
+363|31426/91/2342|Karen|Brown|Pruszcz Gdański|2024-01-08
+364|35369/24/6107|Elaine|Tooley|Ustka|2021-11-19
+365|39927/32/2413|Courtney|Helton|Chojnice|2016-10-21
+366|28089/65/3118|Gail|Hall|Tczew|2022-06-06
+367|83816/38/2031|Patsy|Simpson|Ustka|2021-03-03
+368|29948/00/2611|Genevieve|King|Starogard Gdański|2019-10-22
+369|07420/56/2631|Alline|Scott|Reda|2023-12-26
+370|75739/74/4649|Annie|Pharr|Bytów|2014-12-01
+371|33141/09/3827|Archie|Allen|Rumia|2022-01-10
+372|97475/25/9472|John|Pridgen|Reda|2018-12-31
+373|73976/68/7809|Mildred|Young|Malbork|2022-12-31
+374|60900/52/2224|Cindy|Riley|Lębork|2022-01-07
+375|62606/35/5426|Martha|Taylor|Pruszcz Gdański|2023-11-15
+376|65836/09/0317|Theresa|Dake|Rumia|2022-06-05
+377|87857/12/8842|John|Dorsey|Ustka|2018-07-23
+378|40797/78/5937|Michael|Washburn|Gdańsk|2020-02-13
+379|07951/13/5657|Humberto|Moore|Ustka|2015-01-20
+380|39942/12/7738|Kyle|Tiemens|Pruszcz Gdański|2021-08-11
+381|25613/13/4326|Daniel|Ramirez|Sopot|2013-02-21
+382|22341/33/0846|Jennifer|Hodges|Tczew|2024-01-08
+383|46991/25/5818|Patricia|Schneider|Malbork|2017-10-19
+384|03750/98/9843|Mary|Leblond|Słupsk|2017-06-04
+385|11190/46/9437|Georgia|Wallace|Ustka|2023-01-22
+386|74418/85/6368|Vicki|Noyola|Rumia|2018-11-27
+387|39220/51/3374|Anthony|Searson|Pruszcz Gdański|2021-12-25
+388|61117/70/6041|Lonnie|Eckel|Malbork|2023-09-25
+389|48793/36/4517|Cody|Nest|Reda|2016-11-03
+390|04583/26/7858|Erica|Roman|Wejherowo|2016-11-21
+391|06612/31/0933|Mary|Caballero|Gdynia|2020-07-03
+392|52459/12/4495|James|Price|Sopot|2019-08-08
+393|99530/64/9609|Gene|Douglas|Wejherowo|2023-07-07
+394|95197/17/4627|Barbara|Christopher|Sopot|2022-05-15
+395|61358/51/7907|Jacqueline|Blumenstock|Malbork|2014-01-02
+396|21855/39/6145|Robert|Copland|Malbork|2015-11-16
+397|54011/07/4266|Lois|Martinez|Kartuzy|2022-11-16
+398|21262/05/0260|Charles|Mendoza|Ustka|2023-09-15
+399|12283/92/2883|George|Goetz|Chojnice|2021-03-05
+400|31914/00/4515|Gabriel|Schwartz|Starogard Gdański|2020-08-02
+401|81986/01/8819|Hugh|Hamby|Reda|2018-03-01
+402|53220/64/1979|Elizabeth|Beard|Malbork|2022-09-17
+403|48662/75/5062|Shannon|Brown|Gdańsk|2016-01-18
+404|93823/37/9117|Raymond|Martinez|Reda|2015-09-17
+405|78195/90/8510|So|Bellefeuille|Pruszcz Gdański|2020-01-12
+406|94671/88/1448|Jared|Young|Lębork|2017-07-21
+407|34625/65/6929|Terry|Gutierrez|Sopot|2015-11-04
+408|32005/53/5921|Robin|Ramirez|Starogard Gdański|2019-01-27
+409|69208/49/9055|Steven|Turrubiates|Bytów|2017-10-26
+410|87622/95/4899|Patrice|Parker|Pruszcz Gdański|2023-04-09
+411|19809/05/1211|William|Waltz|Pruszcz Gdański|2021-07-10
+412|20986/62/2942|John|Romano|Ustka|2023-03-12
+413|62596/90/3036|Sylvester|Gooslin|Kościerzyna|2021-02-02
+414|04781/30/9984|Michael|Dingle|Reda|2020-05-09
+415|82991/53/3789|Edward|Tachauer|Lębork|2018-01-04
+416|78388/13/4056|Sara|Nast|Kartuzy|2022-01-05
+417|49929/64/3493|Mary|Ullmann|Kościerzyna|2015-08-23
+418|90979/21/3449|Cassie|Arias|Rumia|2021-07-20
+419|28359/23/0314|Violet|Robles|Rumia|2017-04-20
+420|94283/12/6593|Betty|Urie|Kwidzyn|2023-10-21
+421|95985/44/3834|Travis|Swatzell|Słupsk|2023-01-24
+422|55030/74/3679|Mark|Webb|Gdańsk|2013-06-06
+423|05313/20/0355|Lee|Mccoy|Malbork|2014-01-18
+424|94564/38/1615|Donna|Archibald|Rumia|2017-01-03
+425|02058/99/3280|Wilson|Fahey|Gdańsk|2017-04-24
+426|67389/31/0406|Shanna|Galimi|Ustka|2018-01-28
+427|35088/69/3736|Michael|Thompson|Kartuzy|2017-08-19
+428|20713/29/2213|Paul|Henry|Ustka|2014-05-20
+429|28175/35/1912|Jeremy|Burton|Bytów|2017-11-30
+430|56709/29/5551|Patrice|Paris|Bytów|2021-05-28
+431|33814/88/5719|Delbert|Sample|Kościerzyna|2018-10-31
+432|79833/63/8478|Katherine|Parris|Bytów|2020-11-10
+433|83414/53/6232|Jessie|Cook|Tczew|2023-05-26
+434|04243/35/8316|Billy|Lennon|Starogard Gdański|2023-02-05
+435|82530/25/5311|Tamara|Gartman|Malbork|2023-07-29
+436|27239/51/3062|Jerald|Monroe|Gdańsk|2018-12-05
+437|42939/30/9345|Lisa|Hamby|Gdańsk|2023-12-10
+438|49415/39/3101|Mark|Grado|Gdynia|2020-04-15
+439|64494/33/9818|Lacey|Jackson|Reda|2022-12-13
+440|33261/21/9570|Mabel|Barrera|Kościerzyna|2014-05-16
+441|58172/21/6641|Ray|Wang|Reda|2022-08-27
+442|71893/53/8035|Patty|Skora|Malbork|2020-03-07
+443|57462/39/8432|Mary|Touchstone|Gdynia|2016-07-05
+444|65275/88/7730|Tai|Rybak|Ustka|2014-03-30
+445|75574/45/4208|Helene|Brown|Ustka|2022-01-23
+446|01899/50/0662|Barbara|Benthall|Bytów|2013-05-20
+447|32154/65/6877|Lawrence|Hawthorne|Słupsk|2014-06-13
+448|08761/03/4412|Maria|Baker|Kwidzyn|2023-04-06
+449|46295/49/2636|Linda|Robinson|Pruszcz Gdański|2020-06-23
+450|78718/95/8698|Douglas|Cooper|Kwidzyn|2021-03-24
+451|85177/77/3119|Peggy|Elson|Słupsk|2020-10-28
+452|37865/97/4823|Lori|Montanez|Kartuzy|2023-12-02
+453|90964/15/3202|Jacqueline|Mondell|Gdynia|2023-09-14
+454|45537/48/6168|Brenda|Cormier|Malbork|2015-03-22
+455|72684/81/6355|Christina|Kottke|Rumia|2015-04-27
+456|82880/89/7991|James|Ashby|Lębork|2018-10-31
+457|50828/40/0641|Jose|Bilski|Reda|2014-04-24
+458|56816/81/5242|Louis|Schwartzkopf|Wejherowo|2013-10-06
+459|36583/78/8134|Gilbert|Moldrem|Reda|2016-01-23
+460|73919/70/2290|Christopher|Fossey|Tczew|2018-05-03
+461|58862/24/1194|Paul|White|Kościerzyna|2023-01-09
+462|69861/43/5193|Mark|Gardner|Kwidzyn|2017-11-23
+463|66042/70/6748|Maria|Mariner|Sopot|2021-11-15
+464|80421/95/3820|John|Roberson|Słupsk|2022-12-02
+465|41747/31/8254|Martha|Carter|Kościerzyna|2016-09-04
+466|47593/84/3176|Teresa|Hunter|Słupsk|2016-02-12
+467|66210/82/3958|Scott|Warren|Gdynia|2021-01-13
+468|02125/92/5622|Patricia|White|Słupsk|2013-01-15
+469|71587/80/5760|Jennifer|Vega|Kwidzyn|2015-12-18
+470|06865/25/7328|Mary|Steury|Kościerzyna|2016-08-17
+471|76881/57/2702|Ron|Stiles|Chojnice|2021-06-17
+472|06878/23/3648|Bradley|Vreeland|Ustka|2020-06-22
+473|38322/59/6306|Anthony|Orlowski|Bytów|2019-07-26
+474|27659/40/1173|Bryan|Sultemeier|Wejherowo|2022-02-27
+475|06325/72/6910|Brooke|Wilson|Kartuzy|2018-07-18
+476|52437/51/2926|Kerri|Morgan|Gdańsk|2018-09-01
+477|36852/93/5868|William|Walls|Tczew|2016-05-22
+478|52802/42/2228|Thomas|Fulton|Lębork|2023-08-05
+479|97145/89/5737|Karen|Bryant|Pruszcz Gdański|2021-12-21
+480|53572/76/8002|Scott|Royce|Słupsk|2018-06-21
+481|77846/01/6158|Ralph|Difilippo|Starogard Gdański|2018-06-04
+482|54569/72/1124|Bob|Hoffman|Lębork|2014-11-01
+483|63128/63/6369|Trisha|Christian|Gdańsk|2014-01-03
+484|69728/11/7977|Mabel|Kertzman|Kwidzyn|2018-02-01
+485|03038/47/5988|Barbara|Price|Ustka|2022-03-20
+486|23697/44/2841|Roger|Mcwilliams|Bytów|2022-12-01
+487|31897/98/6912|Valerie|Mihm|Pruszcz Gdański|2022-03-31
+488|33161/21/0530|Guy|Fields|Malbork|2014-08-05
+489|96779/17/8420|Anthony|Maya|Kościerzyna|2023-06-23
+490|90941/83/7412|Robert|Couture|Gdańsk|2020-10-17
+491|07190/34/3384|Cecil|Bradley|Chojnice|2018-08-28
+492|82449/08/7143|Maria|Gabbard|Wejherowo|2021-06-15
+493|26904/34/8935|James|Tipler|Wejherowo|2017-08-28
+494|58191/96/9527|Hattie|Forest|Słupsk|2023-06-06
+495|31107/71/4017|Melissa|Walsh|Chojnice|2014-02-09
+496|85199/38/3421|Carol|Gonzalez|Bytów|2017-11-15
+497|96561/15/8432|Margret|Jimenez|Gdańsk|2022-01-07
+498|37063/17/1630|Porfirio|Plumer|Tczew|2017-10-18
+499|59827/56/4746|Charlotte|Ybarra|Tczew|2017-10-19
+500|87585/34/5569|Robert|Nelson|Pruszcz Gdański|2013-04-28
+501|76322/00/7108|Donald|Poole|Starogard Gdański|2022-10-09
+502|59459/04/8245|Laverne|Castro|Bytów|2022-04-14
+503|39169/39/4216|Danny|Ratliff|Gdynia|2015-10-07
+504|99019/84/6926|Valentin|Jeffers|Kwidzyn|2022-09-14
+505|19071/08/9354|Sandra|Wheeler|Gdynia|2014-01-26
+506|32330/05/7484|Lillie|Franklin|Słupsk|2016-06-27
+507|64275/32/7925|Jamie|Naquin|Kościerzyna|2021-10-27
+508|55501/32/7004|Robert|Parrish|Słupsk|2022-08-21
+509|14391/53/7335|Kenneth|Christopherso|Ustka|2016-02-08
+510|24301/90/8637|Carol|Dawkins|Wejherowo|2017-12-06
+511|45552/46/4692|Barbara|Rogers|Wejherowo|2022-07-13
+512|18726/38/0147|Chad|Lofton|Starogard Gdański|2017-07-06
+513|74969/83/9061|Tom|Wiese|Tczew|2013-07-12
+514|62899/93/2644|Ruth|Dodson|Rumia|2016-03-27
+515|14047/63/3430|Gladys|Hall|Rumia|2023-06-08
+516|96237/52/6097|Thomas|Paul|Słupsk|2014-04-06
+517|70574/08/7939|Ronnie|Stamison|Sopot|2022-11-01
+518|86529/86/5995|Marina|Brown|Tczew|2016-10-25
+519|88288/27/2505|Earline|Hendricks|Malbork|2021-12-18
+520|99794/91/0590|Jasmine|Ceballos|Lębork|2021-04-03
+521|16808/24/5073|Nellie|Owens|Słupsk|2015-07-15
+522|38509/59/0644|Jimmy|Lareau|Reda|2023-08-25
+523|92691/28/5536|Benny|Knudsvig|Chojnice|2023-12-24
+524|04206/32/1021|John|Fisher|Starogard Gdański|2017-02-28
+525|33045/82/2275|Christopher|Carlton|Pruszcz Gdański|2022-06-10
+526|76564/57/3350|Charles|Adams|Tczew|2021-11-25
+527|30921/63/9519|Amy|Roule|Starogard Gdański|2020-11-13
+528|43651/54/1653|Nelson|Leonard|Bytów|2021-01-09
+529|02269/36/7039|Gary|Hopkins|Reda|2015-07-03
+530|59338/72/6451|Sheldon|Mccoy|Kartuzy|2023-04-21
+531|73332/89/7687|Thomas|Speights|Słupsk|2013-09-03
+532|98822/71/9116|Rena|Urbine|Lębork|2018-01-26
+533|60133/02/3275|Priscilla|Brown|Kościerzyna|2023-11-20
+534|87661/23/2563|Justin|Benson|Reda|2023-11-09
+535|87148/61/8624|Chris|Estes|Kwidzyn|2022-12-29
+536|45505/18/5068|Richard|Guerrant|Reda|2015-02-06
+537|61866/47/2308|Jason|Hagan|Malbork|2019-08-07
+538|45596/77/6905|Vincent|Perry|Gdańsk|2022-07-31
+539|67346/28/3293|Roy|Clay|Malbork|2021-10-22
+540|61766/59/7498|Joshua|Atchison|Pruszcz Gdański|2020-08-28
+541|63952/71/1919|Erika|Perkins|Sopot|2022-05-29
+542|74223/64/6944|Harry|Hines|Pruszcz Gdański|2015-05-23
+543|58388/40/4671|Henry|Jones|Kościerzyna|2016-02-11
+544|92651/26/1007|Diana|Reynolds|Bytów|2016-05-29
+545|74540/95/4301|David|Palmer|Lębork|2023-08-18
+546|10734/08/7729|Steven|Sullivan|Kościerzyna|2020-02-10
+547|44178/07/5204|Steven|Jusino|Pruszcz Gdański|2014-03-09
+548|60617/35/0281|Sandra|Dean|Starogard Gdański|2017-09-27
+549|11748/54/1289|Peggy|Edwards|Reda|2018-08-08
+550|15208/84/3318|Cynthia|Porter|Kartuzy|2021-09-06
+551|76761/39/5057|Tony|Long|Słupsk|2023-12-27
+552|59992/93/5875|Keith|Suarez|Malbork|2014-10-24
+553|63614/30/3321|William|Robinette|Chojnice|2020-01-25
+554|29267/15/0018|Yolanda|Rogers|Gdynia|2019-06-11
+555|75920/98/2093|Daniel|Ware|Starogard Gdański|2022-02-25
+556|58178/98/6901|Erma|Bright|Bytów|2019-10-26
+557|29883/57/8623|Clyde|Wilkinson|Gdańsk|2023-04-16
+558|15890/24/8739|Bertha|Lopez|Pruszcz Gdański|2021-12-21
+559|57714/70/8338|Phillip|Johnson|Kościerzyna|2013-11-14
+560|41335/80/9365|Mark|Crosby|Chojnice|2023-02-14
+561|48266/76/9798|Jason|Werkhoven|Malbork|2013-11-02
+562|87559/87/7620|Barry|Andrews|Pruszcz Gdański|2023-12-17
+563|43794/37/8096|Lois|Jinks|Gdańsk|2013-12-01
+564|73761/77/3556|Latina|Ford|Pruszcz Gdański|2021-12-04
+565|83662/71/5036|Lisa|Scroggins|Reda|2020-10-27
+566|69799/09/6300|Tracie|People|Lębork|2023-12-08
+567|16104/51/4139|Robert|Brisbon|Ustka|2023-02-15
+568|64190/94/4021|Irene|Swarey|Gdańsk|2020-06-20
+569|66773/33/0300|Gladys|Coon|Malbork|2023-12-22
+570|21411/72/9119|Troy|Apadoca|Gdynia|2015-07-30
+571|59463/12/9585|Roy|Minyard|Słupsk|2020-07-10
+572|50274/62/5011|Johnny|Mitchell|Sopot|2015-02-28
+573|13870/11/1120|Clifford|Kenney|Gdynia|2021-08-09
+574|80056/75/8324|Randell|Vinson|Kwidzyn|2020-10-21
+575|90018/39/6723|Irving|Byrd|Bytów|2013-12-19
+576|14170/57/8577|Judith|Byrd|Wejherowo|2023-10-21
+577|12723/18/3927|Patricia|Zuleger|Pruszcz Gdański|2017-08-02
+578|52487/29/3733|Nina|Stoltz|Tczew|2021-11-28
+579|00644/19/2028|Robert|Mcatee|Ustka|2021-05-14
+580|39926/98/2611|Edward|Carroll|Kartuzy|2013-04-19
+581|71965/15/9310|Rachel|Blanchette|Lębork|2021-06-30
+582|23811/03/3520|Dorothy|Mcnurlen|Reda|2023-06-16
+583|10536/16/9289|Mark|Stevens|Słupsk|2013-03-02
+584|75142/41/7606|Gabriel|Vossen|Reda|2016-05-08
+585|02219/12/8419|Douglas|Howes|Słupsk|2015-03-29
+586|13071/88/6742|Linda|Nelson|Kościerzyna|2014-01-02
+587|58584/41/9904|John|Mccoy|Gdańsk|2014-01-06
+588|51882/01/6536|Shawna|Eller|Reda|2023-08-13
+589|52187/48/2626|Joseph|Mason|Tczew|2021-08-05
+590|61456/28/3005|Brain|Pfundt|Starogard Gdański|2022-07-30
+591|54688/60/9222|Christine|Williams|Lębork|2020-08-10
+592|63178/28/8588|Barbara|Cummings|Sopot|2018-06-20
+593|67867/65/0426|Susan|Miranda|Wejherowo|2021-07-20
+594|84550/33/0563|Allen|Vasquez|Gdynia|2022-02-02
+595|23250/53/9250|James|Armijo|Pruszcz Gdański|2023-09-08
+596|13373/74/3317|Alyce|Bonds|Rumia|2020-07-02
+597|92015/91/6569|Daisy|Ramirez|Słupsk|2022-07-13
+598|97719/16/1964|Harry|Armstrong|Kościerzyna|2016-06-17
+599|48275/73/9824|Joseph|Hill|Gdynia|2020-11-06
+600|32154/13/7927|Antonio|Bonham|Pruszcz Gdański|2022-12-15
+601|48208/23/9121|Donna|Decker|Bytów|2023-07-22
+602|85240/66/7221|Debra|Eckman|Kwidzyn|2022-02-16
+603|00145/25/9993|Kristin|Douglas|Lębork|2017-08-18
+604|02295/66/4461|Teresa|Mckinley|Kościerzyna|2018-02-13
+605|51097/87/6766|Jean|Inyart|Kwidzyn|2023-08-24
+606|64512/63/6699|Dorothy|Whitten|Ustka|2017-05-06
+607|25079/51/3228|Michael|Wilmoth|Starogard Gdański|2013-07-22
+608|60987/27/2469|Ken|Rynearson|Lębork|2022-04-28
+609|18405/93/9866|Michael|Rogers|Kościerzyna|2023-06-11
+610|26178/28/9962|Roberta|Gladden|Pruszcz Gdański|2021-12-14
+611|64782/70/0266|Ann|Wood|Bytów|2021-06-01
+612|34492/17/7272|Viva|Gale|Gdańsk|2015-07-13
+613|85314/35/1442|Mamie|Christopherso|Tczew|2014-10-01
+614|84951/48/6886|Ashley|Lambert|Malbork|2018-02-05
+615|34921/86/4066|Bridgette|Lane|Reda|2022-03-14
+616|01818/22/4741|Theodore|Johnson|Wejherowo|2021-06-23
+617|99228/29/8223|James|Richeson|Bytów|2015-12-24
+618|54571/49/8626|Cynthia|Turner|Chojnice|2022-07-30
+619|97562/43/9666|Gina|Alejandro|Ustka|2015-04-05
+620|99854/96/1092|Charles|Stone|Ustka|2021-04-23
+621|53910/48/9807|Lana|Hall|Reda|2015-07-17
+622|22651/35/6837|Seth|Johnson|Pruszcz Gdański|2015-10-26
+623|34271/36/3859|Shannon|Saxton|Pruszcz Gdański|2020-09-12
+624|17205/47/0633|Beatrice|Johnson|Pruszcz Gdański|2021-05-07
+625|31136/10/0535|Brian|Potter|Pruszcz Gdański|2022-03-21
+626|64140/85/8540|Jim|Lester|Kwidzyn|2013-04-05
+627|82015/74/3803|Amanda|Flores|Sopot|2022-10-09
+628|09095/50/9184|Jennifer|Faust|Pruszcz Gdański|2022-02-04
+629|65575/78/7722|John|Penny|Gdynia|2020-11-05
+630|72903/09/3408|Michael|Morales|Malbork|2013-04-04
+631|58236/53/1605|Melissa|Holz|Sopot|2018-07-22
+632|02673/42/0359|Jo|Trout|Starogard Gdański|2014-10-17
+633|67598/46/5306|Seth|Gump|Chojnice|2014-05-09
+634|04985/54/5563|Kenneth|Trinh|Sopot|2023-03-23
+635|66888/32/0166|Gene|Hayes|Tczew|2014-01-04
+636|95787/83/6967|Genevie|Ellis|Pruszcz Gdański|2020-09-30
+637|06131/10/6974|George|Williams|Gdańsk|2018-09-22
+638|00724/98/6971|William|Colella|Chojnice|2015-12-09
+639|72196/66/4441|Jean|Howard|Pruszcz Gdański|2016-02-27
+640|53637/16/4486|John|Todd|Pruszcz Gdański|2020-08-16
+641|76019/06/0348|Eva|Duckworth|Rumia|2017-10-13
+642|40404/96/5294|Daisy|Coleman|Starogard Gdański|2018-01-11
+643|11052/41/2857|Pamela|Mendes|Słupsk|2016-06-10
+644|15075/87/1848|Russell|Crowley|Gdańsk|2015-04-26
+645|07810/96/2387|Howard|Hart|Kwidzyn|2020-08-11
+646|24748/68/3930|Agnes|Smith|Bytów|2023-12-21
+647|63557/99/3870|Brandie|Morales|Kościerzyna|2014-11-08
+648|15774/98/0418|Edward|Cox|Sopot|2020-10-31
+649|01599/47/0920|Mary|Short|Kartuzy|2016-08-11
+650|36323/84/4894|Terry|Reimer|Lębork|2020-04-29
+651|07193/96/3359|Michael|Sharp|Lębork|2017-05-17
+652|66271/05/9009|Jeffrey|Lazarus|Rumia|2023-11-27
+653|30502/18/9646|Paul|Frith|Malbork|2021-09-19
+654|36013/50/3695|Gary|Burke|Kwidzyn|2021-09-26
+655|47944/01/6600|Howard|Forney|Tczew|2023-09-02
+656|27699/86/9597|Mary|King|Lębork|2022-06-12
+657|64780/46/6401|Ronald|Burns|Ustka|2023-03-29
+658|00569/34/9238|Rita|Romero|Pruszcz Gdański|2020-11-18
+659|27762/82/1552|Mildred|Higgs|Kwidzyn|2018-06-11
+660|86510/58/5317|Doris|Falls|Wejherowo|2022-09-17
+661|79234/77/1162|Henry|Fox|Wejherowo|2015-05-12
+662|39972/29/6251|Eugene|Premo|Malbork|2017-01-15
+663|52295/92/2291|Catherine|Pita|Wejherowo|2022-07-03
+664|34150/92/9236|Marilyn|Romaniak|Kościerzyna|2022-11-06
+665|37718/30/1195|Mary|Jensen|Kartuzy|2018-10-13
+666|45250/64/5882|Johnson|Costa|Reda|2021-02-17
+667|36982/81/2163|Sarah|Cupp|Ustka|2021-06-08
+668|05118/21/8538|Claude|Covington|Słupsk|2015-10-16
+669|61189/12/6231|Elaine|Oliver|Lębork|2022-10-21
+670|78949/02/8345|John|Crum|Tczew|2014-07-11
+671|58554/32/0578|Della|Copeland|Reda|2023-10-29
+672|90782/82/0959|Matthew|Calles|Tczew|2022-02-13
+673|24810/99/2583|Carol|Lightfoot|Pruszcz Gdański|2022-10-02
+674|50351/08/2351|Robert|Ramirez|Lębork|2018-07-28
+675|02379/73/8897|Callie|Tucker|Chojnice|2020-05-07
+676|98255/79/8770|Patrick|Carpenter|Starogard Gdański|2021-03-04
+677|65564/74/0649|James|Thomas|Rumia|2017-10-12
+678|40449/03/1476|Charles|Krupa|Sopot|2018-10-12
+679|99405/06/5475|Vicki|Rooks|Ustka|2023-02-17
+680|95991/51/4884|Travis|Reed|Gdańsk|2017-11-29
+681|96071/58/0094|Matthew|Caron|Malbork|2023-08-10
+682|60403/20/1340|Thomas|Peterson|Gdynia|2021-02-11
+683|46458/34/6436|Jerry|Jozwick|Kartuzy|2022-10-06
+684|21476/90/6376|Marvin|Boone|Sopot|2020-12-18
+685|58384/12/1828|Loretta|Terry|Kartuzy|2023-06-18
+686|69619/88/1286|Mary|Johnson|Pruszcz Gdański|2020-11-08
+687|39240/06/3445|Leonard|Pannenbacker|Kartuzy|2022-06-21
+688|05106/54/5461|Lesli|Goods|Tczew|2023-02-02
+689|91273/89/0532|Mary|Tolbert|Ustka|2023-01-26
+690|75170/71/1258|Alex|Morris|Rumia|2014-02-24
+691|86235/71/6644|William|Peebles|Rumia|2018-12-01
+692|94465/52/9174|Sylvia|Burney|Gdynia|2019-04-10
+693|64770/51/7702|Thomas|Potts|Gdańsk|2024-01-10
+694|08711/58/0997|Mary|Vecker|Lębork|2017-10-30
+695|24123/40/8536|Angela|Castro|Wejherowo|2023-01-29
+696|68614/58/8610|Debbie|Mauffray|Lębork|2020-02-04
+697|57455/41/1647|Isabel|Davis|Malbork|2020-12-28
+698|85697/71/6455|Dorothy|Williams|Kościerzyna|2013-01-23
+699|50817/41/1480|Sheila|Bisson|Kwidzyn|2022-11-28
+700|85258/23/8296|Jennie|Olson|Sopot|2013-06-29
+701|05144/68/1689|Michael|Mcdonald|Słupsk|2019-07-13
+702|15956/53/5901|Marilyn|Gillis|Wejherowo|2023-06-15
+703|83717/86/0777|Eula|Morgan|Wejherowo|2018-04-25
+704|62890/99/0810|Kyle|Stevens|Bytów|2016-10-18
+705|19659/52/5305|Sarah|Rosel|Chojnice|2023-11-09
+706|63234/16/2268|Daniel|Obrien|Gdańsk|2021-04-12
+707|80223/10/2090|Tenesha|Dockery|Ustka|2020-11-24
+708|26370/19/3525|Howard|Holtzclaw|Słupsk|2021-11-16
+709|46866/50/1651|Douglas|Huynh|Sopot|2022-12-15
+710|88298/45/3857|Jose|Swanson|Bytów|2023-03-31
+711|13786/15/0416|Ralph|Smith|Gdynia|2021-09-03
+712|55078/23/4094|Donna|Nelson|Kościerzyna|2018-06-29
+713|85621/61/1081|Juanita|Williams|Gdańsk|2020-09-22
+714|19296/58/7109|Robert|Davis|Chojnice|2013-04-04
+715|55155/24/5099|Steven|Anderson|Ustka|2023-11-27
+716|83726/65/5251|Lance|Steele|Słupsk|2020-12-30
+717|85289/65/9875|Jenny|Borgia|Słupsk|2023-08-16
+718|61184/42/0981|Jennifer|Bailey|Lębork|2015-09-16
+719|09422/61/6549|Maxwell|Bass|Słupsk|2015-09-06
+720|24963/79/0621|Karen|Baltimore|Starogard Gdański|2022-04-19
+721|60804/78/0660|Patricia|Roe|Gdańsk|2014-06-05
+722|78452/19/7566|David|Rayburn|Bytów|2018-02-06
+723|48064/72/7881|Millard|Barrow|Reda|2016-12-13
+724|18976/08/9236|Leon|Hamlin|Sopot|2015-11-06
+725|31381/53/1821|Lola|Rodriguez|Słupsk|2017-01-05
+726|61978/38/0146|Albert|Shockley|Malbork|2021-07-13
+727|64227/68/7897|Robert|Negron|Wejherowo|2021-06-09
+728|02055/22/6448|Michael|Clark|Kościerzyna|2020-06-10
+729|57236/43/8448|John|Newberg|Kościerzyna|2023-04-29
+730|64883/60/0966|Jeri|Hammer|Pruszcz Gdański|2016-11-11
+731|36579/91/1126|Mark|Bremer|Tczew|2023-10-22
+732|32898/92/7724|Theresa|Paul|Kwidzyn|2020-07-29
+733|95554/04/6611|Lawrence|Koch|Pruszcz Gdański|2020-05-18
+734|96657/79/4233|Bonnie|Danforth|Kartuzy|2017-04-13
+735|90837/61/1274|Amber|Duarte|Malbork|2016-12-15
+736|86814/75/4684|Kyla|Pearce|Rumia|2021-01-29
+737|81834/65/3889|Margaret|Hudson|Słupsk|2022-03-08
+738|10810/73/8180|Frederick|Fontenot|Tczew|2022-06-01
+739|88611/34/2956|Anthony|Mcgeeney|Rumia|2015-03-03
+740|73116/21/2081|Addie|Anderson|Pruszcz Gdański|2022-09-02
+741|59303/90/1291|Jean|Smith|Ustka|2020-05-31
+742|75883/20/3636|Lawrence|Dubard|Słupsk|2021-12-21
+743|00720/46/4859|Judy|Anderson|Słupsk|2023-05-28
+744|21111/72/5154|Alvin|Ferris|Tczew|2017-03-09
+745|65464/13/9193|John|Anderson|Reda|2018-04-09
+746|98509/72/8328|Dwayne|Amaral|Chojnice|2021-11-03
+747|01526/64/4036|Antoine|Boozer|Bytów|2017-10-02
+748|69910/27/3985|Ruth|Yancey|Gdynia|2019-02-11
+749|95932/32/6212|Edward|Thresher|Wejherowo|2023-11-12
+750|81247/74/5973|Mike|West|Gdańsk|2015-04-25
+751|91760/83/1227|Ronald|Aurand|Starogard Gdański|2021-04-26
+752|44368/71/6576|David|Bradley|Kościerzyna|2023-08-07
+753|94806/67/5147|Jack|Kennedy|Wejherowo|2018-11-15
+754|39150/28/5706|James|Murphrey|Gdańsk|2021-12-02
+755|03796/16/5834|Kirstin|Boulware|Kartuzy|2016-12-08
+756|04071/54/3030|Homer|Rickley|Tczew|2016-05-16
+757|25409/82/4346|George|Proudfoot|Malbork|2020-12-27
+758|67428/96/8720|Jessica|Shirey|Kartuzy|2023-03-02
+759|71301/75/3036|Ruth|Hill|Gdynia|2020-10-04
+760|17301/34/4255|Janet|Whitney|Kartuzy|2016-06-10
+761|65359/70/5243|Ethel|Findlay|Kwidzyn|2023-03-19
+762|91587/60/7648|Christopher|Rosen|Lębork|2016-08-31
+763|24602/61/6066|Daniel|Pennington|Reda|2023-07-02
+764|54901/40/7414|Jeffrey|Larson|Tczew|2019-10-05
+765|52755/92/7185|Clinton|Higa|Wejherowo|2021-03-30
+766|90971/26/8467|Sidney|Hersh|Reda|2017-10-15
+767|88055/29/6867|Martha|Canclini|Pruszcz Gdański|2019-08-04
+768|67308/09/3585|Heather|Padilla|Starogard Gdański|2017-06-09
+769|35641/18/6135|Frances|Burton|Tczew|2019-03-04
+770|02089/20/6906|Gisela|Fox|Gdynia|2021-11-19
+771|72500/37/7301|Darren|Sullivan|Bytów|2013-08-04
+772|86241/64/0390|Allen|Case|Pruszcz Gdański|2023-08-27
+773|69585/72/1015|Amalia|Jimenez|Ustka|2021-07-23
+774|18202/25/2772|John|Stephens|Sopot|2021-04-23
+775|58917/04/2578|Diane|People|Tczew|2014-08-16
+776|01289/46/4160|Virginia|Rocque|Bytów|2015-02-15
+777|35684/72/1131|Lynda|Carter|Słupsk|2022-10-24
+778|95957/24/0379|Amy|Wessells|Gdańsk|2022-12-25
+779|10914/80/5630|Russel|Leahy|Malbork|2021-06-22
+780|99226/96/8180|Emily|Grandfield|Reda|2017-02-13
+781|87460/51/7104|Robert|Arnold|Tczew|2016-11-17
+782|05916/91/5166|Isabel|Webster|Gdańsk|2019-02-22
+783|98975/66/2591|Joseph|Campbell|Malbork|2020-10-24
+784|79041/49/8110|Josephine|Davis|Bytów|2021-09-14
+785|88821/47/8020|Jerry|Donnelson|Starogard Gdański|2022-07-26
+786|36125/27/7460|Christine|Stgeorge|Malbork|2019-01-11
+787|98214/50/5032|Rubie|Knuth|Starogard Gdański|2022-06-05
+788|54740/42/8898|Damaris|Smith|Tczew|2019-10-09
+789|35269/67/2397|Kerry|Campos|Reda|2014-12-12
+790|31304/34/1925|Daniel|Lacuesta|Chojnice|2019-03-03
+791|67549/94/4481|George|Hao|Reda|2018-01-06
+792|84890/15/2581|Kevin|Renfrow|Sopot|2020-12-22
+793|12214/00/4280|Ted|Cummings|Sopot|2013-07-18
+794|02976/45/2856|Adam|Daum|Sopot|2021-09-21
+795|71092/30/4161|Jesus|Kelly|Gdańsk|2023-01-25
+796|28623/11/6261|Gertrude|Workman|Starogard Gdański|2023-08-11
+797|98599/97/2063|Tanya|Wright|Gdynia|2019-06-22
+798|45430/33/7479|Mary|Failor|Bytów|2020-01-24
+799|07814/57/3352|Linda|Manuel|Gdynia|2015-02-14
+800|24368/27/4789|Greg|Dessert|Starogard Gdański|2020-12-19
+801|84101/96/4739|Paula|Bosak|Tczew|2022-01-29
+802|68967/75/9778|Janna|King|Kartuzy|2022-04-09
+803|75401/96/8276|Larry|Johansen|Tczew|2013-04-17
+804|45090/59/9332|Glenn|Horrocks|Reda|2021-02-11
+805|84324/66/7531|Patrick|Wilson|Kwidzyn|2022-03-27
+806|64000/95/3374|Russell|Gagnon|Kościerzyna|2017-12-16
+807|91871/72/3609|Hazel|Fulton|Malbork|2020-12-13
+808|15013/12/1611|Emma|Oconnor|Chojnice|2023-06-01
+809|85979/57/8295|Renee|Hart|Pruszcz Gdański|2022-04-02
+810|59469/94/0539|David|Castaneda|Malbork|2014-03-01
+811|40786/89/7579|Robert|Barnette|Gdynia|2021-01-04
+812|00933/85/8510|Frank|France|Ustka|2020-05-14
+813|87565/84/7356|Daniel|Weiss|Kwidzyn|2022-11-26
+814|30766/66/7501|William|Lacour|Pruszcz Gdański|2023-08-02
+815|74542/12/7831|Margie|Grossman|Słupsk|2014-04-28
+816|53423/47/6204|Janine|Freeman|Chojnice|2015-01-08
+817|99154/75/4093|Rosemary|Rios|Malbork|2018-09-20
+818|58400/33/6579|James|Rosboril|Bytów|2017-04-13
+819|35261/08/3693|Brett|Rogers|Malbork|2016-11-11
+820|29342/58/4206|Darren|Snead|Bytów|2013-09-07
+821|55952/02/9681|Robert|Branhan|Wejherowo|2021-09-22
+822|53100/49/4130|Joseph|Goldstein|Gdańsk|2022-05-14
+823|11921/08/9768|Dennis|Shellenberger|Sopot|2014-05-03
+824|49894/16/0764|Bernice|Clendenin|Ustka|2020-12-04
+825|32923/64/7103|Steven|Thompson|Pruszcz Gdański|2021-09-03
+826|62308/63/7005|William|Desir|Tczew|2013-07-28
+827|32950/31/1888|Carl|Davis|Bytów|2016-01-12
+828|20253/14/8108|Jason|Mcdowell|Wejherowo|2020-07-14
+829|72400/66/2124|Cynthia|Gleason|Sopot|2019-02-01
+830|87005/83/0244|Grace|Knight|Gdańsk|2017-02-11
+831|78213/25/6916|Rosemary|Robeson|Gdańsk|2013-08-17
+832|65050/67/9481|Barbara|Tague|Gdynia|2016-06-16
+833|55835/90/1775|Kathy|Rivera|Kartuzy|2023-09-08
+834|90920/71/7988|James|Mills|Kościerzyna|2020-12-21
+835|23344/76/3319|Dustin|Bunch|Reda|2020-02-24
+836|09357/91/9449|Freddie|Duplessis|Sopot|2022-01-15
+837|59898/42/2950|Marc|Ponce|Rumia|2020-08-17
+838|10086/46/6840|Garry|Diaz|Kwidzyn|2022-05-24
+839|35456/04/9188|Michael|Kammerer|Słupsk|2023-08-31
+840|14572/26/5840|Patrick|Miner|Rumia|2020-05-03
+841|17879/15/1283|Melanie|Bryant|Kwidzyn|2022-09-30
+842|84014/87/0357|Steven|Beckwith|Pruszcz Gdański|2020-11-17
+843|16164/59/4267|Laurie|Erickson|Kartuzy|2021-07-08
+844|81819/77/3616|January|Dean|Gdańsk|2023-02-18
+845|00439/11/5326|Claudia|Bowles|Chojnice|2023-01-12
+846|42190/02/0461|Tonya|Gaudet|Rumia|2015-02-25
+847|71683/35/7949|William|Reid|Chojnice|2020-03-28
+848|24886/25/0777|Deborah|Crane|Gdańsk|2016-01-08
+849|99260/64/9291|Betty|Matty|Chojnice|2020-01-13
+850|25355/25/5337|Imogene|Seamans|Lębork|2019-09-01
+851|33864/03/2643|Marcus|Ide|Lębork|2016-10-27
+852|16147/60/8383|Rose|Aranda|Gdynia|2022-05-25
+853|96216/99/2065|Amber|Meagher|Gdańsk|2021-08-27
+854|27865/63/8035|Melissa|Blake|Słupsk|2023-09-23
+855|03447/23/9126|Paul|Wiggins|Kościerzyna|2016-07-06
+856|80041/02/4318|Kathryn|Mccrea|Malbork|2017-08-05
+857|13673/39/4530|Eleanor|Hildreth|Kościerzyna|2022-12-18
+858|76964/16/8681|Russell|Ross|Pruszcz Gdański|2016-07-10
+859|11072/10/9300|Krystal|Shifflett|Ustka|2021-02-01
+860|55328/67/4769|Melanie|Stephany|Lębork|2015-02-12
+861|57756/82/9951|Johnny|Wilkinson|Ustka|2022-02-12
+862|49658/65/2865|Paul|Morgret|Bytów|2017-08-31
+863|29510/05/8000|Stephen|Schmidt|Reda|2017-04-06
+864|29760/41/3512|Beth|Mendoza|Kwidzyn|2019-01-31
+865|34975/70/2255|Stephen|Sappington|Kwidzyn|2017-12-13
+866|62600/83/7412|Stephen|Hall|Gdańsk|2021-10-16
+867|89158/94/7643|Jayne|Horton|Pruszcz Gdański|2015-04-13
+868|35210/76/8275|Pat|Mcpeake|Pruszcz Gdański|2021-08-18
+869|51442/15/3633|Antoinette|Pickles|Ustka|2021-07-01
+870|50219/88/9457|Mary|Woods|Reda|2017-11-26
+871|67964/68/4409|Julie|Smith|Bytów|2018-09-27
+872|71650/68/5386|Michael|Obrien|Wejherowo|2022-12-19
+873|33424/35/6901|Patrick|Dorey|Starogard Gdański|2014-12-05
+874|33795/32/2474|Arthur|Gray|Rumia|2022-04-19
+875|68264/66/9429|Marcus|Vargas|Tczew|2014-07-13
+876|64037/14/4575|Steven|Arenas|Kościerzyna|2013-07-13
+877|85104/24/5906|Richard|Osborn|Gdynia|2014-06-12
+878|71729/19/0642|Ilana|Hockaday|Pruszcz Gdański|2020-06-13
+879|66557/48/7636|Herbert|Cherry|Tczew|2021-02-01
+880|18129/60/2464|Zulema|Sams|Malbork|2018-03-07
+881|74265/07/9627|Helen|Johnson|Słupsk|2013-02-06
+882|97166/40/4613|Graham|Henderson|Gdańsk|2014-03-10
+883|90455/41/0286|Betty|Carter|Słupsk|2019-12-07
+884|68809/55/7510|Naomi|Roldan|Kościerzyna|2018-04-18
+885|72528/93/7439|Kenneth|Keeton|Kościerzyna|2015-12-03
+886|16169/29/7791|Raymond|Gow|Chojnice|2019-12-12
+887|20395/11/3518|Cornelia|Kerr|Kwidzyn|2013-09-12
+888|69924/91/0789|Ida|Shulz|Kartuzy|2023-10-26
+889|15971/65/2226|Rachel|Gallagher|Wejherowo|2022-12-18
+890|34372/47/5006|Jeffrey|Horstmann|Wejherowo|2021-12-13
+891|38856/36/9343|William|Moon|Rumia|2013-10-06
+892|09474/70/6470|Shane|Cohen|Bytów|2023-05-18
+893|89214/71/5479|Donna|Roach|Starogard Gdański|2018-09-23
+894|45962/81/6513|Rafael|Sykes|Kościerzyna|2015-10-13
+895|20217/68/2117|Wayne|Pettiway|Rumia|2020-11-22
+896|97725/53/5929|James|Thomes|Malbork|2023-07-24
+897|57839/54/3377|Jack|Speed|Bytów|2020-07-12
+898|60106/27/6455|Roberto|Holly|Gdynia|2018-10-09
+899|39164/38/3707|Leonard|Randolph|Wejherowo|2020-01-18
+900|76431/35/9892|Kristine|Hill|Gdańsk|2015-11-07
+901|46510/40/5072|Bradley|Miller|Starogard Gdański|2015-11-03
+902|73673/49/3661|Judith|Zodrow|Reda|2023-09-20
+903|66770/46/9902|Keith|Henderson|Kościerzyna|2017-02-11
+904|28325/53/4311|Cheryl|Hass|Starogard Gdański|2016-11-13
+905|68522/51/4859|Chloe|Salvador|Kwidzyn|2023-04-25
+906|86334/82/5737|Christopher|Elliott|Kwidzyn|2019-11-20
+907|39613/34/8467|Esther|Neely|Rumia|2023-07-22
+908|19202/49/3740|Scott|Garcia|Tczew|2023-03-07
+909|02864/28/8370|Benita|Cameron|Tczew|2014-02-04
+910|20811/62/8063|Aubrey|Wilson|Wejherowo|2013-10-15
+911|71346/16/4968|Julie|Mansfield|Gdańsk|2021-08-06
+912|16379/94/8265|Bridgette|Austin|Tczew|2023-07-30
+913|94922/54/1763|Brent|Baumgardner|Ustka|2018-05-03
+914|06889/50/2460|Lisa|Johnson|Kartuzy|2023-03-22
+915|24359/17/2956|Sherri|Warren|Tczew|2021-07-20
+916|76276/93/3917|Shirlee|Lynch|Bytów|2017-10-29
+917|40277/38/9083|Barbara|Turner|Malbork|2014-05-30
+918|10497/28/5557|Michael|Reid|Kartuzy|2021-09-21
+919|61775/60/8432|Kimberly|Cola|Ustka|2014-10-25
+920|36790/54/4063|Albert|Stender|Rumia|2020-03-23
+921|67786/23/0216|Dana|Krane|Malbork|2022-05-23
+922|09331/68/8327|Mae|Lewis|Rumia|2022-02-23
+923|98055/82/3003|Mary|Wertheimer|Sopot|2016-02-09
+924|09799/82/1945|Sonia|Best|Kwidzyn|2013-04-09
+925|96935/08/0887|David|Press|Kwidzyn|2016-05-16
+926|89041/79/1352|Frances|Parr|Słupsk|2023-07-10
+927|27766/48/8777|Roberto|Saldivar|Słupsk|2015-06-26
+928|26969/83/6964|Wallace|Burton|Malbork|2020-08-20
+929|94557/36/9813|Luke|Perkins|Wejherowo|2014-06-02
+930|03531/29/9070|Arthur|Walker|Sopot|2023-07-08
+931|80541/13/0332|Jeffrey|Harding|Wejherowo|2022-11-09
+932|32282/65/3124|Andrew|Faire|Lębork|2019-10-20
+933|03584/85/8608|Mitchell|Rohrbacher|Słupsk|2022-04-17
+934|80554/30/0594|Joy|Hedrick|Kwidzyn|2023-04-29
+935|20368/59/1475|Rose|Malton|Gdynia|2016-04-14
+936|86462/11/2802|Rafael|Heath|Bytów|2021-08-23
+937|64923/07/2960|Carla|Mayweather|Słupsk|2023-06-20
+938|49654/27/9192|Patrick|Gray|Słupsk|2016-02-04
+939|09005/66/0902|Henry|Winter|Kartuzy|2014-11-27
+940|72949/89/5865|Alexander|Valdes|Słupsk|2019-05-28
+941|58494/99/3164|Ian|Sherman|Tczew|2022-01-03
+942|18327/13/7127|Leroy|Snider|Wejherowo|2022-05-27
+943|92299/66/9093|James|Edwards|Kościerzyna|2017-01-27
+944|55700/66/5833|Jeff|Curtice|Pruszcz Gdański|2021-10-21
+945|23999/43/5431|Brittany|Jones|Bytów|2022-08-12
+946|25292/96/7196|Ruth|Kamiya|Pruszcz Gdański|2023-03-02
+947|04628/44/4343|Linda|Montes|Malbork|2023-04-09
+948|53953/25/4482|Eloise|West|Gdańsk|2021-11-12
+949|82913/28/6906|Penny|Shaffer|Sopot|2022-06-29
+950|18986/54/9314|Roger|Campbell|Tczew|2023-04-16
+951|27301/77/0500|Brenda|Foree|Kwidzyn|2016-03-21
+952|55974/80/1350|Elizabeth|Box|Kościerzyna|2015-10-24
+953|14469/53/7710|Marcus|Landers|Słupsk|2017-06-25
+954|21688/67/5187|Adela|Wheeler|Kościerzyna|2020-01-04
+955|52959/07/0664|Joseph|Mcintosh|Kartuzy|2014-12-02
+956|55205/36/8260|Anthony|Jewett|Starogard Gdański|2013-04-15
+957|81420/61/2210|Lauren|Rael|Chojnice|2013-10-08
+958|92580/91/9652|Kurt|Thompson|Rumia|2013-02-27
+959|46124/77/9126|Chris|Smith|Wejherowo|2023-11-06
+960|53121/68/5854|Wilhelmina|Gonzales|Gdynia|2019-01-24
+961|90641/84/2110|Rickey|Smith|Malbork|2021-07-30
+962|54723/12/9263|Jessica|Sawyer|Chojnice|2021-05-29
+963|92624/43/8079|Mittie|Mummey|Chojnice|2014-01-19
+964|27885/10/0050|Gary|Pickett|Pruszcz Gdański|2015-07-18
+965|97361/28/5894|George|Green|Ustka|2016-08-28
+966|72417/34/4622|Lindy|Taylor|Rumia|2019-08-21
+967|70453/89/3362|Dee|Delcolle|Bytów|2021-10-28
+968|64288/17/0904|Troy|Wilson|Malbork|2021-04-29
+969|99114/46/8287|Thomas|Heath|Tczew|2020-12-05
+970|06719/94/7258|Joseph|Walters|Malbork|2021-06-04
+971|46312/45/5922|Moises|Porter|Chojnice|2014-02-03
+972|04830/41/2117|Addie|Matheny|Wejherowo|2013-03-02
+973|82295/53/0989|Bessie|Aikman|Tczew|2020-12-09
+974|26092/33/7517|Thomas|Mcgee|Pruszcz Gdański|2021-08-10
+975|88149/44/6496|Samuel|Jaimes|Starogard Gdański|2020-04-03
+976|74707/01/6592|Jason|Chapman|Wejherowo|2022-03-30
+977|89671/59/2381|Glenn|Arellano|Kościerzyna|2018-07-01
+978|10792/95/7750|Karla|Alvarez|Kartuzy|2013-03-04
+979|91530/03/7719|Mildred|Shackford|Sopot|2013-03-11
+980|67064/68/3853|Anne|Singleton|Bytów|2023-07-19
+981|41823/53/4051|Michael|Duncan|Starogard Gdański|2021-08-07
+982|91007/37/8026|Rose|Moran|Kwidzyn|2023-03-17
+983|61546/21/2190|Soledad|Sheridan|Kwidzyn|2015-09-22
+984|75416/22/8431|Kenneth|Beers|Lębork|2023-01-03
+985|89318/12/3689|Tricia|Reiher|Pruszcz Gdański|2019-09-20
+986|31346/27/3433|Chung|Lowery|Kościerzyna|2018-06-28
+987|66862/01/5595|Richard|Murphy|Kościerzyna|2022-11-04
+988|45597/59/4621|Louis|Cradle|Gdańsk|2013-08-18
+989|77472/23/4442|Esther|Coppa|Kwidzyn|2014-04-20
+990|84577/33/9653|Toney|Simms|Tczew|2017-08-29
+991|41563/60/2213|Patricia|James|Kartuzy|2023-01-30
+992|19970/95/3920|Anthony|Holdman|Bytów|2022-06-29
+993|70714/31/6436|Shirley|Johnston|Reda|2023-06-24
+994|63244/01/7366|Joshua|Avent|Tczew|2022-02-21
+995|79397/11/1842|Sean|Goodall|Lębork|2021-11-01
+996|87055/06/5440|Ivan|Immediato|Bytów|2020-03-22
+997|67817/92/1313|James|Duppstadt|Bytów|2016-04-30
+998|12686/66/8527|Connie|Casey|Starogard Gdański|2017-06-04
+999|43934/33/3532|Nicholas|Dodd|Malbork|2021-06-09
+1000|90360/52/9873|Anna|Sass|Rumia|2015-06-08
+1001|10168/87/0978|Elsa|Taylor|Gdynia|2022-09-28
+1002|34378/02/5888|Earl|Hinish|Rumia|2019-01-07
+1003|13283/54/9203|Hazel|Irizarry|Rumia|2019-06-08
+1004|81735/26/2901|Casey|Fretwell|Lębork|2015-05-25
+1005|79035/01/9919|Helen|Gagnon|Słupsk|2016-06-11
+1006|85385/98/7172|Michael|Campbell|Reda|2023-01-30
+1007|58630/84/9727|Grace|Nickelson|Tczew|2020-09-12
+1008|11230/65/0115|Richard|Perry|Bytów|2017-10-10
+1009|33262/88/8482|Pamela|Cullen|Gdynia|2019-10-23
+1010|25258/26/0166|Bridget|Daniel|Malbork|2020-08-05
+1011|17012/45/0364|Shad|Silva|Kwidzyn|2015-02-20
+1012|55565/18/6695|Ashley|Southard|Kwidzyn|2023-04-14
+1013|49078/63/6244|Elizabeth|Poloskey|Chojnice|2021-02-21
+1014|71815/67/2703|Jimmie|Edwards|Starogard Gdański|2014-01-31
+1015|19377/43/4428|Lori|Lassiter|Kartuzy|2023-01-12
+1016|93044/37/2993|Annie|Sanders|Kościerzyna|2013-10-18
+1017|11042/25/8471|Gary|Carmichael|Wejherowo|2021-09-16
+1018|10466/62/7174|Barbara|Eyer|Wejherowo|2018-07-29
+1019|80773/40/1529|Robert|Richardson|Reda|2013-01-26
+1020|14789/23/5848|Patricia|Bray|Reda|2017-09-10
+1021|80880/80/1254|Bret|Knighton|Lębork|2015-10-15
+1022|06155/92/0478|Patricia|Larson|Słupsk|2020-10-30
+1023|69079/91/4186|Evelyn|Floyd|Słupsk|2016-11-30
+1024|91645/52/9920|William|Carwile|Bytów|2013-04-25
+1025|63296/06/8707|Jennifer|Estevez|Wejherowo|2013-10-16
+1026|61656/25/1819|Carlos|Williams|Gdynia|2019-08-22
+1027|89462/76/4480|Cathleen|Jones|Tczew|2021-01-29
+1028|72497/75/6461|Ruby|Craig|Tczew|2022-05-29
+1029|19045/94/9824|Barbara|Herron|Ustka|2021-10-31
+1030|06224/95/3723|Douglas|Williams|Bytów|2021-08-09
+1031|23619/93/1260|Jacob|Douglas|Lębork|2019-12-19
+1032|11227/43/9209|Jeffrey|Jenkins|Bytów|2023-03-31
+1033|63674/57/1827|Benny|Johnson|Wejherowo|2022-06-27
+1034|52891/98/9496|Joel|Zins|Gdynia|2022-02-02
+1035|26802/49/7679|Stephanie|Austin|Bytów|2020-01-26
+1036|24779/94/8171|Sherry|Bellows|Wejherowo|2019-04-09
+1037|40041/69/0896|Melissa|Turner|Sopot|2013-08-06
+1038|08955/37/6471|Richard|Vinson|Lębork|2022-03-27
+1039|52352/52/2923|Patricia|Lee|Słupsk|2016-09-04
+1040|75270/27/8585|Paul|Flowers|Pruszcz Gdański|2014-02-22
+1041|20900/84/2901|Anthony|Randle|Kartuzy|2013-06-12
+1042|90790/81/8638|Maria|Fritcher|Bytów|2014-05-30
+1043|80483/87/9157|Michelle|Thompson|Bytów|2013-09-22
+1044|37137/85/4140|Tanisha|Boxx|Wejherowo|2020-03-27
+1045|65192/98/9691|Helen|Hauptman|Wejherowo|2017-06-26
+1046|25150/85/2015|Nancy|Delapp|Sopot|2023-06-09
+1047|37756/51/3181|Cheryl|Hicks|Lębork|2020-04-28
+1048|20488/21/3930|David|Bohannon|Kwidzyn|2021-06-19
+1049|06094/78/7078|Stuart|Dammeyer|Reda|2022-11-23
+1050|97145/85/2395|Sara|Scott|Słupsk|2018-07-22
+1051|85095/66/9257|Mac|Riddle|Malbork|2016-08-08
+1052|14321/04/0284|Herschel|Ortiz|Gdynia|2020-05-20
+1053|32632/45/3415|Sophie|Gibson|Pruszcz Gdański|2016-11-19
+1054|60615/78/3677|Richard|Mccarthy|Gdynia|2023-10-13
+1055|36877/80/7307|Mary|Goff|Chojnice|2017-03-16
+1056|16577/93/4275|Pamela|Dimas|Kartuzy|2013-01-06
+1057|96909/98/3308|Clifford|Knapp|Ustka|2016-08-08
+1058|88985/68/5036|William|Hricko|Słupsk|2023-01-15
+1059|24839/09/8733|Dollie|Rawlings|Tczew|2013-03-08
+1060|17953/26/4686|Robert|Miller|Sopot|2015-06-29
+1061|70694/90/4456|Maxine|Koch|Lębork|2023-06-03
+1062|94404/50/4354|Ron|Mcgill|Tczew|2021-08-20
+1063|77330/84/1930|Roger|Glenn|Sopot|2014-07-18
+1064|00893/21/6533|Erma|Powell|Bytów|2020-12-11
+1065|08177/31/4064|Shana|Mertes|Sopot|2023-07-23
+1066|25753/34/5714|Shirley|Rodriquez|Sopot|2017-03-24
+1067|43782/94/0133|Steven|Callaghan|Kwidzyn|2014-07-12
+1068|85257/43/3214|Nelson|Young|Kartuzy|2016-06-29
+1069|65145/49/8146|Benny|Bell|Pruszcz Gdański|2021-09-26
+1070|92078/13/9335|Ouida|Jones|Ustka|2022-11-03
+1071|24129/01/0792|Thomas|Knight|Gdańsk|2015-07-31
+1072|26823/57/0299|Randy|Santos|Wejherowo|2017-10-22
+1073|57962/49/5880|John|Fitzgerald|Sopot|2017-08-21
+1074|99542/19/8708|Michael|Foss|Kwidzyn|2021-03-19
+1075|87779/40/6151|Douglas|Gutierrez|Ustka|2013-08-14
+1076|98145/03/8755|Bruce|Smith|Reda|2016-12-08
+1077|26600/55/6440|Henry|Trafton|Pruszcz Gdański|2019-06-04
+1078|67284/06/7996|Fred|Wheeler|Chojnice|2017-12-22
+1079|42470/71/4097|Rosemary|Schmidt|Gdańsk|2019-12-15
+1080|72202/94/0002|Kenneth|Hamilton|Wejherowo|2020-09-27
+1081|55209/39/3007|Debra|Jones|Ustka|2018-09-25
+1082|56359/18/1189|James|King|Bytów|2015-03-12
+1083|60159/27/1809|Nancy|Strate|Tczew|2022-10-05
+1084|90802/66/6017|Julie|Fors|Reda|2021-07-25
+1085|30748/74/3450|Ruth|Hastings|Sopot|2020-10-15
+1086|04645/16/8728|Frances|Bright|Bytów|2023-02-16
+1087|59700/71/3184|Linda|Fondren|Starogard Gdański|2021-10-14
+1088|04277/45/5631|John|Greene|Pruszcz Gdański|2021-12-11
+1089|83836/06/8178|Gary|Tisdale|Bytów|2015-03-08
+1090|62276/19/0378|Alice|Smallwood|Słupsk|2019-02-28
+1091|63511/17/1786|Susan|Brunet|Lębork|2019-05-19
+1092|57109/10/6227|Felix|Gonzales|Rumia|2021-01-11
+1093|86057/76/7965|Mary|Liao|Kościerzyna|2018-04-02
+1094|92365/65/7774|Dave|Russell|Reda|2017-09-10
+1095|39147/17/8944|Curt|Mulcahy|Pruszcz Gdański|2020-09-15
+1096|60657/97/7838|George|Moynihan|Tczew|2023-09-17
+1097|19173/14/3344|William|Rowles|Gdynia|2017-06-08
+1098|14557/51/9489|John|Steinberg|Kartuzy|2023-08-15
+1099|23229/81/6385|Brian|Graham|Wejherowo|2017-09-18
+1100|94090/39/0528|Martha|Kay|Pruszcz Gdański|2021-11-03
+1101|89527/20/8506|Craig|Gonzalez|Tczew|2020-10-21
+1102|83697/99/9747|Jennifer|Holton|Kartuzy|2023-08-22
+1103|97190/14/5100|John|Heinrich|Bytów|2022-03-12
+1104|87489/43/8346|Ronald|Larock|Tczew|2020-02-20
+1105|69907/43/7390|Michelle|Schrader|Starogard Gdański|2020-06-02
+1106|96894/55/9531|Georgene|Mackay|Kościerzyna|2022-08-02
+1107|67294/66/6106|Edward|Rybicki|Gdańsk|2014-03-16
+1108|75928/04/5675|George|Brawner|Pruszcz Gdański|2021-07-07
+1109|89543/06/8124|Paul|Miller|Kościerzyna|2023-01-04
+1110|70077/30/7744|Mark|Stricklin|Ustka|2013-05-26
+1111|73432/42/6372|Jamie|Burgess|Gdańsk|2021-10-20
+1112|64417/32/2145|Rosetta|Martin|Starogard Gdański|2022-12-19
+1113|11249/89/2844|Steven|Parnell|Gdańsk|2017-06-16
+1114|61400/65/1992|Reda|Mitchell|Bytów|2020-12-23
+1115|17204/88/6384|Miguel|Smith|Reda|2017-05-17
+1116|58087/18/2804|Beverly|Fleming|Rumia|2016-08-12
+1117|41894/19/1258|David|Walker|Słupsk|2019-06-29
+1118|84982/81/1762|Lauren|Casagrande|Reda|2021-04-07
+1119|05625/64/6765|James|Berry|Bytów|2017-12-28
+1120|09324/20/3992|Maurine|Wolf|Kwidzyn|2017-08-26
+1121|58224/62/9932|James|Schuster|Kwidzyn|2014-12-10
+1122|72302/36/2073|Ruby|Martin|Lębork|2020-03-14
+1123|10205/08/8935|Stanley|Tucker|Bytów|2016-09-04
+1124|99664/80/8772|Patrick|Morrison|Słupsk|2020-03-18
+1125|89908/64/1379|Randy|Jones|Kartuzy|2023-02-22
+1126|43930/51/8058|Nicole|Murray|Chojnice|2020-10-02
+1127|64343/71/7987|Robert|Rhodus|Kartuzy|2016-05-02
+1128|86141/75/8211|Ricky|Trongone|Lębork|2016-02-05
+1129|25007/17/3135|Thomas|Maloch|Wejherowo|2018-08-30
+1130|79510/64/5953|Joni|Johnson|Tczew|2018-12-03
+1131|90038/80/6802|Rose|Williams|Lębork|2023-06-23
+1132|33754/65/2259|Sarah|Andrade|Chojnice|2016-08-01
+1133|67842/01/3455|David|Jones|Lębork|2023-04-17
+1134|22933/39/6080|Bobby|Bautista|Gdynia|2020-12-13
+1135|16049/64/7181|Jamal|Lesage|Kościerzyna|2022-12-04
+1136|46595/75/9023|William|Murphy|Wejherowo|2016-07-04
+1137|71421/89/7331|Cindy|Bowers|Malbork|2021-11-21
+1138|08363/64/6058|Karina|Long|Kartuzy|2022-07-10
+1139|71822/39/5428|Barbara|Burch|Bytów|2022-03-08
+1140|32787/10/1510|Mattie|Roybal|Reda|2015-12-16
+1141|92481/59/9259|Christine|Brown|Sopot|2019-07-06
+1142|75339/25/0983|Jason|Muniz|Tczew|2017-08-29
+1143|32677/50/0595|Joe|Bakley|Kwidzyn|2021-10-29
+1144|34564/75/4116|Raymond|Oakes|Kwidzyn|2023-04-20
+1145|81793/62/2668|Donald|Schroyer|Gdynia|2021-04-19
+1146|78120/54/8475|Kevin|Baker|Bytów|2013-06-23
+1147|53924/69/6984|Edmund|Mckee|Lębork|2021-07-06
+1148|26416/91/5511|Hattie|Wade|Tczew|2014-09-17
+1149|21448/07/7240|Patricia|Ovellette|Ustka|2015-03-25
+1150|56066/53/5204|Kelly|Hughes|Tczew|2020-04-12
+1151|04876/54/4997|Elsie|Couey|Lębork|2016-11-02
+1152|07763/05/2695|Mary|Reynolds|Starogard Gdański|2023-07-14
+1153|45033/40/6486|Elmer|Dow|Chojnice|2023-12-17
+1154|81692/75/9180|Edward|Robinson|Słupsk|2017-10-18
+1155|03819/79/5116|Tina|Rencher|Tczew|2019-11-02
+1156|04746/89/9448|Lena|Maddox|Kwidzyn|2020-11-19
+1157|56228/01/6672|George|Kassing|Ustka|2018-04-29
+1158|66236/87/7126|Rhonda|Warncke|Kartuzy|2013-09-23
+1159|87900/39/6946|Jerry|Dineen|Kościerzyna|2017-10-05
+1160|55230/98/6921|James|Trent|Sopot|2017-05-02
+1161|42403/68/5506|Jennifer|Brown|Ustka|2021-03-04
+1162|38488/59/9214|Rose|Puckett|Słupsk|2014-12-17
+1163|81602/14/2221|Lee|Day|Malbork|2023-03-15
+1164|22120/84/7217|Gilbert|Simmons|Kościerzyna|2019-04-10
+1165|64077/80/6087|Chester|Duryea|Słupsk|2020-06-08
+1166|28639/55/6601|Jan|Graham|Starogard Gdański|2021-04-03
+1167|49166/05/2303|William|Van|Malbork|2016-01-17
+1168|45741/31/6997|Jan|Pruitt|Lębork|2017-05-27
+1169|97951/89/3410|Steven|Simpkins|Kartuzy|2022-11-03
+1170|30520/34/9001|Melissa|Treadwell|Lębork|2023-01-19
+1171|61342/12/6303|Joseph|Johnson|Tczew|2013-10-12
+1172|87132/02/3677|Joanne|Booker|Gdynia|2021-01-22
+1173|86097/52/9178|Ida|Sanchez|Starogard Gdański|2016-11-26
+1174|50250/61/1747|Karen|Wilson|Kwidzyn|2014-08-21
+1175|96689/77/2095|Kelly|Latham|Gdańsk|2020-03-29
+1176|04655/68/4701|Tina|Fleckenstein|Wejherowo|2014-02-19
+1177|30539/50/7392|Chester|Pursifull|Kościerzyna|2018-10-23
+1178|17010/79/2516|Sherry|Morgan|Sopot|2023-05-27
+1179|23585/75/0069|Johnie|Binder|Reda|2018-11-12
+1180|25760/29/9984|Larry|Deen|Kościerzyna|2020-03-26
+1181|30953/68/3250|Markus|Timm|Wejherowo|2013-08-01
+1182|59399/51/8023|Melissa|Phillips|Ustka|2020-02-26
+1183|68021/71/7826|Lakeshia|Pettit|Sopot|2015-07-25
+1184|62080/20/0544|Marion|Barrera|Kwidzyn|2017-09-03
+1185|78981/93/7016|Robert|Brooks|Wejherowo|2023-01-07
+1186|49579/07/5611|Russell|Arrott|Lębork|2014-03-19
+1187|18865/27/0719|Andrew|Smith|Kartuzy|2019-06-28
+1188|82624/77/5857|Albert|Rosa|Gdańsk|2013-08-18
+1189|34205/08/3506|Vanessa|Craft|Chojnice|2015-05-23
+1190|18213/40/4659|Mary|Cowan|Lębork|2014-02-04
+1191|06960/54/8772|Justin|Ellzey|Chojnice|2022-05-31
+1192|52467/52/9732|Christopher|Gaston|Rumia|2019-05-23
+1193|51367/71/0330|Timmy|Carroll|Sopot|2021-07-30
+1194|76017/10/0731|Allen|Engstrom|Tczew|2016-01-20
+1195|89062/10/8357|Lori|Atkins|Bytów|2018-03-31
+1196|41175/90/6085|Iris|Smialek|Kościerzyna|2021-10-03
+1197|65840/09/2924|Jesse|Coots|Bytów|2021-03-23
+1198|00463/62/7797|Matthew|Clarke|Rumia|2023-10-21
+1199|50432/76/3367|Robert|Wilson|Chojnice|2017-12-14
+1200|93482/77/8094|Herbert|Howington|Reda|2019-05-29
+1201|70617/36/3993|Doyle|Bryant|Pruszcz Gdański|2017-04-09
+1202|04797/06/4220|Janae|Torres|Kwidzyn|2023-06-20
+1203|61461/33/2198|William|Cooper|Starogard Gdański|2018-10-15
+1204|39795/75/2405|Melinda|Kwiatkowski|Tczew|2017-04-16
+1205|32236/69/0209|Samuel|Straw|Kościerzyna|2020-03-28
+1206|77959/33/4941|Melanie|Cascio|Rumia|2022-11-22
+1207|19174/09/3087|Alice|Kirkpatrick|Starogard Gdański|2016-05-18
+1208|83544/47/0176|Charles|Rhymer|Sopot|2023-02-15
+1209|67112/46/6594|Angela|Ealey|Kościerzyna|2021-12-27
+1210|06990/64/9923|Jeffrey|Douglas|Ustka|2018-06-13
+1211|29383/11/4544|Jacqueline|Dixon|Ustka|2023-02-04
+1212|99361/08/4179|Gertrude|Hayden|Pruszcz Gdański|2024-01-05
+1213|06925/30/4336|David|Cotner|Słupsk|2020-07-09
+1214|52784/15/7761|Jonathan|Pierce|Kartuzy|2023-03-13
+1215|86307/47/6809|Sondra|Yoshizumi|Bytów|2019-12-29
+1216|16391/00/4510|Rhonda|White|Wejherowo|2020-10-11
+1217|99861/78/3692|Drew|Nichols|Ustka|2021-09-25
+1218|00310/23/4573|Thomas|Scott|Starogard Gdański|2016-10-17
+1219|33171/64/9205|Jeremy|Thomas|Malbork|2021-04-09
+1220|37102/56/1419|Bernard|Mcguffin|Ustka|2013-06-27
+1221|27556/73/1602|Christopher|Mitchell|Tczew|2020-05-18
+1222|87110/11/0993|Patrick|West|Sopot|2022-07-20
+1223|87243/79/8898|Nicola|Lea|Pruszcz Gdański|2013-04-06
+1224|14927/97/5159|Sandy|Russell|Gdynia|2018-01-02
+1225|33075/52/6714|Timothy|Rayburn|Lębork|2022-12-31
+1226|70612/83/6086|Harry|Baker|Kościerzyna|2017-05-25
+1227|80156/39/1400|Dustin|Clark|Starogard Gdański|2016-07-16
+1228|03750/58/1262|Latoya|Green|Rumia|2021-12-05
+1229|21174/87/9526|Clifton|Sarro|Rumia|2018-07-19
+1230|12557/99/6537|Aaron|Vaughn|Pruszcz Gdański|2013-05-05
+1231|58284/82/4694|Philip|Landry|Słupsk|2018-03-25
+1232|68495/26/9379|Chad|Blodgett|Rumia|2016-07-27
+1233|07204/78/2792|Mary|Dyer|Ustka|2020-01-20
+1234|39615/89/2368|Susanna|Foye|Lębork|2015-09-22
+1235|81505/17/1961|Randy|Mondragon|Bytów|2015-03-20
+1236|77086/10/7937|David|Pace|Tczew|2023-05-29
+1237|31415/90/9512|Janet|Dreese|Kościerzyna|2015-11-29
+1238|96527/31/4595|Dale|Rich|Rumia|2019-09-04
+1239|24928/36/2045|John|Colon|Kartuzy|2020-03-13
+1240|55030/56/7452|Eric|Bourque|Sopot|2016-07-21
+1241|71216/62/0972|Felicia|Molina|Reda|2017-06-01
+1242|16519/12/8258|Amanda|Lin|Sopot|2017-10-23
+1243|94292/87/1052|Rosa|Israel|Wejherowo|2015-02-15
+1244|95318/80/7578|Marisol|Jackson|Kartuzy|2015-03-16
+1245|91162/01/7429|Brenda|Siegfried|Pruszcz Gdański|2022-07-12
+1246|61286/28/9807|Rebecca|Ainsworth|Sopot|2015-04-27
+1247|99716/17/8403|Cleo|Price|Rumia|2023-01-30
+1248|65861/42/0836|Kim|Simpon|Rumia|2022-12-11
+1249|20059/29/1055|Scott|Wheatley|Kwidzyn|2023-04-17
+1250|49558/70/5346|Lillian|Combs|Wejherowo|2016-05-01
+1251|92220/99/5840|Viola|Kriss|Starogard Gdański|2017-07-19
+1252|04877/72/9014|Lynda|Dever|Ustka|2018-12-23
+1253|01978/30/9447|Rodney|Bahlmann|Gdynia|2015-06-23
+1254|80431/19/1519|Gary|Morse|Kościerzyna|2022-02-05
+1255|50421/45/9618|Seth|Crawford|Lębork|2016-03-24
+1256|87489/90/1024|Lara|Goldman|Gdynia|2014-02-26
+1257|41560/91/8816|Gertrude|Yannone|Lębork|2016-09-13
+1258|99210/69/5245|Patrick|Castano|Gdynia|2017-10-04
+1259|72515/47/3778|Christinia|Luna|Malbork|2015-03-16
+1260|24060/38/0331|Jorge|Corathers|Kwidzyn|2017-10-03
+1261|67393/42/0868|Laurie|Edmunds|Rumia|2021-05-06
+1262|52707/43/0981|Cynthia|Prat|Słupsk|2013-05-16
+1263|02698/90/3424|Thomas|Faucher|Starogard Gdański|2020-03-15
+1264|12736/13/1549|Christy|Beggs|Ustka|2023-12-14
+1265|53905/67/2304|Tyler|Carr|Wejherowo|2019-05-02
+1266|22800/80/9172|Thelma|Stclair|Tczew|2013-12-11
+1267|08615/16/1501|Kitty|Wightman|Pruszcz Gdański|2021-03-26
+1268|78505/10/7593|Tanner|Liesmann|Pruszcz Gdański|2015-09-19
+1269|66324/05/1736|Anne|Paoli|Lębork|2015-02-12
+1270|05148/91/8248|Justin|Wien|Gdańsk|2023-02-25
+1271|82430/54/3498|John|Guenther|Pruszcz Gdański|2020-12-06
+1272|18510/54/7054|Hazel|Alvord|Rumia|2017-04-30
+1273|24842/75/9239|Jeannette|Huynh|Lębork|2020-06-10
+1274|00264/34/0376|Woodrow|Picken|Kartuzy|2022-08-10
+1275|97802/30/2717|Julie|Bobbitt|Chojnice|2023-06-18
+1276|09624/20/9244|Tara|Brown|Lębork|2019-03-28
+1277|66101/52/9381|Danielle|Doxey|Sopot|2018-11-22
+1278|69406/58/6757|Joann|Rich|Starogard Gdański|2023-11-27
+1279|58617/65/7730|Helen|Litaker|Bytów|2023-04-29
+1280|02641/15/9580|Carey|Lemaster|Kwidzyn|2023-08-02
+1281|04794/05/1835|Oscar|Daughtry|Reda|2018-09-30
+1282|07314/89/8473|Craig|Edelen|Kwidzyn|2022-04-06
+1283|84567/94/6612|James|Baumbach|Reda|2015-02-16
+1284|44690/01/2332|Mary|Malsam|Lębork|2021-03-25
+1285|26206/14/5098|Peter|Fox|Malbork|2015-04-12
+1286|41259/43/4941|Janet|Mccraney|Gdynia|2021-08-05
+1287|26322/11/8665|Kelly|Stewart|Kwidzyn|2015-11-28
+1288|60860/64/6278|Doug|Hines|Lębork|2014-02-26
+1289|54315/25/4980|Brian|Kazarian|Lębork|2019-02-28
+1290|12975/33/6070|Kathleen|Farley|Ustka|2021-11-18
+1291|82137/86/0652|Ryan|Herrmann|Gdynia|2021-01-19
+1292|69539/39/2571|Christina|Johnson|Kościerzyna|2020-03-23
+1293|03237/46/7671|Jason|Stewart|Pruszcz Gdański|2020-06-23
+1294|16587/38/7335|Alberto|Couzens|Lębork|2015-12-31
+1295|30029/73/6268|Merna|Harris|Gdańsk|2023-01-25
+1296|21715/18/0256|Nicole|Cummins|Gdynia|2023-03-30
+1297|96758/84/2127|Dianna|Stickney|Sopot|2021-01-31
+1298|99620/84/7818|Angelina|Welch|Starogard Gdański|2015-05-07
+1299|63366/45/7544|John|Castellanos|Chojnice|2021-02-27
+1300|46438/54/4813|Earl|Kriser|Słupsk|2015-05-04
+1301|65510/09/9114|Tina|Bennett|Kościerzyna|2018-06-09
+1302|81447/85/4518|Thomas|Nixon|Kartuzy|2022-01-06
+1303|00505/55/9312|James|Mills|Malbork|2018-03-28
+1304|83363/74/5952|Brian|Debell|Ustka|2019-09-29
+1305|97991/04/7820|Karen|Nelson|Kościerzyna|2017-11-08
+1306|99641/61/5847|Vanessa|Brainard|Gdańsk|2023-01-08
+1307|71815/10/1131|William|Hoover|Malbork|2014-06-12
+1308|44917/71/7331|Tonia|Lawson|Kwidzyn|2023-01-17
+1309|88005/69/1732|Sandy|Anderson|Starogard Gdański|2019-11-21
+1310|00693/76/6183|Michael|White|Lębork|2020-09-18
+1311|53187/01/3984|Edward|Hale|Gdańsk|2021-04-25
+1312|67100/99/5249|Jesse|Vasquez|Sopot|2020-12-02
+1313|53059/93/4355|Lynda|Zito|Rumia|2013-01-13
+1314|07551/14/4689|Angela|Betancourt|Słupsk|2020-10-27
+1315|95529/30/2558|Matthew|Perez|Kościerzyna|2020-11-22
+1316|71130/60/2541|Dorothy|Newton|Gdynia|2015-04-12
+1317|49150/97/4705|Connie|Kirby|Wejherowo|2018-12-28
+1318|01124/63/9610|Lorretta|Smith|Kartuzy|2022-01-31
+1319|01862/95/6993|Monica|Phillips|Kartuzy|2016-11-08
+1320|43720/62/3668|Josephine|Morse|Malbork|2020-06-29
+1321|52860/43/4561|Maxine|Griffin|Ustka|2023-10-05
+1322|32767/51/3054|Thomas|Pavlovic|Sopot|2015-07-30
+1323|80546/09/2950|John|Fuller|Tczew|2020-03-17
+1324|35897/90/7429|Joseph|Larrick|Kartuzy|2014-09-21
+1325|49659/71/1428|Ernest|Grammer|Malbork|2023-07-02
+1326|37120/84/4265|Beatrice|Birkline|Tczew|2023-10-13
+1327|14690/44/2227|John|Krumholz|Chojnice|2017-06-17
+1328|72765/18/0778|Ronald|Mcmahon|Kartuzy|2014-02-09
+1329|75862/51/6197|Jonathan|Pryor|Rumia|2022-02-17
+1330|82633/37/9409|Mary|Dennis|Pruszcz Gdański|2015-08-07
+1331|23622/04/7033|Harry|Thomas|Kartuzy|2023-07-31
+1332|07063/93/0485|Benny|Patterson|Gdynia|2023-01-26
+1333|20591/07/7208|Thomas|Plunkett|Słupsk|2018-10-27
+1334|23252/30/7257|Raymond|Loomis|Malbork|2019-04-14
+1335|76974/48/1427|Louise|Knoy|Malbork|2013-09-30
+1336|89447/01/5199|Carol|Philipp|Kościerzyna|2018-08-04
+1337|48449/64/1603|Jorge|Basile|Tczew|2021-12-20
+1338|81116/90/7989|Chastity|Barrett|Pruszcz Gdański|2019-05-15
+1339|36283/09/9162|Sybil|Horton|Reda|2021-08-31
+1340|15346/82/8163|Edward|Odom|Sopot|2018-02-23
+1341|24253/02/5933|Edwin|Santiago|Rumia|2022-06-24
+1342|89724/93/0038|Christine|Craig|Malbork|2013-10-24
+1343|88864/65/1896|Sandra|Combs|Kartuzy|2019-08-28
+1344|82599/77/2289|Eva|Charlton|Kwidzyn|2020-01-08
+1345|73441/56/7379|Christina|Ellis|Słupsk|2022-09-17
+1346|53720/25/9917|Eric|Flint|Wejherowo|2021-05-23
+1347|54068/01/6071|Jimmy|Goss|Wejherowo|2019-08-23
+1348|82419/61/2562|Elvis|Lott|Kartuzy|2023-03-27
+1349|38713/20/3766|Micheal|Dhondt|Słupsk|2020-10-05
+1350|80086/46/9449|Dorothy|Lobb|Rumia|2020-08-24
+1351|48808/53/4626|Lisa|Charles|Reda|2020-02-17
+1352|23170/33/8082|Susan|Wang|Kwidzyn|2019-02-26
+1353|62859/34/8919|Matthew|Brown|Kościerzyna|2016-08-25
+1354|66123/30/6617|Linda|Gaston|Ustka|2021-02-10
+1355|85592/10/9377|Rafael|Klinger|Wejherowo|2021-06-13
+1356|08258/32/7083|Roger|Urban|Słupsk|2021-03-22
+1357|39745/08/1677|Sheila|Mckee|Gdynia|2022-04-26
+1358|41402/66/8058|Kourtney|Irving|Kartuzy|2013-05-23
+1359|41460/44/6848|Leticia|Howell|Kartuzy|2017-09-07
+1360|73812/74/8038|Stephen|Lotz|Kwidzyn|2018-07-05
+1361|05504/75/9162|Roberta|Lewis|Gdynia|2015-10-24
+1362|45949/35/4215|Cynthia|Desmond|Gdynia|2021-07-28
+1363|90810/66/6154|Richard|Swigert|Lębork|2020-10-19
+1364|56613/40/7833|Linda|Moss|Pruszcz Gdański|2020-12-15
+1365|46464/28/5873|Dixie|Luis|Kartuzy|2021-03-21
+1366|40695/29/0974|Laura|Martinez|Kartuzy|2022-11-18
+1367|76093/33/9683|Paul|Collier|Gdańsk|2014-10-13
+1368|49239/33/8236|Julie|Jones|Słupsk|2014-02-27
+1369|66023/32/0406|Lea|Moore|Pruszcz Gdański|2013-12-10
+1370|77609/87/2399|Tony|Rayford|Wejherowo|2021-10-05
+1371|48205/86/2824|Georgiana|Hill|Rumia|2022-07-13
+1372|57628/66/1504|Elaine|Williams|Lębork|2021-11-03
+1373|23650/35/4101|Adela|Levy|Kartuzy|2015-04-17
+1374|57014/58/4313|Pamela|Ramsey|Gdańsk|2022-06-27
+1375|42599/25/4494|Gwendolyn|Loftus|Pruszcz Gdański|2015-06-02
+1376|22266/61/4115|Roberta|Walsh|Gdynia|2014-07-29
+1377|94982/70/5603|James|Judge|Malbork|2014-06-25
+1378|45311/93/4821|Alejandra|Shrader|Tczew|2014-12-10
+1379|39778/37/1471|Charles|Garcia|Gdynia|2023-10-26
+1380|44754/08/9773|Jon|Carrothers|Gdynia|2017-03-29
+1381|89968/94/5433|Frank|Crawford|Lębork|2022-02-05
+1382|73340/37/3230|Concepcion|Mobley|Lębork|2022-03-05
+1383|65534/63/0743|Mary|Frith|Chojnice|2015-11-25
+1384|24353/09/9916|Richard|Madsen|Ustka|2016-09-09
+1385|99414/73/2924|Nathan|Garcia|Starogard Gdański|2019-06-30
+1386|94540/28/7809|Helen|Waldeck|Wejherowo|2022-12-30
+1387|27143/13/3738|Jennifer|Preskar|Starogard Gdański|2020-05-17
+1388|99096/48/1775|Jeffrey|Moseley|Reda|2015-03-31
+1389|00096/04/6887|James|Morefield|Starogard Gdański|2021-08-05
+1390|99630/19/2050|David|Bronson|Rumia|2022-06-07
+1391|28999/46/8940|Colleen|Anderson|Kwidzyn|2022-06-21
+1392|33707/62/7384|Kenneth|Subert|Słupsk|2023-10-25
+1393|62259/66/2251|Elizabeth|Smith|Malbork|2021-09-02
+1394|30345/02/9922|Norman|Saadd|Gdynia|2015-12-06
+1395|71765/96/0814|Billy|Holcomb|Malbork|2017-09-09
+1396|46672/49/9255|Guadalupe|Fiorini|Sopot|2013-08-16
+1397|81735/21/1767|Janice|Otero|Starogard Gdański|2020-10-29
+1398|07593/82/5513|Betty|Hart|Kościerzyna|2016-02-01
+1399|39556/36/5962|Kelly|Tom|Starogard Gdański|2014-11-16
+1400|81295/64/6895|Maria|Lyles|Wejherowo|2013-08-04
+1401|60202/67/3135|Jan|Ethier|Ustka|2016-05-23
+1402|68455/50/0592|Stanley|Thomas|Starogard Gdański|2020-01-04
+1403|82627/53/8235|Bryan|Spueler|Reda|2019-12-11
+1404|60508/25/1092|Emilio|Kline|Starogard Gdański|2020-12-08
+1405|51848/21/1968|Robert|Acevedo|Rumia|2017-01-30
+1406|80230/06/1077|Tamekia|Tucker|Tczew|2017-05-26
+1407|20911/73/5267|Mitchell|Eddins|Kościerzyna|2020-11-09
+1408|91143/19/0112|Ryan|Huntsberger|Kościerzyna|2020-02-27
+1409|94029/36/2516|Peter|Stern|Lębork|2023-09-07
+1410|62723/44/1347|Aaron|Pruitt|Kościerzyna|2016-01-26
+1411|48754/12/5815|Rae|Taylor|Malbork|2020-04-20
+1412|66160/51/1959|Kevin|Reyes|Gdańsk|2022-09-16
+1413|70741/19/5867|Angela|Johnson|Tczew|2016-08-21
+1414|35117/49/5831|Victor|Gray|Tczew|2020-07-26
+1415|71817/84/6744|Jill|Clift|Reda|2019-12-10
+1416|86148/24/1969|Deborah|Mory|Sopot|2022-09-30
+1417|51555/94/9109|Shin|Mceuen|Sopot|2020-09-12
+1418|69102/71/0757|Randy|Kopp|Sopot|2020-05-29
+1419|41387/98/6549|Matthew|Higgins|Reda|2023-12-22
+1420|88476/00/5540|Amanda|Terp|Rumia|2014-11-25
+1421|07137/59/5105|Val|Salazar|Gdańsk|2019-03-16
+1422|77803/28/9822|Christy|Payne|Reda|2017-04-29
+1423|57272/73/0115|Amy|Carranza|Tczew|2018-02-11
+1424|56807/82/3401|Ryan|Anderson|Rumia|2016-07-11
+1425|21625/66/9169|Tracy|Gorman|Rumia|2020-04-04
+1426|29089/00/8680|Nella|Humphreys|Kartuzy|2023-02-19
+1427|58148/45/5471|George|Cooper|Kwidzyn|2013-01-09
+1428|99519/51/8844|Melodi|Hills|Starogard Gdański|2021-03-16
+1429|52786/53/2014|Jerome|Miller|Lębork|2020-05-17
+1430|28392/29/7715|Robert|Sanchez|Lębork|2022-05-31
+1431|94005/15/7771|Vince|Lynch|Tczew|2021-02-22
+1432|86275/53/4022|James|Aguilar|Bytów|2013-01-05
+1433|16076/08/3823|Agnes|Green|Chojnice|2018-11-06
+1434|99926/61/4023|Helen|Patch|Rumia|2022-02-19
+1435|48170/93/7442|Danielle|Fisher|Chojnice|2021-12-08
+1436|11875/04/3854|Kenneth|Johnson|Lębork|2023-01-08
+1437|41621/23/4912|Maryann|Taylor|Słupsk|2022-04-15
+1438|72561/08/8531|Crystal|Whitehead|Starogard Gdański|2019-06-29
+1439|64648/73/7309|David|Uppencamp|Bytów|2017-06-10
+1440|65556/34/3209|Martha|Bass|Reda|2019-06-24
+1441|07091/94/3917|Lisa|Spencer|Gdańsk|2015-11-25
+1442|29566/75/5308|David|Griffin|Reda|2023-11-08
+1443|10083/74/8999|Kenny|Young|Gdańsk|2023-06-10
+1444|44781/92/0259|Michael|Gausman|Reda|2016-11-04
+1445|48492/02/0908|Jennifer|Moore|Reda|2013-10-10
+1446|21836/63/9756|Frederick|Goldberg|Kartuzy|2016-04-03
+1447|73203/86/9021|Stanley|Scheer|Słupsk|2023-11-19
+1448|39890/23/6664|Peggy|Hall|Kościerzyna|2021-08-01
+1449|92508/33/5165|Audrey|Bishop|Gdynia|2021-11-11
+1450|98293/30/3845|Gene|Sherman|Gdańsk|2017-03-28
+1451|81247/74/3889|Tayna|Wilson|Starogard Gdański|2014-12-16
+1452|33487/71/4508|Robert|Chandler|Kościerzyna|2020-02-25
+1453|42168/68/9007|Jeanette|Wells|Gdynia|2017-04-05
+1454|16888/61/1576|Betty|Heilman|Chojnice|2014-06-17
+1455|13576/00/5658|Cynthia|Jones|Ustka|2019-07-26
+1456|68474/89/7720|Lisette|Craft|Kościerzyna|2014-07-08
+1457|36451/83/8944|Alicia|Pena|Wejherowo|2022-01-30
+1458|29813/31/1964|Karen|Crawford|Kartuzy|2015-10-28
+1459|32961/82/5173|Clara|Jensen|Tczew|2020-07-09
+1460|36208/88/9083|Michael|Thorsen|Malbork|2015-05-24
+1461|57743/42/6729|Albert|Bradbury|Rumia|2015-01-03
+1462|71973/77/3809|Jose|Raleigh|Malbork|2020-09-13
+1463|48455/55/6382|Howard|Gaff|Wejherowo|2022-07-12
+1464|34120/51/1255|Brad|Grimm|Pruszcz Gdański|2022-08-05
+1465|53541/57/6732|Joseph|Marquis|Starogard Gdański|2019-03-05
+1466|44270/33/3351|Lakisha|Wheeler|Słupsk|2022-11-28
+1467|90908/32/9610|Michelle|Solomon|Gdynia|2015-11-09
+1468|41499/58/9668|Douglas|Harkey|Pruszcz Gdański|2021-10-08
+1469|93536/65/5546|William|Snyder|Tczew|2021-06-28
+1470|83382/26/3710|Christopher|Giordano|Bytów|2023-10-17
+1471|12685/15/4942|Bertha|Kohler|Rumia|2021-07-25
+1472|35137/86/9597|John|Austin|Kartuzy|2019-12-04
+1473|54253/89/3298|James|Ferguson|Sopot|2022-02-28
+1474|83755/57/1612|Theresa|Courtney|Lębork|2021-06-29
+1475|51822/33/3521|Rachel|Riley|Wejherowo|2022-06-07
+1476|00990/01/1466|Victor|Mccauley|Ustka|2023-12-19
+1477|24609/37/9985|Benjamin|Hunt|Chojnice|2013-04-12
+1478|48405/71/1411|Mary|Neal|Tczew|2022-07-13
+1479|11530/01/2443|Yolanda|Sullivan|Bytów|2022-12-27
+1480|13711/62/5077|Anna|Brissette|Kartuzy|2020-11-11
+1481|67581/36/2322|Brian|Wilkinson|Gdańsk|2023-06-20
+1482|22134/54/1243|Eli|Caneles|Bytów|2013-02-22
+1483|88462/53/4298|Michael|Chesnut|Kartuzy|2013-08-23
+1484|00855/76/4275|David|Grant|Ustka|2022-01-19
+1485|72763/67/6111|Craig|Solomon|Ustka|2023-06-07
+1486|71613/24/3261|Walter|Garcia|Wejherowo|2022-09-03
+1487|61297/91/0002|Johnnie|Miley|Lębork|2020-06-28
+1488|43968/51/0438|Earl|Thomas|Sopot|2022-09-14
+1489|31011/04/1140|Alan|Young|Reda|2019-08-17
+1490|57801/64/1132|Fannie|Tyler|Tczew|2015-05-02
+1491|76999/62/1008|Christopher|Snell|Ustka|2016-07-08
+1492|64832/49/7487|Ariel|Evans|Lębork|2020-07-05
+1493|80962/84/6007|Darlene|Turner|Rumia|2019-11-27
+1494|17837/24/2060|Terry|Anderson|Bytów|2020-01-12
+1495|02093/97/3063|Jeffrey|Kim|Reda|2020-09-19
+1496|61702/26/6238|Larry|Landers|Starogard Gdański|2013-05-26
+1497|31823/31/6296|Carl|Flinchum|Ustka|2019-02-24
+1498|11426/35/7975|Eula|Chapman|Gdańsk|2021-01-28
+1499|69058/87/1507|Danny|Scaggs|Kościerzyna|2022-11-15
+1500|46448/98/4261|Margarita|Mcdermott|Malbork|2021-11-06
+1501|29824/74/8720|Rose|Swanson|Lębork|2023-07-17
+1502|68623/08/9718|Paul|Edsall|Malbork|2019-11-27
+1503|89954/53/2013|Rosa|Baran|Starogard Gdański|2022-05-25
+1504|00298/97/7403|George|Adams|Starogard Gdański|2022-01-04
+1505|42099/33/1473|Ronald|Collier|Pruszcz Gdański|2015-11-06
+1506|41897/70/7007|Charles|Williams|Kartuzy|2022-03-19
+1507|72954/17/6951|Aaron|Irby|Wejherowo|2022-09-23
+1508|81971/84/9125|Gary|Thomas|Kwidzyn|2019-03-06
+1509|32253/94/7929|Marisa|Dominguez|Starogard Gdański|2021-06-11
+1510|99768/36/0671|Judy|Gibson|Wejherowo|2022-10-08
+1511|57641/49/2716|Mari|Perry|Rumia|2021-08-15
+1512|17018/75/6782|Brian|Jones|Bytów|2019-10-27
+1513|24779/84/0746|Beth|Niess|Sopot|2018-09-03
+1514|74046/29/0174|Edward|Gallo|Starogard Gdański|2016-10-24
+1515|13573/60/0732|Richard|Brendal|Malbork|2023-04-27
+1516|84791/74/8106|Dorothea|Brubaker|Gdynia|2020-04-02
+1517|39001/52/8009|Mark|Mitchell|Gdańsk|2018-12-19
+1518|67189/15/9421|David|Rocha|Ustka|2016-07-28
+1519|09375/83/7367|Douglas|Lopez|Wejherowo|2017-12-04
+1520|09958/07/3844|Pamela|Helton|Gdańsk|2016-08-28
+1521|40477/64/9913|Paul|Crumpton|Sopot|2021-05-17
+1522|12170/80/3068|Walter|Wright|Gdańsk|2020-03-31
+1523|99971/01/9852|Diane|Hoffman|Słupsk|2022-08-30
+1524|31855/92/1184|Chanel|Brown|Rumia|2023-11-06
+1525|32324/40/2359|Earnest|Debell|Słupsk|2023-03-18
+1526|00608/74/5853|Dana|Harley|Ustka|2021-10-06
+1527|24946/31/9036|Evan|Henderson|Rumia|2022-07-03
+1528|04072/89/3124|Zoe|Randall|Gdańsk|2023-07-03
+1529|96820/17/7785|Eric|Forbes|Lębork|2015-09-03
+1530|43348/21/6662|Marc|Gross|Lębork|2021-04-26
+1531|92459/20/9794|Lisa|Lindsey|Sopot|2015-10-04
+1532|10344/03/0135|Michael|Padgett|Bytów|2023-06-05
+1533|56245/60/7924|Irene|Wyndham|Reda|2015-06-30
+1534|63474/28/9285|Jim|Gilmore|Tczew|2021-11-23
+1535|09351/14/9617|Colette|Wentworth|Pruszcz Gdański|2013-12-29
+1536|90095/08/6464|Claudia|Guest|Chojnice|2020-04-28
+1537|44779/07/7264|Tiffanie|Akridge|Pruszcz Gdański|2021-05-28
+1538|17950/09/4173|Leonard|Bowar|Sopot|2020-11-18
+1539|55715/92/5286|Lupe|Greening|Kościerzyna|2018-09-19
+1540|02591/62/3435|Christopher|Smtih|Tczew|2022-01-31
+1541|03317/96/2929|William|Boudreaux|Kościerzyna|2017-11-28
+1542|87164/40/7879|Judith|Steward|Słupsk|2013-12-27
+1543|38459/10/3819|Henry|Brown|Rumia|2016-09-11
+1544|83427/38/4602|Alison|Bryant|Gdynia|2018-04-12
+1545|14875/24/2753|Jorge|Caballero|Starogard Gdański|2023-01-20
+1546|07403/89/3486|Brandon|Estell|Malbork|2023-09-26
+1547|88855/56/4446|Bobby|Terry|Malbork|2016-10-28
+1548|93148/74/8535|Richard|Sweeting|Słupsk|2023-08-04
+1549|19654/44/0308|Jennifer|Studivant|Bytów|2018-03-16
+1550|87772/14/3326|Suzanne|Kennedy|Sopot|2014-12-18
+1551|52199/79/8223|Evelyn|Hucks|Słupsk|2022-12-03
+1552|66537/01/4225|Diana|Martin|Rumia|2022-11-05
+1553|47234/92/3273|Jeffrey|Powers|Wejherowo|2017-11-10
+1554|79473/83/7577|Kimberly|Manos|Ustka|2015-04-15
+1555|64351/92/8579|Patricia|Clark|Kartuzy|2022-09-30
+1556|02411/36/2391|John|Crabtree|Kartuzy|2019-08-28
+1557|10326/37/3086|Russell|Williams|Rumia|2017-06-17
+1558|57438/48/1395|Frances|Shiroma|Kościerzyna|2023-11-10
+1559|04307/46/0086|Bertha|Kuehn|Reda|2020-02-11
+1560|52929/43/5970|Sherri|Nall|Gdańsk|2018-01-31
+1561|21396/87/2960|Nancy|Fisher|Pruszcz Gdański|2013-04-26
+1562|97213/33/7203|Anthony|Nolan|Kościerzyna|2016-12-28
+1563|80777/54/3274|Michael|Rodriguez|Reda|2018-10-15
+1564|19382/46/6651|Deborah|Ennis|Kartuzy|2014-10-09
+1565|89466/56/5002|Joe|Bennett|Gdynia|2020-04-16
+1566|59851/29/5565|Lindsey|Cayer|Rumia|2015-06-10
+1567|30438/27/0955|Mattie|Cairone|Pruszcz Gdański|2022-04-22
+1568|80107/38/6864|Robert|Dixon|Chojnice|2017-04-08
+1569|98901/28/3317|Patty|Orlando|Ustka|2020-04-19
+1570|79915/12/5984|John|Carroll|Wejherowo|2019-09-14
+1571|39348/14/7725|Cindy|Rutherford|Reda|2021-04-07
+1572|02920/87/9631|Christopher|Peveler|Gdańsk|2016-10-23
+1573|83232/44/8475|Gary|Hunt|Rumia|2015-05-08
+1574|71275/57/8386|Richard|Willson|Tczew|2021-10-31
+1575|52926/50/5512|Quentin|Payne|Gdańsk|2022-08-23
+1576|92703/35/3068|Carey|Lyons|Lębork|2021-02-09
+1577|67695/69/1641|Robert|Rowell|Chojnice|2013-12-12
+1578|08078/14/9464|Kristen|Bowman|Lębork|2015-09-18
+1579|61227/41/3586|Raymond|Lucas|Chojnice|2020-04-25
+1580|89098/96/4607|John|Avellino|Reda|2016-03-14
+1581|49962/85/3676|Daniel|Bingler|Słupsk|2014-05-13
+1582|85196/59/4869|Barbara|Hill|Kartuzy|2022-06-28
+1583|45996/36/9509|Janet|Mcglothian|Chojnice|2021-07-04
+1584|36187/38/5950|Jo|Cargo|Rumia|2018-10-18
+1585|71800/77/0782|Byron|Josephs|Starogard Gdański|2021-03-19
+1586|73289/64/0575|Wayne|Burger|Rumia|2023-03-19
+1587|56130/38/8486|Romona|Gilbert|Kwidzyn|2015-01-29
+1588|12877/54/2219|Martha|Posey|Gdańsk|2018-10-20
+1589|33233/21/4708|Daniel|Mccormack|Chojnice|2020-02-10
+1590|71038/09/2904|Susan|Marshall|Gdańsk|2021-05-17
+1591|38685/22/2227|Richard|Jones|Bytów|2017-12-14
+1592|85079/22/4227|William|Leggett|Starogard Gdański|2022-05-11
+1593|18723/15/8102|Kenneth|Angeles|Lębork|2019-08-06
+1594|20918/46/0845|Ann|Ellis|Malbork|2017-09-19
+1595|06469/01/7412|Michael|Bleiweiss|Gdynia|2016-04-01
+1596|00949/94/4492|Robert|Shinn|Słupsk|2013-12-11
+1597|52519/47/0935|Denise|Rimmer|Bytów|2020-03-15
+1598|81118/63/8208|Gail|Callaghan|Sopot|2015-03-21
+1599|60684/68/7003|Susie|Migl|Gdańsk|2022-02-20
+1600|43469/79/2131|Bradley|Devries|Bytów|2023-12-14
+1601|45744/63/9567|Ralph|Miller|Rumia|2018-02-15
+1602|73030/64/5904|Bernard|Casias|Reda|2018-10-30
+1603|44556/98/7022|Helen|Hoxie|Starogard Gdański|2022-01-06
+1604|52901/01/6811|Ricky|Freeborn|Sopot|2014-02-07
+1605|44826/15/7556|Constance|Arnett|Kartuzy|2022-03-22
+1606|56546/12/7959|Yvonne|Hodge|Reda|2019-10-23
+1607|17934/65/1733|Janice|Blumberg|Malbork|2018-11-17
+1608|06662/78/8324|David|Chisler|Ustka|2018-04-09
+1609|99589/44/3193|Alvaro|Mills|Wejherowo|2014-12-10
+1610|64097/95/6037|Nicole|Minarik|Kwidzyn|2022-10-09
+1611|88547/62/7558|Agnes|Miles|Gdańsk|2015-09-27
+1612|76813/59/7583|Carolyn|Poole|Pruszcz Gdański|2020-02-12
+1613|66082/23/2923|Peter|Nugent|Bytów|2016-12-30
+1614|63923/87/3141|Ginger|Carman|Sopot|2014-09-05
+1615|25866/04/8991|Mary|Martinez|Chojnice|2019-03-20
+1616|93046/92/1498|William|Simmons|Reda|2017-04-12
+1617|38695/59/9098|Cindy|Talavera|Reda|2022-08-27
+1618|30460/48/2455|Bobby|Hall|Reda|2022-11-28
+1619|56494/73/2144|Roberta|Blunt|Kościerzyna|2016-02-26
+1620|52677/76/4010|Vera|Bellows|Wejherowo|2021-05-15
+1621|58912/34/2593|Diana|Thomas|Reda|2017-11-28
+1622|66599/39/9778|Kenny|Williams|Słupsk|2013-05-29
+1623|89387/16/7595|Patricia|Oloughlin|Lębork|2020-09-13
+1624|80515/18/3360|Randal|Blevins|Tczew|2020-05-27
+1625|41911/74/1245|Angela|Lindberg|Starogard Gdański|2021-05-07
+1626|61646/79/7718|Thomas|Evans|Kościerzyna|2017-07-15
+1627|95505/55/5295|Suzanne|Woodley|Kartuzy|2016-12-05
+1628|15324/44/0078|Lowell|Shaffstall|Pruszcz Gdański|2016-08-10
+1629|64387/45/1474|Nora|Murphy|Lębork|2015-04-21
+1630|94049/24/6888|Nancy|Smith|Sopot|2015-01-13
+1631|34603/29/8334|Anthony|Scruggs|Rumia|2015-06-21
+1632|29850/38/6003|Christine|Britton|Sopot|2016-11-26
+1633|71628/31/4481|Julio|Diaz|Kartuzy|2022-09-12
+1634|27094/30/4836|Jason|Holbrook|Bytów|2022-08-09
+1635|44771/34/6853|Gene|Barry|Wejherowo|2021-07-27
+1636|07261/07/3795|Clyde|Taylor|Kościerzyna|2020-07-13
+1637|73364/79/4251|Sheila|Anderson|Rumia|2016-03-02
+1638|18991/34/6602|Gary|Jones|Bytów|2013-05-01
+1639|46928/49/0711|Susan|Jackson|Reda|2023-03-15
+1640|82025/87/2051|Alton|Arellano|Bytów|2022-01-10
+1641|13136/65/4928|James|Maisonave|Starogard Gdański|2020-04-23
+1642|71050/57/4125|Eva|Pemberton|Pruszcz Gdański|2013-08-08
+1643|66956/23/0882|Wendy|Hambrick|Słupsk|2015-07-27
+1644|39158/23/0876|Carlton|Ferguson|Malbork|2017-12-23
+1645|87885/25/0468|Ora|Eggert|Tczew|2015-11-18
+1646|05924/67/8097|Lee|Fluitt|Gdańsk|2021-10-15
+1647|56347/90/0841|Patrick|Hoover|Słupsk|2023-12-04
+1648|17607/69/4385|Cora|Frost|Lębork|2019-05-20
+1649|43179/55/5961|Beverly|Brassell|Kwidzyn|2017-03-08
+1650|71719/22/5549|Mary|Wolfrum|Chojnice|2017-11-17
+1651|18489/66/2920|Samuel|Mintz|Gdynia|2018-01-19
+1652|46210/55/3415|John|Keller|Wejherowo|2022-07-21
+1653|30465/58/6118|Donna|Schultz|Kościerzyna|2014-04-27
+1654|32763/68/8206|Rufus|Hunt|Starogard Gdański|2017-01-18
+1655|37375/29/3177|Theresa|Gaines|Lębork|2022-08-10
+1656|66204/46/5563|Shaquita|Sundby|Rumia|2016-09-04
+1657|59095/88/2174|Laura|Love|Kartuzy|2018-04-08
+1658|66258/12/8587|Sharon|Eason|Gdynia|2017-09-27
+1659|36769/21/0314|Judith|Thornton|Sopot|2015-07-24
+1660|36556/84/0929|Linda|Jiggetts|Gdańsk|2020-08-16
+1661|90324/97/3071|Dana|Dalton|Gdańsk|2021-08-31
+1662|63847/74/2251|Joann|Kirkland|Pruszcz Gdański|2022-05-16
+1663|69376/57/9398|Tami|Hill|Ustka|2023-08-20
+1664|86661/24/2999|Shannon|Markowski|Starogard Gdański|2022-08-28
+1665|48851/94/3977|Robert|Grider|Słupsk|2021-08-31
+1666|27744/76/2619|Henrietta|Williams|Pruszcz Gdański|2022-05-22
+1667|00428/63/2139|Shantel|Marcucci|Kościerzyna|2016-09-03
+1668|36939/93/9286|Linda|Weatherall|Tczew|2023-08-29
+1669|93372/30/5753|Dustin|Mervyn|Tczew|2014-01-08
+1670|68799/42/3598|Paul|Vigil|Lębork|2013-07-02
+1671|22535/14/5476|Donald|Brown|Wejherowo|2018-05-09
+1672|85644/15/1684|Ruby|Bennett|Słupsk|2022-12-29
+1673|15719/80/5547|Veronica|Pritt|Chojnice|2013-09-01
+1674|28933/16/1759|Eunice|Brantley|Lębork|2020-04-21
+1675|88384/60/4051|Ron|Caul|Reda|2013-08-05
+1676|64228/43/0315|George|Pokorney|Gdynia|2015-01-22
+1677|42629/84/7897|Kevin|Hanes|Kościerzyna|2016-11-19
+1678|00347/52/9384|Wilton|Hessler|Tczew|2016-04-02
+1679|12027/26/8981|Nancy|Hammers|Wejherowo|2021-11-18
+1680|50457/78/0974|Jessica|Holder|Reda|2019-02-10
+1681|08404/65/6605|Robert|Castilleja|Malbork|2023-02-14
+1682|93644/03/0324|Susie|Moseley|Malbork|2022-07-15
+1683|37718/85/3558|Amy|Lige|Malbork|2023-02-18
+1684|89583/17/0233|Elizabeth|Hope|Wejherowo|2014-11-21
+1685|04112/86/0281|Barbara|Mosher|Sopot|2020-09-01
+1686|32069/77/7742|Celeste|Clarke|Tczew|2021-04-24
+1687|72122/43/5571|Edith|Bullard|Kwidzyn|2015-12-22
+1688|88640/41/7803|Steven|Williams|Lębork|2021-12-29
+1689|35857/56/6475|Marian|Brown|Bytów|2022-09-28
+1690|57540/37/2830|Rose|Norris|Malbork|2014-06-11
+1691|71775/75/9717|Sean|Fleming|Pruszcz Gdański|2013-01-13
+1692|07967/77/4451|Marcella|Halls|Starogard Gdański|2013-12-02
+1693|77164/23/3886|Lane|Phelps|Kościerzyna|2020-02-27
+1694|15351/47/0659|Jimmy|Mangrum|Pruszcz Gdański|2021-09-28
+1695|27824/76/0607|Tracy|Okon|Słupsk|2018-04-09
+1696|66155/78/6422|Don|Laughary|Sopot|2014-09-30
+1697|60256/74/0468|Paul|Miceli|Słupsk|2021-08-25
+1698|75527/73/6720|Mildred|Casteel|Kwidzyn|2015-03-19
+1699|33892/61/2763|Jackie|Stemple|Gdynia|2015-10-11
+1700|47610/80/6279|Eva|Quirion|Lębork|2019-05-03
+1701|41269/81/9748|Otis|Cook|Pruszcz Gdański|2015-08-03
+1702|35754/08/5705|Judy|Payton|Gdynia|2020-01-17
+1703|48127/37/5101|Douglas|Kash|Sopot|2022-08-20
+1704|58759/62/2921|Gary|Bailey|Kościerzyna|2014-09-30
+1705|46288/49/7566|Nathan|Sliger|Ustka|2016-08-13
+1706|80970/07/4651|Richard|Colella|Kartuzy|2014-07-27
+1707|44452/35/0994|Kenneth|Obrion|Ustka|2015-06-21
+1708|95388/51/6632|Lisa|Rautenstrauch|Malbork|2020-07-07
+1709|63871/13/8955|Jimmie|Webb|Malbork|2019-05-12
+1710|06067/01/7285|Charles|Reid|Gdynia|2013-04-05
+1711|42321/77/0685|Keith|Vasquez|Słupsk|2017-11-12
+1712|93813/57/3871|Stephen|Kerns|Kościerzyna|2013-07-26
+1713|82546/40/7973|Frances|Castro|Wejherowo|2020-04-09
+1714|93241/10/6875|Doris|Chong|Kościerzyna|2020-07-14
+1715|67227/02/9598|Theresa|Kennedy|Wejherowo|2019-05-05
+1716|09296/24/8369|Glenn|Price|Wejherowo|2023-03-04
+1717|11684/30/4727|Brooks|Johnson|Ustka|2022-03-30
+1718|42393/98/7202|Micheal|Brodeur|Pruszcz Gdański|2021-09-14
+1719|50477/78/5034|Royce|Jones|Tczew|2020-08-23
+1720|50933/93/7804|Christopher|Passarelli|Kwidzyn|2023-06-28
+1721|70691/71/1728|Mark|Kshywonis|Rumia|2013-09-04
+1722|26487/89/0435|Sam|Huber|Pruszcz Gdański|2018-11-06
+1723|73025/82/7780|Kathleen|Sharp|Chojnice|2017-05-27
+1724|23873/06/3275|Mary|Dudley|Gdańsk|2018-10-02
+1725|63850/91/5189|Laura|Adams|Ustka|2022-06-11
+1726|16825/10/1632|John|Mansfield|Reda|2023-10-13
+1727|24986/98/8159|Richard|Winchester|Sopot|2014-12-28
+1728|32060/65/8578|Isidro|Dunbar|Lębork|2021-03-31
+1729|93124/09/4269|Fannie|Moseley|Kartuzy|2023-04-15
+1730|40962/38/3696|Monica|Elliston|Ustka|2014-10-20
+1731|30425/53/9493|Kelly|Soto|Lębork|2020-10-20
+1732|25233/06/0222|Yolanda|Beck|Gdańsk|2016-11-17
+1733|21550/92/4907|Jane|Peterson|Pruszcz Gdański|2022-04-20
+1734|02929/12/1931|Robin|Dunnington|Reda|2016-08-08
+1735|24275/31/4907|William|Blair|Tczew|2020-01-14
+1736|83331/10/0246|Alice|Kimball|Tczew|2021-09-16
+1737|01299/43/7786|Kim|Robinson|Wejherowo|2016-11-04
+1738|75863/36/5677|Rita|Johnson|Starogard Gdański|2017-06-10
+1739|92869/21/7171|Marcy|Lancaster|Słupsk|2014-09-14
+1740|35751/23/3509|John|Osborne|Rumia|2016-04-13
+1741|80105/51/0772|Tracy|Painter|Bytów|2016-12-04
+1742|79951/02/1443|Edward|Johnson|Lębork|2015-12-04
+1743|74979/94/3899|Pamela|Gibney|Rumia|2014-08-13
+1744|19732/17/0403|Arthur|Self|Ustka|2019-11-04
+1745|05171/91/3450|David|Morrissey|Rumia|2020-03-07
+1746|26763/53/8830|Rhonda|Lockwood|Malbork|2016-01-27
+1747|78778/46/9109|Helen|Cobb|Tczew|2020-06-09
+1748|73631/37/7183|Diane|Mcfolley|Wejherowo|2021-10-22
+1749|77435/10/1584|Guadalupe|Smith|Bytów|2013-09-07
+1750|37327/47/0434|Patricia|Andon|Sopot|2023-08-28
+1751|48841/20/3104|Boyd|Shoemaker|Ustka|2017-03-04
+1752|94600/75/2132|Robert|Reinking|Rumia|2015-12-11
+1753|21505/27/0928|David|Garcia|Chojnice|2013-07-03
+1754|30151/11/2909|Leroy|Knutson|Lębork|2020-05-29
+1755|80031/07/5943|Milton|Stewart|Kwidzyn|2018-07-18
+1756|90827/29/6846|Elizabeth|Bunch|Sopot|2022-10-17
+1757|19406/43/9768|Dorothy|Ortiz|Gdynia|2013-03-04
+1758|24627/72/4920|Sonya|Dickens|Reda|2018-01-12
+1759|18823/84/6463|Carol|Mcdowell|Gdynia|2013-10-01
+1760|01461/93/2300|David|Williams|Bytów|2013-01-23
+1761|69712/50/7276|Jessica|Brown|Reda|2020-02-11
+1762|42705/94/3762|Arlene|Henry|Reda|2021-05-14
+1763|99725/18/6170|Bruce|Newton|Gdynia|2020-12-23
+1764|86920/87/6809|John|Goulden|Wejherowo|2016-12-31
+1765|18956/74/3795|James|Prater|Gdynia|2023-12-11
+1766|61707/69/2555|Amber|Sheehan|Ustka|2021-09-05
+1767|24432/17/7663|Laura|Weafer|Kartuzy|2016-02-10
+1768|79446/54/1163|Jorge|Tucker|Wejherowo|2017-04-25
+1769|52409/99/0417|Thelma|Edwards|Reda|2016-11-10
+1770|58314/61/8889|Sharon|Bohlen|Kartuzy|2017-12-27
+1771|40813/51/1238|Collin|Catalan|Rumia|2021-07-05
+1772|36649/23/7390|Dorothy|Jensen|Wejherowo|2021-04-18
+1773|63103/40/5084|Calvin|Bengtson|Kwidzyn|2015-04-15
+1774|88695/59/2365|William|Monahan|Słupsk|2020-02-28
+1775|34272/30/9968|William|Phillips|Kartuzy|2017-12-25
+1776|65963/11/7708|Vera|Kook|Sopot|2016-06-19
+1777|79025/07/4985|Jesus|Grubb|Starogard Gdański|2022-10-17
+1778|09219/53/1251|Louise|Brown|Lębork|2013-08-09
+1779|20300/91/2265|Megan|Meeks|Chojnice|2020-03-01
+1780|92064/08/0536|Linda|Matchette|Lębork|2022-06-27
+1781|90238/44/4014|Robert|Crawford|Sopot|2020-10-17
+1782|14953/94/3574|Patricia|Patterson|Starogard Gdański|2014-10-13
+1783|35842/36/8772|Danny|Dent|Pruszcz Gdański|2018-02-03
+1784|82889/97/2644|Reina|Gray|Lębork|2019-09-18
+1785|64392/87/9969|Grace|Holland|Rumia|2022-12-22
+1786|07806/53/1679|Pamela|Hawley|Reda|2023-05-16
+1787|09229/24/1624|Alfred|Ramirez|Starogard Gdański|2013-10-13
+1788|10705/28/9402|Linda|Dietrich|Tczew|2020-10-06
+1789|38988/12/7515|Jennifer|Schmitz|Gdynia|2019-09-27
+1790|24476/11/7323|Mary|Garza|Kwidzyn|2018-06-15
+1791|90683/04/9167|Martha|Frazier|Rumia|2014-09-30
+1792|30164/81/6240|Jay|Smith|Ustka|2022-01-05
+1793|88497/59/6727|Florence|Cortes|Starogard Gdański|2013-11-11
+1794|32710/17/0294|Julie|Gregston|Malbork|2019-12-31
+1795|93207/04/8996|Vicente|Johnson|Kościerzyna|2015-09-01
+1796|77286/81/9984|Adrienne|Starr|Rumia|2022-07-27
+1797|86463/41/0572|Steven|Mckenzie|Gdynia|2014-02-03
+1798|03144/83/1636|Marcia|Pena|Malbork|2015-11-23
+1799|73643/79/1145|Lisa|Turner|Gdańsk|2016-05-13
+1800|33956/11/4349|Carolyn|Mosley|Kartuzy|2021-07-21
+1801|58275/73/8788|Alton|Wallace|Malbork|2020-07-01
+1802|69825/09/0168|Daniel|Aki|Pruszcz Gdański|2013-07-30
+1803|68851/85/2812|John|Esposito|Starogard Gdański|2020-07-27
+1804|57246/43/0822|David|Godsey|Lębork|2016-09-25
+1805|70365/52/4765|Jason|Mcdonald|Tczew|2023-01-20
+1806|41959/63/7279|Eric|Reid|Malbork|2020-11-21
+1807|16293/66/9999|Melvin|Netterville|Gdańsk|2020-03-31
+1808|78662/57/6102|Jeannine|Eppler|Tczew|2023-08-18
+1809|86731/10/1044|Margaret|Southard|Chojnice|2020-08-25
+1810|14702/07/9117|Avery|Lemaster|Kartuzy|2015-03-28
+1811|64629/85/3147|Tyrone|Vanbuskirk|Wejherowo|2022-05-09
+1812|69064/77/3304|James|Card|Kwidzyn|2018-12-15
+1813|50542/97/3957|Carrie|Turner|Gdynia|2018-07-22
+1814|14721/25/3001|Rosa|Johnson|Kościerzyna|2023-05-15
+1815|40102/37/2396|Carlo|Jamal|Kwidzyn|2015-03-29
+1816|21237/02/7656|Roy|Alvarez|Bytów|2020-01-20
+1817|94942/69/6954|Michael|Ward|Malbork|2013-02-14
+1818|32437/13/8431|Rosie|Morris|Rumia|2016-05-17
+1819|05741/58/5225|Helen|Pearson|Słupsk|2023-05-02
+1820|57072/45/4084|Ray|Ruiz|Reda|2020-07-10
+1821|60117/04/7796|Viola|Courtney|Rumia|2014-03-19
+1822|64441/15/2961|Angeline|Dardar|Ustka|2016-08-14
+1823|46679/56/0458|Yen|Goldade|Starogard Gdański|2018-10-08
+1824|89813/48/4775|Vicki|Cornejo|Wejherowo|2023-04-01
+1825|74069/71/3988|Ashley|Grunder|Sopot|2018-09-07
+1826|11140/17/2199|Javier|Crumedy|Słupsk|2021-05-14
+1827|49334/31/4054|Muriel|Palms|Rumia|2021-05-24
+1828|54908/95/7715|William|Pitts|Wejherowo|2021-04-13
+1829|30183/50/4653|George|Tirado|Lębork|2019-03-27
+1830|06457/80/6489|Claudia|Hilton|Chojnice|2020-02-01
+1831|41557/46/6336|Shane|Lawson|Rumia|2019-10-29
+1832|04583/95/0459|Damon|Langley|Sopot|2021-02-11
+1833|55322/15/1378|Lonnie|Accardo|Wejherowo|2022-01-02
+1834|55812/60/4023|Daniel|Cronin|Tczew|2021-01-14
+1835|80307/97/2703|Elizabeth|Pickles|Sopot|2015-06-29
+1836|53658/38/7076|Samara|Karp|Chojnice|2021-08-03
+1837|19819/70/0846|Aaron|Palmer|Sopot|2022-06-18
+1838|23436/35/0995|Robert|Mason|Kościerzyna|2021-07-02
+1839|29712/64/9725|Ethel|Spires|Tczew|2019-10-15
+1840|99785/29/3535|Frank|Bridges|Bytów|2017-11-12
+1841|35943/59/5258|Jan|Mcneal|Kartuzy|2023-05-09
+1842|45985/80/6895|Joseph|Coil|Kwidzyn|2021-11-12
+1843|63805/52/4076|James|Knudsen|Chojnice|2023-04-09
+1844|21252/43/0364|Edith|Otto|Bytów|2015-07-04
+1845|28666/84/1036|Floyd|Barnes|Kartuzy|2016-03-20
+1846|85572/58/1757|Robert|Caldwell|Gdynia|2021-08-06
+1847|04915/89/4874|Jonah|Lee|Kwidzyn|2016-04-27
+1848|90527/65/2767|Margaret|Duty|Kwidzyn|2023-05-01
+1849|80027/36/3022|Bryan|Heflin|Sopot|2022-04-10
+1850|17845/55/3121|Richard|Tibolla|Słupsk|2020-06-13
+1851|39613/10/5153|Shirley|Bocci|Pruszcz Gdański|2021-05-21
+1852|37131/54/7893|Yessenia|Nguyen|Chojnice|2023-10-19
+1853|37975/52/2046|Bobby|Roddam|Chojnice|2022-08-13
+1854|78632/11/5354|Janet|Stroud|Ustka|2018-06-02
+1855|60927/27/4618|Anna|Crook|Malbork|2023-06-26
+1856|64240/77/2508|Susan|Janczewski|Wejherowo|2016-09-08
+1857|80447/09/7239|Dorothy|Smith|Chojnice|2013-12-06
+1858|70743/63/0134|Melissa|Byrne|Gdynia|2023-07-26
+1859|19115/23/9259|Philip|Smiley|Ustka|2021-11-08
+1860|52309/23/2570|Alice|Menter|Słupsk|2016-05-22
+1861|86339/66/8250|Jerry|Bartelt|Bytów|2018-06-17
+1862|21265/84/4198|Jeremy|Leblanc|Starogard Gdański|2021-03-04
+1863|19540/95/4754|Daniel|Cannon|Słupsk|2020-09-11
+1864|46982/19/0404|Patrick|Neely|Malbork|2013-08-25
+1865|34632/61/7062|Tracy|Prestidge|Słupsk|2016-08-26
+1866|83472/83/2311|Stacey|Holm|Lębork|2021-07-16
+1867|25953/85/0408|Pearl|Castillo|Gdańsk|2013-03-29
+1868|44988/63/6622|Erik|Wilhelm|Rumia|2014-02-01
+1869|62072/36/2604|William|Vandy|Tczew|2020-12-07
+1870|60569/63/6161|Lena|Neilson|Ustka|2017-10-21
+1871|19245/40/2641|Rose|Bostwick|Kościerzyna|2015-08-07
+1872|75757/55/8551|Andrew|Nesbitt|Tczew|2017-01-26
+1873|91087/92/0822|Katie|Householder|Tczew|2021-12-07
+1874|97220/98/0181|Stephen|Hobbs|Starogard Gdański|2018-03-13
+1875|68980/96/7366|Laura|Garcia|Wejherowo|2013-07-18
+1876|57455/51/3755|Anna|Morgan|Rumia|2014-07-05
+1877|85388/73/1674|Timothy|Davenport|Ustka|2018-12-02
+1878|94515/35/3646|Randall|Dinsmore|Chojnice|2014-02-07
+1879|64094/10/6407|Brandon|Culver|Chojnice|2013-12-06
+1880|27331/64/5626|Katherine|Shannon|Ustka|2016-02-24
+1881|21742/91/4870|Raquel|Blum|Lębork|2016-08-07
+1882|61644/92/5099|Mollie|Lewis|Słupsk|2013-08-17
+1883|87817/11/1257|Ronald|Thomas|Rumia|2020-11-28
+1884|16577/28/1668|Lisa|Cox|Pruszcz Gdański|2019-09-11
+1885|82254/01/7769|Kenny|Mooney|Tczew|2019-08-29
+1886|69922/84/0453|Adele|Borg|Sopot|2021-01-09
+1887|18575/11/4351|Francisco|Henderlite|Starogard Gdański|2019-10-11
+1888|95283/01/3262|Randall|Brown|Lębork|2021-09-21
+1889|51517/26/4987|Rhonda|Edwards|Bytów|2022-07-25
+1890|76905/17/7564|Marilyn|Pattison|Tczew|2017-07-17
+1891|82624/97/9899|Leroy|Brown|Gdańsk|2015-01-18
+1892|98123/56/4560|Thomas|Mancini|Sopot|2021-07-26
+1893|57764/10/7284|Miguel|Melo|Kartuzy|2015-08-27
+1894|61684/22/2417|Lola|Jones|Bytów|2021-06-03
+1895|78706/94/9400|Randall|Patel|Malbork|2015-08-25
+1896|45309/22/5742|Nancy|Camp|Malbork|2018-03-07
+1897|60314/15/2123|Alexis|Jones|Starogard Gdański|2023-02-19
+1898|75645/70/1922|Mi|Bush|Starogard Gdański|2019-02-24
+1899|93588/35/5542|Lisa|Davis|Reda|2017-05-26
+1900|34757/33/5113|Lillian|Vanleuven|Rumia|2018-07-31
+1901|73601/78/0688|Thomas|Ferguson|Reda|2022-08-18
+1902|73689/87/2361|Matthew|Hirkaler|Gdynia|2016-10-18
+1903|86860/34/2071|Karen|Fisch|Tczew|2020-01-26
+1904|12545/32/2936|Richard|Rodriguez|Gdynia|2022-11-07
+1905|65381/34/6200|Teresa|Hebert|Gdynia|2022-01-28
+1906|41261/99/2090|Dale|Williams|Wejherowo|2021-01-03
+1907|35649/50/0745|George|Zolocsik|Sopot|2013-01-19
+1908|90824/24/8612|Melanie|Hileman|Słupsk|2014-04-02
+1909|82233/73/3362|David|Oglesby|Pruszcz Gdański|2016-04-30
+1910|98503/03/7319|Gary|Schnader|Kościerzyna|2023-01-27
+1911|66225/27/0720|Gerald|Stivers|Malbork|2023-12-26
+1912|93838/22/0130|Travis|Washington|Chojnice|2015-05-01
+1913|67799/00/6222|George|Barrett|Wejherowo|2021-04-07
+1914|98211/99/6242|Lamar|Grantham|Reda|2019-02-02
+1915|40270/04/4490|Kevin|Felton|Sopot|2014-06-12
+1916|80485/93/3087|Maria|Dapolito|Kwidzyn|2020-06-20
+1917|87246/31/8390|Emilee|Dobson|Kwidzyn|2019-02-28
+1918|42154/28/6589|Tiffany|Randall|Kwidzyn|2022-08-18
+1919|00909/70/6900|Janelle|Washinski|Pruszcz Gdański|2016-03-02
+1920|54530/88/0495|Gary|Sullivan|Rumia|2017-12-27
+1921|29806/35/2072|Joshua|Smith|Reda|2015-10-16
+1922|76821/68/7065|Addie|Seymour|Kwidzyn|2022-06-23
+1923|86961/53/8455|Beverly|Albro|Wejherowo|2013-09-12
+1924|14135/83/0478|Bianca|Perry|Kartuzy|2023-04-13
+1925|59062/31/6008|Yolanda|Preston|Gdynia|2013-03-21
+1926|30982/83/9405|Mona|Person|Bytów|2022-11-16
+1927|29976/39/4189|Jacqueline|Cloud|Kwidzyn|2023-11-19
+1928|80442/18/8721|Juanita|Najera|Bytów|2023-08-11
+1929|95589/35/0406|Travis|Nielsen|Tczew|2020-01-06
+1930|06066/00/1701|Larry|Mulvey|Sopot|2014-04-08
+1931|70254/98/8394|Michelle|Brown|Kartuzy|2022-09-27
+1932|95407/92/8801|Amy|White|Reda|2015-01-04
+1933|30917/85/6404|Charlotte|Chancey|Kościerzyna|2022-04-10
+1934|43328/30/5016|Phyllis|Rodriguez|Gdańsk|2023-08-14
+1935|06101/09/6440|Betty|Sova|Bytów|2017-06-23
+1936|90423/97/9003|Carol|Dobey|Tczew|2020-04-26
+1937|43277/10/9295|Martin|Walker|Rumia|2020-01-15
+1938|28238/30/2887|Hazel|Girard|Malbork|2022-04-21
+1939|38131/43/8232|Ralph|Warner|Chojnice|2023-09-05
+1940|97922/96/6231|Maryann|Walker|Gdańsk|2022-05-21
+1941|04034/21/0136|Margaret|Garza|Lębork|2022-11-09
+1942|14459/36/0588|Derrick|Burtner|Chojnice|2020-04-26
+1943|91558/51/8385|Pamela|Sandberg|Chojnice|2023-10-24
+1944|09093/32/0889|Edward|Morgan|Lębork|2017-10-11
+1945|27714/36/8139|Ellen|Mccord|Słupsk|2020-05-29
+1946|70254/34/7416|Dillon|Grace|Gdańsk|2013-09-23
+1947|37449/16/1293|Steve|Hathaway|Sopot|2020-02-09
+1948|72715/69/4988|William|Earls|Sopot|2022-08-24
+1949|54125/49/4879|Frankie|Ojeda|Wejherowo|2023-11-10
+1950|01630/36/5465|Ernestine|Hitchcock|Bytów|2021-09-16
+1951|45149/13/3731|Percy|Denyes|Lębork|2016-05-15
+1952|50497/01/6508|Jacob|Walczak|Słupsk|2021-03-02
+1953|03946/81/7334|Albert|Miller|Kartuzy|2022-05-15
+1954|28975/50/7704|Lawanda|Walker|Tczew|2020-05-31
+1955|03669/93/0012|Mark|Smart|Chojnice|2015-10-23
+1956|20087/13/0231|Michael|Kane|Gdynia|2021-01-02
+1957|45445/45/5551|Pedro|Chapman|Starogard Gdański|2020-12-12
+1958|75212/04/6673|Thomas|Brown|Kwidzyn|2018-01-21
+1959|52713/16/1423|Nicole|Smith|Tczew|2014-10-22
+1960|20541/34/3175|Lorene|Krafft|Ustka|2018-02-15
+1961|08441/82/5214|Matthew|Benson|Reda|2019-04-07
+1962|04424/82/4268|Pat|Brown|Kwidzyn|2023-12-01
+1963|66998/84/7776|Joseph|Fulton|Rumia|2020-07-17
+1964|79122/79/9932|Katherine|Robson|Wejherowo|2019-04-09
+1965|93484/66/3191|Deborah|Garcia|Ustka|2017-03-16
+1966|97625/26/6695|Kenneth|Whatoname|Kartuzy|2019-12-05
+1967|56082/34/1748|Mary|Vargas|Tczew|2018-02-15
+1968|91536/01/9258|Bryan|Skinner|Gdynia|2020-09-04
+1969|07733/88/6176|Albert|Hicks|Kwidzyn|2023-12-05
+1970|82566/89/0275|Frank|Jones|Reda|2023-07-08
+1971|02801/43/2925|William|Rusboldt|Kwidzyn|2021-07-29
+1972|87985/60/6486|Juan|Nelms|Słupsk|2020-10-26
+1973|35955/54/7447|Rosemary|Moon|Tczew|2021-11-05
+1974|53968/48/0237|Walter|Freeman|Lębork|2017-12-10
+1975|40385/93/5871|James|Grace|Gdynia|2015-03-08
+1976|96777/59/6733|Jessica|Olson|Ustka|2021-03-16
+1977|43951/42/6944|Paul|Turner|Ustka|2023-04-17
+1978|50832/92/6372|Kristina|Devito|Malbork|2017-02-26
+1979|28361/55/4962|Joan|Cochran|Wejherowo|2022-05-30
+1980|48671/74/3479|Velma|Rines|Kwidzyn|2019-07-11
+1981|23358/45/3403|Bruce|Mason|Gdynia|2016-06-07
+1982|51369/11/7750|Tasha|Cole|Słupsk|2017-11-29
+1983|66091/26/3641|Connie|Johnson|Starogard Gdański|2014-03-05
+1984|23495/56/6525|Lee|Nickolas|Chojnice|2015-03-29
+1985|01356/63/8894|Chelsea|Burgett|Gdynia|2018-01-29
+1986|97540/97/5115|Claudia|Acklin|Lębork|2014-07-10
+1987|19107/79/6198|Trevor|Posey|Lębork|2015-04-29
+1988|92036/29/0706|Jon|Gardner|Tczew|2021-03-01
+1989|75883/06/5176|Mark|Gonzales|Bytów|2023-08-26
+1990|70027/29/9572|Ina|Easley|Chojnice|2022-04-27
+1991|43215/22/6078|Flora|Marshall|Gdynia|2015-03-16
+1992|78676/85/0331|Carolyn|Sparks|Starogard Gdański|2016-10-06
+1993|66884/56/8299|Clay|West|Sopot|2020-07-05
+1994|44383/80/0898|David|Kyser|Słupsk|2018-11-18
+1995|09123/84/0240|Thomas|Noya|Pruszcz Gdański|2013-05-16
+1996|10919/61/4944|Aaron|Matchette|Malbork|2022-05-22
+1997|41608/88/4990|Jeffrey|Reed|Reda|2020-11-03
+1998|70616/52/9904|Nathaniel|Laux|Lębork|2018-12-12
+1999|42240/09/5528|Walter|Leblanc|Kartuzy|2022-12-10
+2000|04324/09/3493|Christopher|Wong|Ustka|2023-01-19
