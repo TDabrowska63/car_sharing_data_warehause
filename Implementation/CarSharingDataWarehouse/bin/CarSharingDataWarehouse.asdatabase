@@ -133,6 +133,7 @@
           <ID>ID Daty</ID>
           <Name>ID Daty</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>2906</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -173,6 +174,7 @@
           <ID>Year</ID>
           <Name>Year</Name>
           <Type>Years</Type>
+          <EstimatedCount>8</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -391,6 +393,7 @@
           <ID>ID Miejsca</ID>
           <Name>ID Miejsca</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>36</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -536,6 +539,7 @@
           <ID>ID Czasu</ID>
           <Name>ID Czasu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>24</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -579,6 +583,7 @@
         <Attribute>
           <ID>Pora Dnia</ID>
           <Name>Pora Dnia</Name>
+          <EstimatedCount>5</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -698,6 +703,7 @@
           <ID>ID Inne</ID>
           <Name>ID Inne</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>4</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -842,6 +848,7 @@
           <ID>ID Samochodu</ID>
           <Name>ID Samochodu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>500</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -889,6 +896,7 @@
         <Attribute>
           <ID>Typ</ID>
           <Name>Typ</Name>
+          <EstimatedCount>2</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1147,6 +1155,7 @@
           <ID>ID Wypozyczenia</ID>
           <Name>ID Wypozyczenia</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>6651</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1413,6 +1422,7 @@
           <ID>ID Uzytkownika</ID>
           <Name>ID Uzytkownika</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>2165</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1946,9 +1956,11 @@
             </Attribute>
             <Attribute>
               <AttributeID>Typ</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Nr Rejestracyjny</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
           </Attributes>
         </Dimension>
@@ -2418,6 +2430,7 @@
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
+          <EstimatedRows>6651</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="DegenerateMeasureGroupDimension">
@@ -2625,8 +2638,890 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT10S</SilenceInterval>
+                <Latency>-PT1S</Latency>
+                <SilenceOverrideInterval>PT10M</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <OnlineMode>OnCacheComplete</OnlineMode>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
+              <EstimatedRows>6651</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2024-01-11T18:24:11.49Z</CreatedTimestamp>
+              <LastSchemaUpdate>2024-01-11T18:24:11.49Z</LastSchemaUpdate>
+              <EstimatedRows>6651</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Wypozyczenia</AttributeID>
+                      <EstimatedCount>6651</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Daty Rozpoczecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Uzytkownika</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Miejsca Zakonczenia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Daty Zakonczenia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Czasu Rozpoczecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Miejsca Rozpoczecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Inne</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Czasu Zakonczenia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Samochodu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Samochodu</AttributeID>
+                      <EstimatedCount>500</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Marka</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nr Rejestracyjny</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Czasu</AttributeID>
+                      <EstimatedCount>24</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Godzina</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Pora Dnia</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Inne</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Inne</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ Uslugi</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Poziom Paliwa</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Miejsca</AttributeID>
+                      <EstimatedCount>36</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miasto</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czy Miejsce Dedykowane</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Czasu</AttributeID>
+                      <EstimatedCount>24</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Godzina</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Pora Dnia</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                      <EstimatedCount>2906</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                      <EstimatedCount>8</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Month</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac NO</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Day Of Week</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Tygodnia NO</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Miejsca</AttributeID>
+                      <EstimatedCount>36</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miasto</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czy Miejsce Dedykowane</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                      <EstimatedCount>2906</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                      <EstimatedCount>8</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Month</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac NO</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Day Of Week</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Tygodnia NO</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Uzytkownika</AttributeID>
+                      <EstimatedCount>2165</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nr Prawa Jazdy</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czas Posiadania Prawa Jazdy</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Inne</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Inne</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 2</ID>
+                  <Name>Aggregation 2</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Czasu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 3</ID>
+                  <Name>Aggregation 3</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Czasu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 4</ID>
+                  <Name>Aggregation 4</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 5</ID>
+                  <Name>Aggregation 5</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Inne</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 6</ID>
+                  <Name>Aggregation 6</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Inne</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 7</ID>
+                  <Name>Aggregation 7</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Miejsca</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 8</ID>
+                  <Name>Aggregation 8</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Miejsca</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 9</ID>
+                  <Name>Aggregation 9</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation a</ID>
+                  <Name>Aggregation a</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation b</ID>
+                  <Name>Aggregation b</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation c</ID>
+                  <Name>Aggregation c</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>F Wypozyczenie</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Samochod</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Inne</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Czasu Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Pora Dnia</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Year</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Miejsca Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Daty Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Uzytkownik</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>F Zgloszenie Wypozyczenia</ID>
@@ -2859,6 +3754,16 @@
               <ProcessingMode>Regular</ProcessingMode>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
       </MeasureGroups>
       <Source>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="91cfe6fd-30a8-4123-bd87-07eb253056d3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ebfb210-ca14-4bfa-bfcf-67164763283d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Miejsce</ID>
   <Name>Dim Miejsce</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,37 +68,38 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="267e005f-e352-4c3e-81a7-ce1db5c0b4c2">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="bd77a8b1-bafe-4357-a940-703adeaa2233">
     <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="6c13f7d1-6851-4037-80fb-f382cb10bdfc">
+  <ErrorConfiguration dwd:design-time-name="bc5c1f45-29eb-4450-b203-21577d05d9bf">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3de3a070-53fe-4044-ae18-7cdf9ebf05fe">
+    <Attribute dwd:design-time-name="84526db9-2377-4238-99ea-e500be304b98">
       <ID>ID Miejsca</ID>
       <Name>ID Miejsca</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>36</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="54fbfb24-6a41-4a6c-bbdc-1b4428e69609">
+        <KeyColumn dwd:design-time-name="3726cd2c-dd84-4481-8d71-c803c75256bf">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ca027132-34fd-475f-bb81-81b28bdaf5a9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="57cb9f74-ff4d-4a3d-91aa-ed4bb11138c6">
             <TableID>dbo_DimMiejsce</TableID>
             <ColumnID>ID_Miejsca</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c67593ac-ebf3-4faf-8064-908ef0834ab1">
+        <AttributeRelationship dwd:design-time-name="0d02fbcc-b000-4d60-96ff-f4a3f97027d4">
           <AttributeID>Miasto</AttributeID>
           <Name>Miasto</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="309ae69c-64ee-4bdc-8aba-54a011d4abe2">
+        <AttributeRelationship dwd:design-time-name="1acaf135-8319-40f9-95f5-a0d5195ca429">
           <AttributeID>Czy Miejsce Dedykowane</AttributeID>
           <Name>Czy Miejsce Dedykowane</Name>
         </AttributeRelationship>
@@ -107,14 +108,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7116b8fd-9810-465e-a295-c8aa56946b21">
+    <Attribute dwd:design-time-name="3ed816b7-1eb7-44aa-bb83-35699cff175b">
       <ID>Miasto</ID>
       <Name>Miasto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="15680ae2-0ea4-43aa-ad50-ce9f4e985197">
+        <KeyColumn dwd:design-time-name="8433a4ba-ff61-425b-a971-dd50d93b7aa7">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc799567-0d8a-4676-a3db-246ecd8e510e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="492ed166-2108-4f52-8f9f-d3f165523a9f">
             <TableID>dbo_DimMiejsce</TableID>
             <ColumnID>Miasto</ColumnID>
           </Source>
@@ -123,14 +124,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="22790b07-bb13-4429-a859-70fbbb660235">
+    <Attribute dwd:design-time-name="174974d1-75c1-44ec-b90c-9d6857a9381f">
       <ID>Czy Miejsce Dedykowane</ID>
       <Name>Czy Miejsce Dedykowane</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="13861515-ccf5-45de-90d0-c132ec9457f7">
+        <KeyColumn dwd:design-time-name="835de1a1-c0a2-4722-bd96-0640f799aebf">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="25f273f9-3698-4dc1-ac1c-ad24e0b47ba4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c09d663-bf2f-4437-a9f7-c40dcaf8dfd8">
             <TableID>dbo_DimMiejsce</TableID>
             <ColumnID>Czy_miejsce_dedykowane</ColumnID>
           </Source>

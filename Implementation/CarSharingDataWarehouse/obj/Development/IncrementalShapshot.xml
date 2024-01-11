@@ -33,35 +33,35 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/jCsULa+lsR2d3o+jkvookaplF4=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>HRKg8XkLxXWXEeaJCRRJEIJmxqA=11.01.2024 18:21:3609.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Data</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oo5yNt8MMbN0X+MGmBiGKyANLWI=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>vQLxz1EolYuoXLcCfjldzK9zIQE=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Miejsce</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Re0aMZ7dgMUeTkU2NOJhtdx9mCo=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>Ef8/P3KW6gSbnbxy8x10XgccaCs=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Czas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jOKDtJWHWLmZYvg/KwHdxvh48Nc=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>eAOpa1cZK6BGg9Z8Bk5p7iQ2nWs=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Inne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0WIr1xvnPozRr1wzXALL7yP2CWw=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>3mmTmHBggoGllKDXu/N1pAW82ro=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Samochod</String>
         </ID>
@@ -75,21 +75,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1jY5xXqbSEQ4fgRxH7U85shAgKc=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>2bPWaG2A9CzAdkWw5GOHG/HEedc=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>F Wypozyczenie</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/bjAfbLe/MnZm1KdKCmkAzwXA60=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>iHaP+34LfFklUWjm6nUT4JFdDQo=11.01.2024 18:21:3709.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Dim Uzytkownik</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>DjD6aglYxyVquc7O8GUKdVuge9g=09.01.2024 18:12:0609.01.2024 15:41:243UiVZtj0aD3ZPvJ3OW3ca7tw89c=09.01.2024 15:41:2409.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>/si96lxwWtXDffHJ2uJcKxrRJA0=11.01.2024 19:24:2809.01.2024 15:41:24mg+ZknTvsocMghLo2KU2aSS9e+g=11.01.2024 19:24:2809.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-11T14:24:23.863333Z</LastDeployed>
+  <LastDeployed>2024-01-11T18:26:56.666667Z</LastDeployed>
 </DeploymentSnapshot>

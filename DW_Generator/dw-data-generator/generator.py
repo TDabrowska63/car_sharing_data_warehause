@@ -11,7 +11,7 @@ from tools import create_city
 
 
 class Generator:
-    def __init__(self, n1, n2, t1, t2):
+    def __init__(self, t1, t2, n_cars, n_users, n_rents, n_reports):
         self.id_miejsca = 1
         self.id_rent = 1
         self.id_samochodu = 1
@@ -24,9 +24,9 @@ class Generator:
         self.report_list = []
         self.t1_date = t1
         self.t2_date = t2
-        self.generate_snapshot_1(n1)
+        self.generate_snapshot_1(n_cars, n_users, n_rents, n_reports)
 
-        self.generate_snapshot_2(n2, n1)
+        self.generate_snapshot_2(n_cars, n_users, n_rents, n_reports)
 
     def generate_rents(self, n, snapshot):
         for _ in range(n):
@@ -101,32 +101,21 @@ class Generator:
             self.id_uzytkownika += 1
             self.users_list.append(uzytkownik)
 
-    def generate_snapshot_1(self, n):
-        self.generate_cars(int(n/4))
-        self.generate_users(n)
-        self.generate_rents(3*n, 1)
+    def generate_snapshot_1(self, n_cars, n_users, n_rents, n_reports):
+        self.generate_cars(n_cars)
+        self.generate_users(n_users)
+        self.generate_rents(n_rents, 1)
         self.generate_opinions(0)
-        self.report_list = generate_zgloszenia(n, self.cars_list, self.rental_list)
+        self.report_list = generate_zgloszenia(n_reports, self.cars_list, self.rental_list)
         self.write_all('bulks')
         write_reports('zgloszenia1.csv', self.report_list)
 
-    def generate_snapshot_2(self, n2, n1):
-        num_of_users = random.randint(2, n2)
-        for _ in range(num_of_users):
-            i = random.randint(0, n2-1)
-            change = random.choice(['imie', 'nazwisko', 'adres'])
-            if change == 'imie':
-                self.users_list[i].imie = names.get_first_name()
-            elif change == 'nazwisko':
-                self.users_list[i].nazwisko = names.get_last_name()
-            else:
-                self.users_list[i].miasto_zamieszkania = create_city().get('name')
-
-        self.generate_cars(int(n2/4))
-        self.generate_users(n2)
-        self.generate_rents(3*n2, 2)
-        self.generate_opinions(3*n1)
-        new_reports = generate_zgloszenia(n2, self.cars_list, self.rental_list)
+    def generate_snapshot_2(self, n_cars, n_users, n_rents, n_reports):
+        self.generate_cars(n_cars)
+        self.generate_users(n_users)
+        self.generate_rents(n_rents, 2)
+        self.generate_opinions(n_rents)
+        new_reports = generate_zgloszenia(n_reports, self.cars_list, self.rental_list)
         self.report_list.extend(new_reports)
         self.write_all('bulks2')
         write_reports('zgloszenia2.csv', self.report_list)

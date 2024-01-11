@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29ec0a4f-c7e1-4d58-b074-746a350b45ea" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b6bbd79d-68af-464c-b0d6-6b460dc2962a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>F Wypozyczenie</ID>
   <Name>F Wypozyczenie</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,63 +68,64 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d97b0a23-de8c-4473-9df7-e43ec80be7c5">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="32898f36-43ec-415a-b531-553faf6fe263">
     <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8bf51757-c348-46d9-9b31-90ce73330416">
+  <ErrorConfiguration dwd:design-time-name="4a788682-c5e8-4925-b64a-f31e75973caa">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="0d1b28c3-8d14-4848-b167-a06f2f7f2d2e">
+    <Attribute dwd:design-time-name="c31e979a-ed54-4a57-8ad4-a8cbd3837f08">
       <ID>ID Wypozyczenia</ID>
       <Name>ID Wypozyczenia</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>6651</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3186bcaf-637b-43a8-b43c-bbb0955dc563">
+        <KeyColumn dwd:design-time-name="82307cff-d326-467f-a903-dedbcf0fcdfb">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0dfde75-70b5-41d2-af12-7634ccf7bdaf">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5337be6-4f4b-4b5d-baec-7bf6feee0449">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Wypozyczenia</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d20ea964-db22-4224-a65d-f6ccedf7debb">
+        <AttributeRelationship dwd:design-time-name="9db62a57-08d2-4c6b-add4-dc9547c633ed">
           <AttributeID>ID Daty Rozpoczecia</AttributeID>
           <Name>ID Daty Rozpoczecia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="205086de-7624-46f3-867e-87197f03117c">
+        <AttributeRelationship dwd:design-time-name="ddf0033d-3172-48ec-90c9-5aa1c3578c29">
           <AttributeID>ID Uzytkownika</AttributeID>
           <Name>ID Uzytkownika</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="87c03745-c233-440f-b48c-59d4d8c50a3b">
+        <AttributeRelationship dwd:design-time-name="524b8ca8-9d37-46b5-85d1-1a43f51a6a0f">
           <AttributeID>ID Miejsca Zakonczenia</AttributeID>
           <Name>ID Miejsca Zakonczenia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="751e4f5e-5b6b-41b0-a48e-6c1c00cf6e78">
+        <AttributeRelationship dwd:design-time-name="856447d3-f4e2-4143-93c7-bb25f43148a2">
           <AttributeID>ID Daty Zakonczenia</AttributeID>
           <Name>ID Daty Zakonczenia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6a409ca6-6abd-4f65-a24a-9eed81e43706">
+        <AttributeRelationship dwd:design-time-name="f11f3e26-6a78-4ef8-8cad-86aa77d20732">
           <AttributeID>ID Czasu Rozpoczecia</AttributeID>
           <Name>ID Czasu Rozpoczecia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="55821211-4e0c-4de4-9c50-bba5872593d5">
+        <AttributeRelationship dwd:design-time-name="586d734a-e559-45eb-b1f1-75df36613d50">
           <AttributeID>ID Miejsca Rozpoczecia</AttributeID>
           <Name>ID Miejsca Rozpoczecia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d0e67c24-d974-4030-9f73-a1597fe650c3">
+        <AttributeRelationship dwd:design-time-name="385e3826-325d-46f7-a98a-015a5f30f28a">
           <AttributeID>ID Inne</AttributeID>
           <Name>ID Inne</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b61f93ce-a1bb-4a87-9fe4-a02f8d7eb3e3">
+        <AttributeRelationship dwd:design-time-name="a6ba1f41-9cae-442e-b3c1-182bc59e72cb">
           <AttributeID>ID Czasu Zakonczenia</AttributeID>
           <Name>ID Czasu Zakonczenia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1e59f842-dfcd-4804-baec-a874a2c91db3">
+        <AttributeRelationship dwd:design-time-name="219b587a-0db0-4f9c-b400-ae4d049a666e">
           <AttributeID>ID Samochodu</AttributeID>
           <Name>ID Samochodu</Name>
         </AttributeRelationship>
@@ -133,13 +134,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8803a9bb-a07f-49eb-ad2a-7ea9770bbbeb">
+    <Attribute dwd:design-time-name="5a497329-21f3-42b2-8a8e-621a9ad8a8af">
       <ID>ID Daty Rozpoczecia</ID>
       <Name>ID Daty Rozpoczecia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6e574143-0dde-4b33-a0b6-afbdbebafd76">
+        <KeyColumn dwd:design-time-name="d7d076f3-dbf6-4364-9d7a-86fd9f641151">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="511caa66-5781-4806-bb63-7cc22cb4d4f3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9f59ba4-4df4-43a9-82f9-3f244cbe1b83">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Daty_rozpoczecia</ColumnID>
           </Source>
@@ -150,13 +151,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3b972455-c0bb-4e8f-bb9a-59e1b03a2ff7">
+    <Attribute dwd:design-time-name="51f1dbd8-bc38-465e-816d-f5bb076562bb">
       <ID>ID Uzytkownika</ID>
       <Name>ID Uzytkownika</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e4b8bd36-fd0e-4676-95dd-3e0ffcba4810">
+        <KeyColumn dwd:design-time-name="e4a796b1-850b-49a1-9e64-5de3d268becb">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4065d28a-39a7-4383-ac68-7b28432487f3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="774d74aa-a4a8-4afd-982b-24461dd46719">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Uzytkownika</ColumnID>
           </Source>
@@ -167,13 +168,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e848d3b6-db72-41f0-9c79-d1234ef00c0e">
+    <Attribute dwd:design-time-name="a8bdaf59-af8a-4158-90bd-4cc8064fa437">
       <ID>ID Miejsca Zakonczenia</ID>
       <Name>ID Miejsca Zakonczenia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c046ff18-eef9-455a-aef8-79afc0c18bcd">
+        <KeyColumn dwd:design-time-name="7cec25fd-0fcc-456f-843d-c88ed19528e6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="532a8b8b-1d1b-4cce-b610-c27c295106eb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9b4b5e3-a11d-4916-b0d4-0283ea8edf2b">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Miejsca_zakonczenia</ColumnID>
           </Source>
@@ -184,13 +185,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a44ddfd2-513c-468c-a3a9-fff60b1c51c3">
+    <Attribute dwd:design-time-name="9eeb0c1b-dbef-42ab-8214-9f565d16d4a2">
       <ID>ID Daty Zakonczenia</ID>
       <Name>ID Daty Zakonczenia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="963fcc48-0483-4f90-ba72-04b59c5cdcc4">
+        <KeyColumn dwd:design-time-name="cccb3c24-b669-4126-8a43-18eae5d4e4c4">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c902dd9e-b3c5-45f5-b36c-bde49e97a021">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2ce2703-4e36-4ba3-b786-699c959e76fd">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Daty_zakonczenia</ColumnID>
           </Source>
@@ -201,13 +202,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="569f18a6-09cd-4330-a3cb-d53ec8ee73fe">
+    <Attribute dwd:design-time-name="9915754b-9cff-4111-8a69-2d8d9d4fdec1">
       <ID>ID Czasu Rozpoczecia</ID>
       <Name>ID Czasu Rozpoczecia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3fa695db-e6eb-4b97-acb9-16a69e1e1006">
+        <KeyColumn dwd:design-time-name="4db11f1f-aa6f-41ad-baf2-4760210a60dc">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ed776b1-b6cc-4d8f-a341-07f30cac0132">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15618feb-66f5-4f2c-b325-0b435a00385b">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Czasu_rozpoczecia</ColumnID>
           </Source>
@@ -218,13 +219,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8c7dab25-3a40-4ce3-a31e-558bc26f4626">
+    <Attribute dwd:design-time-name="266da0e9-c46e-4c8b-bfa5-7ae9a815558c">
       <ID>ID Miejsca Rozpoczecia</ID>
       <Name>ID Miejsca Rozpoczecia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="141bd671-3dc8-4a8b-9254-d46eced4161c">
+        <KeyColumn dwd:design-time-name="bb1b8ba9-aec6-4cb4-bdd2-cb4b62ee61a6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c89ecd2a-acb8-4e7a-871b-84eb084b9a19">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a82e622-29e0-48d2-ac07-422057ff35fa">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Miejsca_rozpoczecia</ColumnID>
           </Source>
@@ -235,13 +236,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b938e78e-38ff-486f-ba73-d50ba69787d2">
+    <Attribute dwd:design-time-name="1cd7909d-d890-4902-b85a-85ac4347f93b">
       <ID>ID Inne</ID>
       <Name>ID Inne</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ce57460c-a788-4bb7-b84d-c618255e402b">
+        <KeyColumn dwd:design-time-name="04c2c883-3a79-4e75-b342-6b5a9d9a9d20">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2f35ee4-e781-4b9b-b74d-92bb54cfa32e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="90d8fe14-0681-4916-b9d6-01668551aad1">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Inne</ColumnID>
           </Source>
@@ -252,13 +253,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="712dc92f-74b6-49bf-8d0e-3e3bb32471df">
+    <Attribute dwd:design-time-name="3bf53ef1-e011-4b2a-82d9-fa5aae812f92">
       <ID>ID Czasu Zakonczenia</ID>
       <Name>ID Czasu Zakonczenia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b29ddfeb-0984-4a02-bb37-d0d72e755a7c">
+        <KeyColumn dwd:design-time-name="d6c6931f-798b-48a8-a3f4-5796b80b902a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2de0101-2fcf-4d3e-b575-3e087eea8973">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5ff844c-25a3-4604-9c30-d2311df92782">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Czasu_zakonczenia</ColumnID>
           </Source>
@@ -269,13 +270,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5c040c3f-c0ee-4717-84b1-3cda98d900b7">
+    <Attribute dwd:design-time-name="d129cbf1-6664-4eb5-8b34-6b310808242c">
       <ID>ID Samochodu</ID>
       <Name>ID Samochodu</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="af32a822-5266-4611-8e0b-dbbdf01b866a">
+        <KeyColumn dwd:design-time-name="91a82258-ee86-4dd6-83cb-4014d3b4ecab">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="058deea8-9c62-44cd-b5fb-8a1cf6598df9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1892c890-f11e-425b-ae84-1df4ab808738">
             <TableID>dbo_FWypozyczenie</TableID>
             <ColumnID>ID_Samochodu</ColumnID>
           </Source>

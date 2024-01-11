@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e64ff0ef-ceee-42d3-b25c-3b1b00452c23" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c0876b30-0916-4831-a537-568116978cfa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Inne</ID>
   <Name>Dim Inne</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,37 +68,38 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f8f9bea4-38c2-4ab1-80c1-603be1d9f59f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c7934194-dd89-4eb7-9af2-46e7b55e67d0">
     <DataSourceViewID>Fakty Wypozyczenia</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="8bbd9731-0995-4289-b6f4-e86dcee0858d">
+  <ErrorConfiguration dwd:design-time-name="a4f27d68-172f-4078-a895-73a39f0291bc">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a6ed4583-4ab8-4ed5-8065-f8886da76e89">
+    <Attribute dwd:design-time-name="9673d44a-c7ec-4af3-b63c-d4690e0afaaf">
       <ID>ID Inne</ID>
       <Name>ID Inne</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>4</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d709e46b-1d4b-4257-8145-5ccad7c13312">
+        <KeyColumn dwd:design-time-name="3edf2022-3e67-4844-9911-641bf158b5f8">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1acd0a1-24e4-4d1a-87d0-ac721a21a8a7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="797f94dd-ac46-4e6d-a948-f45476abba3f">
             <TableID>dbo_DimInne</TableID>
             <ColumnID>ID_Inne</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="9a5cd48a-9240-4076-90b5-fc2d1b5941ee">
+        <AttributeRelationship dwd:design-time-name="094eab76-d8ae-475d-8a71-2aca952364ca">
           <AttributeID>Typ Uslugi</AttributeID>
           <Name>Typ Uslugi</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1cec77a0-828e-4f5a-98be-ac0d1c5ef7e1">
+        <AttributeRelationship dwd:design-time-name="ce4d20e5-d98f-47dc-8fa9-762dfa256d20">
           <AttributeID>Poziom Paliwa</AttributeID>
           <Name>Poziom Paliwa</Name>
         </AttributeRelationship>
@@ -107,14 +108,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4ee766ef-2413-422b-a0c9-fc5407930ebc">
+    <Attribute dwd:design-time-name="30795f89-b663-49c4-84c4-8291dffe7966">
       <ID>Typ Uslugi</ID>
       <Name>Typ Uslugi</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="50f8279a-f34e-464b-abd8-538f0ffe575c">
+        <KeyColumn dwd:design-time-name="89bdcf61-4fa7-4150-bb49-3bf7357f6773">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="094607a9-ff22-4880-a61b-914137960118">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f1acdbc-01b9-4cac-bd89-271b00c47bd7">
             <TableID>dbo_DimInne</TableID>
             <ColumnID>Typ_uslugi</ColumnID>
           </Source>
@@ -123,14 +124,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1d53c94a-0fda-40e6-8113-c6cf0f3e5a25">
+    <Attribute dwd:design-time-name="5ee0f15d-0d50-47c3-ae5c-480b17b8d813">
       <ID>Poziom Paliwa</ID>
       <Name>Poziom Paliwa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="12967fb7-6c2d-4f46-94ff-8cc91bec285d">
+        <KeyColumn dwd:design-time-name="30231371-872e-49aa-942e-85f0991c9a7d">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5fe0df69-fbda-49b0-9515-08c373defb86">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="829299c9-1aff-4e53-a287-19ce60aaedc3">
             <TableID>dbo_DimInne</TableID>
             <ColumnID>Poziom_paliwa</ColumnID>
           </Source>
