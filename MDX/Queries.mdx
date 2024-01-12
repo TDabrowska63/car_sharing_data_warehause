@@ -57,20 +57,20 @@ Select [Measures].[Liczba zgloszen] On Columns,
 	from [Fakty Wypozyczenia];
 
 --8. Czy jakiœ numer jako osoba zg³aszaj¹ca powtórzy³ siê w miesi¹cu z wprowadzon¹ promocj¹/w poprzednim miesi¹cu wiêcej ni¿ x razy?
-Select [Measures].[Liczba zgloszen] On Columns,
-	Order({([ID Daty Zgloszenia].[Hierarchy].[2019].[February], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
+Select NON EMPTY [Measures].[Liczba zgloszen] On Columns,
+	NON EMPTY Order({([ID Daty Zgloszenia].[Hierarchy].[2019].[February], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
 	([ID Daty Zgloszenia].[Hierarchy].[2019].[January], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members)}, [Measures].[Liczba zgloszen], DESC) On Rows
 	from [Fakty Wypozyczenia];
 
 --sprawdzenie czy dzia³a na latach
-Select [Measures].[Liczba zgloszen] On Columns,
-	Order({([ID Daty Zgloszenia].[Year].[2020], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
+Select NON EMPTY [Measures].[Liczba zgloszen] On Columns,
+	NON EMPTY Order({([ID Daty Zgloszenia].[Year].[2020], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members),
 	([ID Daty Zgloszenia].[Year].[2019], [Dim Zgloszenie].[Nr Telefonu Zglaszajacego].members)}, [Measures].[Liczba zgloszen], DESC) On Rows
 	from [Fakty Wypozyczenia];
 
 --9. Czy jest jakiœ u¿ytkownik który ma wiêcej ni¿ x zg³oszeñ po wprowadzeniu promocji.
-Select [Measures].[Liczba zgloszen] On Columns,
-	{([ID Daty Zgloszenia].[Hierarchy].[2019].[February], [Dim Uzytkownik].[Nr Prawa Jazdy].members)} On Rows
+Select NON EMPTY [Measures].[Liczba zgloszen] On Columns,
+	NON EMPTY {([ID Daty Zgloszenia].[Hierarchy].[2019].[February], [Dim Uzytkownik].[Nr Prawa Jazdy].members)} On Rows
 	from [Fakty Wypozyczenia];
 
 --10. Porównaj liczbê wypo¿yczeñ po których w samochodzie by³o mniej ni¿ 50% paliwa w miesi¹cu w którym wprowadzono promocjê z poprzednim miesi¹cem.

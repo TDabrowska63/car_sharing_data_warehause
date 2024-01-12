@@ -7,10 +7,10 @@ def main():
     t2 = [1, 1, 2024]
     # liczba miejsc = 2*(n_rents)
     # liczba ocen = n_rents
-    n_cars = 250
-    n_users = 750
-    n_rents = 15000
-    n_reports = 1500
+    n_cars = 1_000
+    n_users = 25_000
+    n_rents = 200_000
+    n_reports = 25_000
 
     generator = Generator(t1, t2, n_cars, n_users, n_rents, n_reports)
 

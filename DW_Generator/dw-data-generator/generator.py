@@ -6,6 +6,7 @@ from tables.oceny_przejazdu import Oceny_przejazdu
 from generate_csv.create_zgloszenia import generate_zgloszenia
 from generate_csv.create_zgloszenia import write_reports
 import random
+from tqdm import tqdm
 import names
 from tools import create_city
 
@@ -29,7 +30,7 @@ class Generator:
         self.generate_snapshot_2(n_cars, n_users, n_rents, n_reports)
 
     def generate_rents(self, n, snapshot):
-        for _ in range(n):
+        for _ in tqdm(range(n)):
 
             miejsce_rozp = Miejsce(self.id_miejsca)
             self.id_miejsca += 1
@@ -80,44 +81,58 @@ class Generator:
 
     def generate_opinions(self, n):
         if n == 0:
-            for rent in self.rental_list:
+            for rent in tqdm(self.rental_list):
                 opinion = Oceny_przejazdu(rent.id_wypozyczenia)
                 self.opinion_list.append(opinion)
         else:
             podlista = self.rental_list[n:]
-            for rent in podlista:
+            for rent in tqdm(podlista):
                 opinion = Oceny_przejazdu(rent.id_wypozyczenia)
                 self.opinion_list.append(opinion)
 
     def generate_cars(self, n):
-        for _ in range(n):
+        for _ in tqdm(range(n)):
             car = Samochod(self.id_samochodu)
             self.id_samochodu += 1
             self.cars_list.append(car)
 
     def generate_users(self, n):
-        for i in range(n):
+        for i in tqdm(range(n)):
             uzytkownik = Uzytkownik(self.id_uzytkownika)
             self.id_uzytkownika += 1
             self.users_list.append(uzytkownik)
 
     def generate_snapshot_1(self, n_cars, n_users, n_rents, n_reports):
         self.generate_cars(n_cars)
+        print("Snap1 Cars generated!")
         self.generate_users(n_users)
+        print("Snap1 Users generated!")
         self.generate_rents(n_rents, 1)
+        print("Snap1 Rents generated!")
         self.generate_opinions(0)
+        print("Snap1 Opinions generated!")
         self.report_list = generate_zgloszenia(n_reports, self.cars_list, self.rental_list)
+        print("Snap1 Reports generated!")
         self.write_all('bulks')
+        print("Snap1 Bulks written to files!")
         write_reports('zgloszenia1.csv', self.report_list)
+        print("Snap1 Reports written to files!")
 
     def generate_snapshot_2(self, n_cars, n_users, n_rents, n_reports):
         self.generate_cars(n_cars)
+        print("Snap2 Cars generated!")
         self.generate_users(n_users)
+        print("Snap2 Users generated!")
         self.generate_rents(n_rents, 2)
+        print("Snap2 Rents generated!")
         self.generate_opinions(n_rents)
+        print("Snap2 Opinions generated!")
         new_reports = generate_zgloszenia(n_reports, self.cars_list, self.rental_list)
+        print("Snap2 Reports generated!")
         self.report_list.extend(new_reports)
         self.write_all('bulks2')
+        print("Snap2 Bulks written to files!")
         write_reports('zgloszenia2.csv', self.report_list)
+        print("Snap2 Reports written to files!")
 
 

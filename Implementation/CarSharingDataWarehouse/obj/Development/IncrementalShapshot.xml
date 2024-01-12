@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>/si96lxwWtXDffHJ2uJcKxrRJA0=11.01.2024 19:24:2809.01.2024 15:41:24mg+ZknTvsocMghLo2KU2aSS9e+g=11.01.2024 19:24:2809.01.2024 15:41:24</TimeStamp>
+        <TimeStamp>in9jNySWOdGnZ8leTkS2qfCUFLQ=12.01.2024 10:55:0109.01.2024 15:41:24nPilOOlH+/TnjiOLx5DJ7AjqxmM=12.01.2024 10:55:0109.01.2024 15:41:24</TimeStamp>
         <ID>
           <String>Fakty Wypozyczenia</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-11T18:26:56.666667Z</LastDeployed>
+  <LastDeployed>2024-01-12T09:55:03.6Z</LastDeployed>
 </DeploymentSnapshot>
